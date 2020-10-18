@@ -409,7 +409,7 @@ let riskData = [
     },
     {
         "id": "IL",
-        "value": 2
+        "value": 1
     },
     {
         "id": "IM",
