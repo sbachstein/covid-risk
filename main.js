@@ -100,7 +100,6 @@ worldTemplate.events.on("hit", function(ev) {
         let countryValue = ev.target.dataItem.dataContext.value;
         if (countryValue == 2) countryDefaultColor = colorSet[0];
         else countryDefaultColor = colorSet[ev.target.dataItem.dataContext.value];
-        //backButton.show();
     }
 });
 
@@ -117,74 +116,25 @@ data.forEach(function(entry, index, array) {
 });
 worldSeries.data = data;
 
+// Add zoom control
+chart.zoomControl = new am4maps.ZoomControl();
 
-// Back button in order to zoom out to world view
-// var backButton = chart.createChild(am4core.ZoomOutButton);
-// backButton.align = "right";
-// backButton.hide();
-// backButton.events.on("hit", function(ev) {
-//   worldSeries.show();
-//   chart.goHome();
-//   countrySeries.hide();
-//   backButton.hide();
-// });
-
-// Home button
-var homeButton = chart.chartContainer.createChild(am4core.Button);
-homeButton.padding(5, 5, 5, 5);
-homeButton.align = "right";
-homeButton.marginRight = 15;
-homeButton.events.on("hit", function() {
+// Add Home Button
+var homeButton = new am4core.Button();
+homeButton.events.on("hit", function(){
     worldSeries.show();
     chart.goHome();
     countrySeries.hide();
 });
+
 homeButton.icon = new am4core.Sprite();
+homeButton.padding(7, 5, 7, 5);
+homeButton.width = 30;
 homeButton.icon.path = "M16,8 L14,8 L14,16 L10,16 L10,10 L6,10 L6,16 L2,16 L2,8 L0,8 L8,0 L16,8 Z M16,8";
+homeButton.marginBottom = 10;
+homeButton.parent = chart.zoomControl;
+homeButton.insertBefore(chart.zoomControl.plusButton);
 
-// Add zoom control
-chart.zoomControl = new am4maps.ZoomControl();
-
-
-
-
-
-
-// var swedenSeries = chart.series.push(new am4maps.MapPolygonSeries());
-// swedenSeries.geodata = am4geodata_swedenHigh
-// swedenSeries.data = riskData;
-
-// var swedenTemplate = swedenSeries.mapPolygons.template;
-// swedenTemplate.tooltipText = "Sweden: {name}";
-// swedenTemplate.fillOpacity = 0.7;
-// swedenTemplate.strokeOpacity = 0.4;
-// swedenTemplate.strokeWidth = 0.5;
-// swedenTemplate.adapter.add("fill", function(fill, target) {
-//     var value = target.dataItem.value
-//     if (value === undefined) value = 0;
-//     let color = colorSet[value]
-//     if (color === undefined) return am4core.color("#d9d9d9");
-
-//     return am4core.color(color);
-//   });
-
-//   var norwaySeries = chart.series.push(new am4maps.MapPolygonSeries());
-//   norwaySeries.geodata = am4geodata_norwayHigh
-//   norwaySeries.data = riskData;
-  
-//   var norwayTemplate = norwaySeries.mapPolygons.template;
-//   norwayTemplate.tooltipText = "Norway: {name}";
-//   norwayTemplate.fillOpacity = 0.7;
-//   norwayTemplate.strokeOpacity = 0.4;
-//   norwayTemplate.strokeWidth = 0.5;
-//   norwayTemplate.adapter.add("fill", function(fill, target) {
-//       var value = target.dataItem.value
-//       if (value === undefined) value = 0;
-//       let color = colorSet[value]
-//       if (color === undefined) return am4core.color("#d9d9d9");
-  
-//       return am4core.color(color);
-//     });
-
-// chart.smallMap = new am4maps.SmallMap();
-// chart.smallMap.series.push(polygonSeries);
+// Add Minimap
+chart.smallMap = new am4maps.SmallMap();
+chart.smallMap.series.push(worldSeries);
