@@ -119,7 +119,7 @@ data.forEach(function(entry, index, array) {
     if (am4geodata_data_countries2.hasOwnProperty(id)) {
         var country = am4geodata_data_countries2[id];
         if (country.maps.length && !array[index].hasOwnProperty("map")) {
-            array[index]["map"] = country.maps[1];
+            array[index]["map"] = country.maps[0];
         }
     }
 });
