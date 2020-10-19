@@ -103,6 +103,13 @@ worldTemplate.events.on("hit", function(ev) {
     }
 });
 
+// Go back if clicked on background
+chart.backgroundSeries.events.on("hit", function(ev) {
+    worldSeries.show();
+    chart.goHome();
+    countrySeries.hide();
+});
+
 // Enhance data by potential district maps
 var data = riskData
 data.forEach(function(entry, index, array) {
