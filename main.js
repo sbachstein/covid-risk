@@ -95,7 +95,7 @@ worldTemplate.events.on("hit", function(ev) {
     if (map) {
         ev.target.isHover = false;
         countrySeries.data = countryData[ev.target.dataItem.dataContext.id]
-        countrySeries.geodataSource.url = "https://cdn.amcharts.com/lib/4/geodata/json/" + map + ".json";
+        countrySeries.geodataSource.url = "libs/amcharts/geodata/json/" + map + ".json";
         countrySeries.geodataSource.load();
         let countryValue = ev.target.dataItem.dataContext.value;
         if (countryValue == 2) countryDefaultColor = colorSet[0];
