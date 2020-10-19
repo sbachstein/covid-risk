@@ -15,10 +15,36 @@ let colorSet =
         "#9999FF"
     ];
 
+let legend = chart.createChild(am4maps.Legend);
+legend.data = [
+    {
+        "name": "Kein Risikogebiet",
+        "fill": colorSet[0]
+    },
+    {
+        "name": "Regionale Risikogebiete",
+        "fill": colorSet[2]
+    },
+    {
+        "name": "Risikogebiet",
+        "fill": colorSet[1]
+    },
+    {
+        "name": "Deutschland",
+        "fill": colorSet[3]
+    }
+];
+legend.align = "center";
+legend.valign = "top";
+legend.background.fill = "#d9d9d9";
+legend.itemContainers.template.clickable = false;
+legend.itemContainers.template.focusable = false;
+legend.itemContainers.template.cursorOverStyle = am4core.MouseCursorStyle.default;
+
 var worldSeries = chart.series.push(new am4maps.MapPolygonSeries());
 worldSeries.useGeodata = true;
 worldSeries.exclude = ["AQ"];
-//worldSeries.data = riskData;
+//worldSeries.mapPolygons.fill = "#9999ff" // TODO
 
 var worldTemplate = worldSeries.mapPolygons.template;
 worldTemplate.tooltipText = "{name}";
