@@ -58,10 +58,9 @@ worldTemplate.adapter.add("fill", function(fill, target) {
 
     return am4core.color(color);
   });
-//worldTemplate.propertyFields.visible = "visible";
 
-var hoverState = worldTemplate.states.create("hover");
-hoverState.properties.fillOpacity = 1;
+var worldHoverState = worldTemplate.states.create("hover");
+worldHoverState.properties.fillOpacity = 1;
 
 
 
@@ -87,6 +86,9 @@ countryTemplate.adapter.add("fill", function(fill, target) {
 
     return am4core.color(color);
 });
+
+var countryHoverState = countryTemplate.states.create("hover");
+countryHoverState.properties.fillOpacity = 1;
 
 // Add click listener for potential district map
 worldTemplate.events.on("hit", function(ev) {
