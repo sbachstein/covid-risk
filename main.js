@@ -3,7 +3,7 @@ am4core.useTheme(am4themes_animated);
 var chart = am4core.create("chartdiv", am4maps.MapChart);
 chart.hiddenState.properties.opacity = 0; // this creates initial fade-in
 
-chart.geodata = am4geodata_worldUltra;
+chart.geodata = am4geodata_worldHigh;
 chart.projection = new am4maps.projections.Miller();
 chart.geodataNames = am4geodata_lang_DE;
 
