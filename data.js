@@ -169,7 +169,7 @@ let riskData = [
     },
     {
         "id": "CH",
-        "value": 2
+        "value": 1
     },
     {
         "id": "CI",
@@ -269,7 +269,7 @@ let riskData = [
     },
     {
         "id": "ES",
-        "value": 1
+        "value": 2
     },
     {
         "id": "ET",
@@ -305,7 +305,7 @@ let riskData = [
     },
     {
         "id": "GB",
-        "value": 2
+        "value": 1
     },
     {
         "id": "GD",
@@ -405,7 +405,7 @@ let riskData = [
     },
     {
         "id": "IE",
-        "value": 2
+        "value": 1
     },
     {
         "id": "IL",
@@ -513,7 +513,7 @@ let riskData = [
     },
     {
         "id": "LI",
-        "value": 0
+        "value": 1
     },
     {
         "id": "LK",
@@ -713,7 +713,7 @@ let riskData = [
     },
     {
         "id": "PL",
-        "value": 2
+        "value": 1
     },
     {
         "id": "PM",
@@ -1007,14 +1007,34 @@ let countryData = {
     // Austria
     "AT": [
         {
+            "id": "AT-1",
+            "value": 1
+        },
+        {
+            "id": "AT-3",
+            "value": 1
+        },
+        {
+            "id": "AT-4",
+            "value": 1
+        },
+        {
+            "id": "AT-5",
+            "value": 1
+        },
+        {
+            "id": "AT-6",
+            "value": 1
+        },
+        {
             "id": "AT-7",
             "value": 2,
-            "extra": "Jungholz excluded"
+            "extra": "Jungholz ausgenommen"
         },
         {
             "id": "AT-8",
             "value": 2,
-            "extra": "Kleinwalsertal excluded"
+            "extra": "Kleinwalsertal ausgenommen"
         },
         {
             "id": "AT-9",
@@ -1030,51 +1050,63 @@ let countryData = {
         {
             "id": "BG-25",
             "value": 1
+        },
+        {
+            "id": "BG-17",
+            "value": 1
+        },
+        {
+            "id": "BG-20",
+            "value": 1
+        },
+        {
+            "id": "BG-23",
+            "value": 1
         }
     ],
     // Switzerland
-    "CH": [
-        {
-            "id": "CH-FR",
-            "value": 1
-        },
-        {
-            "id": "CH-GE",
-            "value": 1
-        },
-        {
-            "id": "CH-JU",
-            "value": 1
-        },
-        {
-            "id": "CH-NE",
-            "value": 1
-        },
-        {
-            "id": "CH-NW",
-            "value": 1
-        },
-        {
-            "id": "CH-SZ",
-            "value": 1
-        },
-        {
-            "id": "CH-UR",
-            "value": 1
-        },
-        {
-            "id": "CH-VD",
-            "value": 1
-        },
-        {
-            "id": "CH-ZG",
-            "value": 1
-        },
-        {
-            "id": "CH-ZH",
-            "value": 1
-        }
-    ],
+    // "CH": [
+    //     {
+    //         "id": "CH-FR",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-GE",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-JU",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-NE",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-NW",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-SZ",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-UR",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-VD",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-ZG",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-ZH",
+    //         "value": 1
+    //     }
+    // ],
     // Denmark
     "DK": [
         {
@@ -1085,7 +1117,74 @@ let countryData = {
     // Estonia
     "EE": [
         {
-            "id": "EE-44",
+            "id": "EE-49",
+            "value": 1
+        }
+    ],
+    // Spain
+    "ES": [
+        {
+            "id": "ES-AN",
+            "value": 1
+        },
+        {
+            "id": "ES-AR",
+            "value": 1
+        },
+        {
+            "id": "ES-AS",
+            "value": 1
+        },
+        {
+            "id": "ES-CB",
+            "value": 1
+        },
+        {
+            "id": "ES-CL",
+            "value": 1
+        },
+        {
+            "id": "ES-CM",
+            "value": 1
+        },
+        {
+            "id": "ES-CT",
+            "value": 1
+        },
+        {
+            "id": "ES-EX",
+            "value": 1
+        },
+        {
+            "id": "ES-GA",
+            "value": 1
+        },
+        {
+            "id": "ES-IB",
+            "value": 1
+        },
+        {
+            "id": "ES-MC",
+            "value": 1
+        },
+        {
+            "id": "ES-MD",
+            "value": 1
+        },
+        {
+            "id": "ES-NC",
+            "value": 1
+        },
+        {
+            "id": "ES-PV",
+            "value": 1
+        },
+        {
+            "id": "ES-RI",
+            "value": 1
+        },
+        {
+            "id": "ES-VC",
             "value": 1
         }
     ],
@@ -1097,52 +1196,68 @@ let countryData = {
         }
     ],
     // United Kingdom
-    "GB": [
-        {
-            "id": "GB-UKF",
-            "value": 1
-        },
-        {
-            "id": "GB-UKC",
-            "value": 1
-        },
-        {
-            "id": "GB-UKD",
-            "value": 1
-        },
-        {
-            "id": "GB-UKG",
-            "value": 1
-        },
-        {
-            "id": "GB-UKE",
-            "value": 1
-        },
-        {
-            "id": "GB-NIR",
-            "value": 1
-        },
-        {
-            "id": "GB-WLS",
-            "value": 1
-        },
-        {
-            "id": "GB-SCT",
-            "value": 1
-        },
-        {
-            "id": "IE",
-            "value": 2 // Actually part of IE
-        }
-    ],
+    // "GB": [
+    //     {
+    //         "id": "GB-UKF",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "GB-UKC",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "GB-UKD",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "GB-UKG",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "GB-UKE",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "GB-NIR",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "GB-WLS",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "GB-SCT",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE",
+    //         "value": 2 // Actually part of IE
+    //     }
+    // ],
     // Croatia
     "HR": [
+        {
+            "id": "HR-01",
+            "value": 1
+        },
         {
             "id": "HR-02",
             "value": 1
         },
         {
             "id": "HR-03",
+            "value": 1
+        },
+        {
+            "id": "HR-04",
+            "value": 1
+        },
+        {
+            "id": "HR-05",
+            "value": 1
+        },
+        {
+            "id": "HR-07",
             "value": 1
         },
         {
@@ -1155,6 +1270,10 @@ let countryData = {
         },
         {
             "id": "HR-11",
+            "value": 1
+        },
+        {
+            "id": "HR-14",
             "value": 1
         },
         {
@@ -1205,6 +1324,10 @@ let countryData = {
             "value": 1
         },
         {
+            "id": "HU-HE",
+            "value": 1
+        },
+        {
             "id": "HU-JN",
             "value": 1
         },
@@ -1221,6 +1344,10 @@ let countryData = {
             "value": 1
         },
         {
+            "id": "HU-SO",
+            "value": 1
+        },
+        {
             "id": "HU-SZ",
             "value": 1
         },
@@ -1231,112 +1358,164 @@ let countryData = {
         {
             "id": "HU-VE",
             "value": 1
+        },
+        {
+            "id": "HU-ZA",
+            "value": 1
         }
     ],
     // Ireland
-    "IE": [
-        {
-            "id": "IE-CW",
-            "value": 1
-        },
-        {
-            "id": "IE-CN",
-            "value": 1
-        },
-        {
-            "id": "IE-CE",
-            "value": 1
-        },
-        {
-            "id": "IE-CO",
-            "value": 1
-        },
-        {
-            "id": "IE-DL",
-            "value": 1
-        },
-        {
-            "id": "IE-D",
-            "value": 1
-        },
-        {
-            "id": "IE-G",
-            "value": 1
-        },
-        {
-            "id": "IE-KY",
-            "value": 1
-        },
-        {
-            "id": "IE-KE",
-            "value": 1
-        },
-        {
-            "id": "IE-LS",
-            "value": 1
-        },
-        {
-            "id": "IE-LM",
-            "value": 1
-        },
-        {
-            "id": "IE-LK",
-            "value": 1
-        },
-        {
-            "id": "IE-LD",
-            "value": 1
-        },
-        {
-            "id": "IE-LH",
-            "value": 1
-        },
-        {
-            "id": "IE-MO",
-            "value": 1
-        },
-        {
-            "id": "IE-MH",
-            "value": 1
-        },
-        {
-            "id": "IE-MN",
-            "value": 1
-        },
-        {
-            "id": "IE-OY",
-            "value": 1
-        },
-        {
-            "id": "IE-RN",
-            "value": 1
-        },
-        {
-            "id": "IE-SO",
-            "value": 1
-        },
-        {
-            "id": "IE-WH",
-            "value": 1
-        },
-        {
-            "id": "IE-WW",
-            "value": 1
-        },
-        {
-            "id": "GB-NIR", // Actually part of GB
-            "value":1
-        }
-    ],
+    // "IE": [
+    //     {
+    //         "id": "IE-CW",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-CN",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-CE",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-CO",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-DL",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-D",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-G",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-KY",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-KE",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-LS",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-LM",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-LK",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-LD",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-LH",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-MO",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-MH",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-MN",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-OY",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-RN",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-SO",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-WH",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-WW",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "GB-NIR", // Actually part of GB
+    //         "value":1
+    //     }
+    // ],
     // Italy
     "IT": [
         {
+            "id": "IT-21",
+            "value": 1,
+        },
+        {
+            "id": "IT-23",
+            "value": 1,
+        },
+        {
+            "id": "IT-25",
+            "value": 1,
+        },
+        {
+            "id": "IT-32",
+            "value": 1,
+        },
+        {
+            "id": "IT-34",
+            "value": 1,
+        },
+        {
+            "id": "IT-36",
+            "value": 1,
+        },
+        {
             "id": "IT-42",
-            "value": 1
+            "value": 1,
+        },
+        {
+            "id": "IT-45",
+            "value": 1,
+        },
+        {
+            "id": "IT-52",
+            "value": 1,
+        },
+        {
+            "id": "IT-55",
+            "value": 1,
+        },
+        {
+            "id": "IT-62",
+            "value": 1,
+        },
+        {
+            "id": "IT-65",
+            "value": 1,
         },
         {
             "id": "IT-72",
-            "value": 1
+            "value": 1,
+        },
+        {
+            "id": "IT-88",
+            "value": 1,
         }
     ],
     // Lithuania
@@ -1351,28 +1530,28 @@ let countryData = {
         }
     ],
     // Poland
-    "PL": [
-        {
-            "id": "PL-04",
-            "value": 1
-        },
-        {
-            "id": "PL-12",
-            "value": 1
-        },
-        {
-            "id": "PL-20",
-            "value": 1
-        },
-        {
-            "id": "PL-22",
-            "value": 1
-        },
-        {
-            "id": "PL-26",
-            "value": 1
-        }
-    ],
+    // "PL": [
+    //     {
+    //         "id": "PL-04",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "PL-12",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "PL-20",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "PL-22",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "PL-26",
+    //         "value": 1
+    //     }
+    // ],
     // Portugal
     "PT": [
         {
@@ -1392,6 +1571,14 @@ let countryData = {
         },
         {
             "id": "SE-C",
+            "value": 1
+        },
+        {
+            "id": "SE-E",
+            "value": 1
+        },
+        {
+            "id": "SE-F",
             "value": 1
         },
         {
@@ -1434,7 +1621,15 @@ let countryData = {
             "value": 1
         },
         {
+            "id": "SI-PS",
+            "value": 1
+        },
+        {
             "id": "SI-SA",
+            "value": 1
+        },
+        {
+            "id": "SI-SP",
             "value": 1
         },
         {
