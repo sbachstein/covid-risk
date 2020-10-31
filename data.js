@@ -85,7 +85,7 @@ let riskData = [
     },
     {
         "id": "BG",
-        "value": 2
+        "value": 1
     },
     {
         "id": "BH",
@@ -217,7 +217,7 @@ let riskData = [
     },
     {
         "id": "CY",
-        "value": 0
+        "value": 1
     },
     {
         "id": "CZ",
@@ -253,7 +253,7 @@ let riskData = [
     },
     {
         "id": "EE",
-        "value": 2
+        "value": 0
     },
     {
         "id": "EG",
@@ -353,7 +353,7 @@ let riskData = [
     },
     {
         "id": "GR",
-        "value": 0
+        "value": 2
     },
     {
         "id": "GS",
@@ -389,7 +389,7 @@ let riskData = [
     },
     {
         "id": "HR",
-        "value": 2
+        "value": 1
     },
     {
         "id": "HT",
@@ -397,7 +397,7 @@ let riskData = [
     },
     {
         "id": "HU",
-        "value": 2
+        "value": 1
     },
     {
         "id": "ID",
@@ -537,7 +537,9 @@ let riskData = [
     },
     {
         "id": "LV",
-        "value": 0
+        "value": 2,
+        "mapValue": 2,
+        "extra": "Mehr Informationen, siehe RKI"
     },
     {
         "id": "LY",
@@ -549,7 +551,7 @@ let riskData = [
     },
     {
         "id": "MC",
-        "value": 0
+        "value": 1
     },
     {
         "id": "MD",
@@ -798,7 +800,7 @@ let riskData = [
     },
     {
         "id": "SI",
-        "value": 2,
+        "value": 1,
         "map": "sloveniaRegionsHigh"
     },
     {
@@ -815,7 +817,7 @@ let riskData = [
     },
     {
         "id": "SM",
-        "value": 0
+        "value": 1
     },
     {
         "id": "SN",
@@ -943,7 +945,7 @@ let riskData = [
     },
     {
         "id": "VA",
-        "value": 0
+        "value": 1
     },
     {
         "id": "VC",
@@ -1011,6 +1013,10 @@ let countryData = {
             "value": 1
         },
         {
+            "id": "AT-2",
+            "value": 1
+        },
+        {
             "id": "AT-3",
             "value": 1
         },
@@ -1042,28 +1048,28 @@ let countryData = {
         }
     ],
     // Bulgaria
-    "BG": [
-        {
-            "id": "BG-01",
-            "value": 1
-        },
-        {
-            "id": "BG-25",
-            "value": 1
-        },
-        {
-            "id": "BG-17",
-            "value": 1
-        },
-        {
-            "id": "BG-20",
-            "value": 1
-        },
-        {
-            "id": "BG-23",
-            "value": 1
-        }
-    ],
+    // "BG": [
+    //     {
+    //         "id": "BG-01",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "BG-25",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "BG-17",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "BG-20",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "BG-23",
+    //         "value": 1
+    //     }
+    // ],
     // Switzerland
     // "CH": [
     //     {
@@ -1110,17 +1116,21 @@ let countryData = {
     // Denmark
     "DK": [
         {
+            "id": "DK-81",
+            "value": 1
+        },
+        {
             "id": "DK-84",
             "value": 1
         }
     ],
     // Estonia
-    "EE": [
-        {
-            "id": "EE-49",
-            "value": 1
-        }
-    ],
+    // "EE": [
+    //     {
+    //         "id": "EE-49",
+    //         "value": 1
+    //     }
+    // ],
     // Spain
     "ES": [
         {
@@ -1234,136 +1244,143 @@ let countryData = {
     //         "value": 2 // Actually part of IE
     //     }
     // ],
+    // Greece
+    "GR": [
+        {
+            "id": "GR-C",
+            "value": 1
+        }
+    ],
     // Croatia
-    "HR": [
-        {
-            "id": "HR-01",
-            "value": 1
-        },
-        {
-            "id": "HR-02",
-            "value": 1
-        },
-        {
-            "id": "HR-03",
-            "value": 1
-        },
-        {
-            "id": "HR-04",
-            "value": 1
-        },
-        {
-            "id": "HR-05",
-            "value": 1
-        },
-        {
-            "id": "HR-07",
-            "value": 1
-        },
-        {
-            "id": "HR-09",
-            "value": 1
-        },
-        {
-            "id": "HR-10",
-            "value": 1
-        },
-        {
-            "id": "HR-11",
-            "value": 1
-        },
-        {
-            "id": "HR-14",
-            "value": 1
-        },
-        {
-            "id": "HR-16",
-            "value": 1
-        },
-        {
-            "id": "HR-17",
-            "value": 1
-        },
-        {
-            "id": "HR-19",
-            "value": 1
-        },
-        {
-            "id": "HR-20",
-            "value": 1
-        },
-        {
-            "id": "HR-21",
-            "value": 1
-        }
-    ],
+    // "HR": [
+    //     {
+    //         "id": "HR-01",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HR-02",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HR-03",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HR-04",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HR-05",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HR-07",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HR-09",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HR-10",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HR-11",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HR-14",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HR-16",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HR-17",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HR-19",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HR-20",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HR-21",
+    //         "value": 1
+    //     }
+    // ],
     // Hungary
-    "HU": [
-        {
-            "id": "HU-BA",
-            "value": 1
-        },
-        {
-            "id": "HU-BZ",
-            "value": 1
-        },
-        {
-            "id": "HU-BU",
-            "value": 1
-        },
-        {
-            "id": "HU-CS",
-            "value": 1
-        },
-        {
-            "id": "HU-GS",
-            "value": 1
-        },
-        {
-            "id": "HU-HB",
-            "value": 1
-        },
-        {
-            "id": "HU-HE",
-            "value": 1
-        },
-        {
-            "id": "HU-JN",
-            "value": 1
-        },
-        {
-            "id": "HU-KE",
-            "value": 1
-        },
-        {
-            "id": "HU-NO",
-            "value": 1
-        },
-        {
-            "id": "HU-PE",
-            "value": 1
-        },
-        {
-            "id": "HU-SO",
-            "value": 1
-        },
-        {
-            "id": "HU-SZ",
-            "value": 1
-        },
-        {
-            "id": "HU-VA",
-            "value": 1
-        },
-        {
-            "id": "HU-VE",
-            "value": 1
-        },
-        {
-            "id": "HU-ZA",
-            "value": 1
-        }
-    ],
+    // "HU": [
+    //     {
+    //         "id": "HU-BA",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HU-BZ",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HU-BU",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HU-CS",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HU-GS",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HU-HB",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HU-HE",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HU-JN",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HU-KE",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HU-NO",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HU-PE",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HU-SO",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HU-SZ",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HU-VA",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HU-VE",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "HU-ZA",
+    //         "value": 1
+    //     }
+    // ],
     // Ireland
     // "IE": [
     //     {
@@ -1502,6 +1519,10 @@ let countryData = {
             "value": 1,
         },
         {
+            "id": "IT-57",
+            "value": 1,
+        },
+        {
             "id": "IT-62",
             "value": 1,
         },
@@ -1510,7 +1531,23 @@ let countryData = {
             "value": 1,
         },
         {
+            "id": "IT-67",
+            "value": 1,
+        },
+        {
             "id": "IT-72",
+            "value": 1,
+        },
+        {
+            "id": "IT-75",
+            "value": 1,
+        },
+        {
+            "id": "IT-77",
+            "value": 1,
+        },
+        {
+            "id": "IT-82",
             "value": 1,
         },
         {
@@ -1521,11 +1558,27 @@ let countryData = {
     // Lithuania
     "LT": [
         {
+            "id": "LT-KL",
+            "value": 1
+        },
+        {
             "id": "LT-KU",
             "value": 1
         },
         {
+            "id": "LT-MR",
+            "value": 1
+        },
+        {
             "id": "LT-SA",
+            "value": 1
+        },
+        {
+            "id": "LT-TE",
+            "value": 1
+        },
+        {
+            "id": "LT-VL",
             "value": 1
         }
     ],
@@ -1555,6 +1608,10 @@ let countryData = {
     // Portugal
     "PT": [
         {
+            "id": "PT-C",
+            "value": 1
+        },
+        {
             "id": "PT-L",
             "value": 1
         },
@@ -1582,7 +1639,31 @@ let countryData = {
             "value": 1
         },
         {
+            "id": "SE-G",
+            "value": 1
+        },
+        {
+            "id": "SE-M",
+            "value": 1
+        },
+        {
+            "id": "SE-N",
+            "value": 1
+        },
+        {
+            "id": "SE-O",
+            "value": 1
+        },
+        {
             "id": "SE-T",
+            "value": 1
+        },
+        {
+            "id": "SE-U",
+            "value": 1
+        },
+        {
+            "id": "SE-W",
             "value": 1
         },
         {
@@ -1591,50 +1672,50 @@ let countryData = {
         }
     ],
     // Slovenia
-    "SI": [
-        {
-            "id": "SI-GO",
-            "value": 1
-        },
-        {
-            "id": "SI-JS",
-            "value": 1
-        },
-        {
-            "id": "SI-KO",
-            "value": 1
-        },
-        {
-            "id": "SI-LJ",
-            "value": 1
-        },
-        {
-            "id": "SI-PD",
-            "value": 1
-        },
-        {
-            "id": "SI-PM",
-            "value": 1
-        },
-        {
-            "id": "SI-NO",
-            "value": 1
-        },
-        {
-            "id": "SI-PS",
-            "value": 1
-        },
-        {
-            "id": "SI-SA",
-            "value": 1
-        },
-        {
-            "id": "SI-SP",
-            "value": 1
-        },
-        {
-            "id": "SI-ZS",
-            "value": 1
-        }
-    ]
+    // "SI": [
+    //     {
+    //         "id": "SI-GO",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SI-JS",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SI-KO",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SI-LJ",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SI-PD",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SI-PM",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SI-NO",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SI-PS",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SI-SA",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SI-SP",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SI-ZS",
+    //         "value": 1
+    //     }
+    // ]
 }

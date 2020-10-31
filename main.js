@@ -47,7 +47,7 @@ worldSeries.exclude = ["AQ"];
 //worldSeries.mapPolygons.fill = "#9999ff" // TODO
 
 var worldTemplate = worldSeries.mapPolygons.template;
-worldTemplate.tooltipText = "{name}";
+worldTemplate.tooltipText = "{name}\n\n{extra}";
 worldTemplate.fillOpacity = 0.7;
 worldTemplate.strokeOpacity = 0.4;
 worldTemplate.adapter.add("fill", function(fill, target) {
@@ -100,7 +100,9 @@ worldTemplate.events.on("hit", function(ev) {
         countrySeries.geodataSource.url = "libs/amcharts/geodata/json/" + map + ".json";
         countrySeries.geodataSource.load();
         let countryValue = ev.target.dataItem.dataContext.value;
-        if (countryValue == 2) countryDefaultColor = colorSet[0];
+        let mapValue = ev.target.dataItem.dataContext.mapValue;
+        if (mapValue) countryDefaultColor = colorSet[mapValue];
+        else if (countryValue == 2) countryDefaultColor = colorSet[0];
         else countryDefaultColor = colorSet[ev.target.dataItem.dataContext.value];
     }
 });
