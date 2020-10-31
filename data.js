@@ -1553,6 +1553,22 @@ let countryData = {
         {
             "id": "IT-88",
             "value": 1,
+        },
+        {
+            "id": "VA", // Actually VA
+            "value": 1
+        },
+        {
+            "id": "SM", // Actually SM
+            "value": 1
+        },
+        {
+            "id": "MT", // Actually MT
+            "value": 1
+        },
+        {
+            "id": "FR-H", // Actually part of FR
+            "value": 1
         }
     ],
     // Lithuania
