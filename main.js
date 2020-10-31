@@ -2,10 +2,14 @@ am4core.useTheme(am4themes_animated);
 
 var chart = am4core.create("chartdiv", am4maps.MapChart);
 chart.hiddenState.properties.opacity = 0; // this creates initial fade-in
+chart.backgroundSeries.tooltipPosition = "pointer";
 
 chart.geodata = am4geodata_worldHigh;
 chart.projection = new am4maps.projections.Miller();
 chart.geodataNames = am4geodata_lang_DE;
+
+let backgroundTooltipText = "Klicken Sie auf ein Land";
+chart.backgroundSeries.tooltipText = backgroundTooltipText;
 
 let colorSet =
     [
@@ -104,6 +108,7 @@ worldTemplate.events.on("hit", function(ev) {
         if (mapValue) countryDefaultColor = colorSet[mapValue];
         else if (countryValue == 2) countryDefaultColor = colorSet[0];
         else countryDefaultColor = colorSet[ev.target.dataItem.dataContext.value];
+        chart.backgroundSeries.tooltipText = "";
     }
 });
 
@@ -112,6 +117,7 @@ chart.backgroundSeries.events.on("hit", function(ev) {
     worldSeries.show();
     chart.goHome();
     countrySeries.hide();
+    chart.backgroundSeries.tooltipText = backgroundTooltipText;
 });
 
 // Enhance data by potential district maps
@@ -136,6 +142,7 @@ homeButton.events.on("hit", function(){
     worldSeries.show();
     chart.goHome();
     countrySeries.hide();
+    chart.backgroundSeries.tooltipText = backgroundTooltipText;
 });
 
 homeButton.icon = new am4core.Sprite();
