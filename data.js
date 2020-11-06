@@ -1206,44 +1206,68 @@ let countryData = {
         }
     ],
     // United Kingdom
-    // "GB": [
-    //     {
-    //         "id": "GB-UKF",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "GB-UKC",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "GB-UKD",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "GB-UKG",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "GB-UKE",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "GB-NIR",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "GB-WLS",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "GB-SCT",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "IE",
-    //         "value": 2 // Actually part of IE
-    //     }
-    // ],
+    "GB": [
+        {
+            "id": "GB-UKF",
+            "value": 1
+        },
+        {
+            "id": "GB-UKC",
+            "value": 1
+        },
+        {
+            "id": "GB-UKD",
+            "value": 1
+        },
+        {
+            "id": "GB-UKG",
+            "value": 1
+        },
+        {
+            "id": "GB-UKE",
+            "value": 1
+        },
+        {
+            "id": "GB-UKH",
+            "value": 1
+        },
+        {
+            "id": "GB-UKI",
+            "value": 1
+        },
+        {
+            "id": "GB-UKJ",
+            "value": 1
+        },
+        {
+            "id": "GB-NIR",
+            "value": 1
+        },
+        {
+            "id": "GB-WLS",
+            "value": 1
+        },
+        {
+            "id": "GB-SCT",
+            "value": 1
+        },
+        {
+            "id": "IE",
+            "value": 1 // Actually part of IE
+        },
+        {
+            "id": "GG",
+            "value": 0 // Actually GG
+        },
+        {
+            "id": "JE",
+            "value": 0 // Actually GG
+        },
+        {
+            "id": "IM",
+            "value": 0 // Actually IM
+        }
+    ],
     // Greece
     "GR": [
         {
