@@ -233,7 +233,7 @@ let riskData = [
     },
     {
         "id": "DK",
-        "value": 2
+        "value": 1
     },
     {
         "id": "DM",
@@ -253,7 +253,7 @@ let riskData = [
     },
     {
         "id": "EE",
-        "value": 0
+        "value": 2
     },
     {
         "id": "EG",
@@ -437,7 +437,7 @@ let riskData = [
     },
     {
         "id": "IT",
-        "value": 2
+        "value": 1
     },
     {
         "id": "JE",
@@ -667,7 +667,7 @@ let riskData = [
     },
     {
         "id": "NO",
-        "value": 0
+        "value": 2
     },
     {
         "id": "NP",
@@ -1114,23 +1114,23 @@ let countryData = {
     //     }
     // ],
     // Denmark
-    "DK": [
-        {
-            "id": "DK-81",
-            "value": 1
-        },
-        {
-            "id": "DK-84",
-            "value": 1
-        }
-    ],
-    // Estonia
-    // "EE": [
+    // "DK": [
     //     {
-    //         "id": "EE-49",
+    //         "id": "DK-81",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "DK-84",
     //         "value": 1
     //     }
     // ],
+    // Estonia
+    "EE": [
+        {
+            "id": "EE-44",
+            "value": 1
+        }
+    ],
     // Spain
     "ES": [
         {
@@ -1271,7 +1271,27 @@ let countryData = {
     // Greece
     "GR": [
         {
+            "id": "GR-A",
+            "value": 1
+        },
+        {
+            "id": "GR-B",
+            "value": 1
+        },
+        {
             "id": "GR-C",
+            "value": 1
+        },
+        {
+            "id": "GR-D",
+            "value": 1
+        },
+        {
+            "id": "GR-E",
+            "value": 1
+        },
+        {
+            "id": "GR-I",
             "value": 1
         }
     ],
@@ -1501,102 +1521,106 @@ let countryData = {
     //     }
     // ],
     // Italy
-    "IT": [
-        {
-            "id": "IT-21",
-            "value": 1,
-        },
-        {
-            "id": "IT-23",
-            "value": 1,
-        },
-        {
-            "id": "IT-25",
-            "value": 1,
-        },
-        {
-            "id": "IT-32",
-            "value": 1,
-        },
-        {
-            "id": "IT-34",
-            "value": 1,
-        },
-        {
-            "id": "IT-36",
-            "value": 1,
-        },
-        {
-            "id": "IT-42",
-            "value": 1,
-        },
-        {
-            "id": "IT-45",
-            "value": 1,
-        },
-        {
-            "id": "IT-52",
-            "value": 1,
-        },
-        {
-            "id": "IT-55",
-            "value": 1,
-        },
-        {
-            "id": "IT-57",
-            "value": 1,
-        },
-        {
-            "id": "IT-62",
-            "value": 1,
-        },
-        {
-            "id": "IT-65",
-            "value": 1,
-        },
-        {
-            "id": "IT-67",
-            "value": 1,
-        },
-        {
-            "id": "IT-72",
-            "value": 1,
-        },
-        {
-            "id": "IT-75",
-            "value": 1,
-        },
-        {
-            "id": "IT-77",
-            "value": 1,
-        },
-        {
-            "id": "IT-82",
-            "value": 1,
-        },
-        {
-            "id": "IT-88",
-            "value": 1,
-        },
-        {
-            "id": "VA", // Actually VA
-            "value": 1
-        },
-        {
-            "id": "SM", // Actually SM
-            "value": 1
-        },
-        {
-            "id": "MT", // Actually MT
-            "value": 1
-        },
-        {
-            "id": "FR-H", // Actually part of FR
-            "value": 1
-        }
-    ],
+    // "IT": [
+    //     {
+    //         "id": "IT-21",
+    //         "value": 1,
+    //     },
+    //     {
+    //         "id": "IT-23",
+    //         "value": 1,
+    //     },
+    //     {
+    //         "id": "IT-25",
+    //         "value": 1,
+    //     },
+    //     {
+    //         "id": "IT-32",
+    //         "value": 1,
+    //     },
+    //     {
+    //         "id": "IT-34",
+    //         "value": 1,
+    //     },
+    //     {
+    //         "id": "IT-36",
+    //         "value": 1,
+    //     },
+    //     {
+    //         "id": "IT-42",
+    //         "value": 1,
+    //     },
+    //     {
+    //         "id": "IT-45",
+    //         "value": 1,
+    //     },
+    //     {
+    //         "id": "IT-52",
+    //         "value": 1,
+    //     },
+    //     {
+    //         "id": "IT-55",
+    //         "value": 1,
+    //     },
+    //     {
+    //         "id": "IT-57",
+    //         "value": 1,
+    //     },
+    //     {
+    //         "id": "IT-62",
+    //         "value": 1,
+    //     },
+    //     {
+    //         "id": "IT-65",
+    //         "value": 1,
+    //     },
+    //     {
+    //         "id": "IT-67",
+    //         "value": 1,
+    //     },
+    //     {
+    //         "id": "IT-72",
+    //         "value": 1,
+    //     },
+    //     {
+    //         "id": "IT-75",
+    //         "value": 1,
+    //     },
+    //     {
+    //         "id": "IT-77",
+    //         "value": 1,
+    //     },
+    //     {
+    //         "id": "IT-82",
+    //         "value": 1,
+    //     },
+    //     {
+    //         "id": "IT-88",
+    //         "value": 1,
+    //     },
+    //     {
+    //         "id": "VA", // Actually VA
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SM", // Actually SM
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "MT", // Actually MT
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-H", // Actually part of FR
+    //         "value": 1
+    //     }
+    // ],
     // Lithuania
     "LT": [
+        {
+            "id": "LT-AL",
+            "value": 1
+        },
         {
             "id": "LT-KL",
             "value": 1
@@ -1610,7 +1634,15 @@ let countryData = {
             "value": 1
         },
         {
+            "id": "LT-PN",
+            "value": 1
+        },
+        {
             "id": "LT-SA",
+            "value": 1
+        },
+        {
+            "id": "LT-TA",
             "value": 1
         },
         {
@@ -1619,6 +1651,13 @@ let countryData = {
         },
         {
             "id": "LT-VL",
+            "value": 1
+        }
+    ],
+    // Norway
+    "NO": [
+        {
+            "id": "NO-03",
             "value": 1
         }
     ],
@@ -1648,6 +1687,14 @@ let countryData = {
     // Portugal
     "PT": [
         {
+            "id": "PT-ALE",
+            "value": 1
+        },
+        {
+            "id": "PT-ALG",
+            "value": 1
+        },
+        {
             "id": "PT-C",
             "value": 1
         },
@@ -1667,7 +1714,19 @@ let countryData = {
             "value": 1
         },
         {
+            "id": "SE-AC",
+            "value": 1
+        },
+        {
+            "id": "SE-BD",
+            "value": 1
+        },
+        {
             "id": "SE-C",
+            "value": 1
+        },
+        {
+            "id": "SE-D",
             "value": 1
         },
         {
@@ -1683,6 +1742,18 @@ let countryData = {
             "value": 1
         },
         {
+            "id": "SE-H",
+            "value": 1
+        },
+        {
+            "id": "SE-I",
+            "value": 1
+        },
+        {
+            "id": "SE-K",
+            "value": 1
+        },
+        {
             "id": "SE-M",
             "value": 1
         },
@@ -1695,6 +1766,10 @@ let countryData = {
             "value": 1
         },
         {
+            "id": "SE-S",
+            "value": 1
+        },
+        {
             "id": "SE-T",
             "value": 1
         },
@@ -1704,6 +1779,10 @@ let countryData = {
         },
         {
             "id": "SE-W",
+            "value": 1
+        },
+        {
+            "id": "SE-X",
             "value": 1
         },
         {
