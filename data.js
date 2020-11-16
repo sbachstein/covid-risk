@@ -149,7 +149,7 @@ let riskData = [
     },
     {
         "id": "CA",
-        "value": 0
+        "value": 1
     },
     {
         "id": "CC",
@@ -277,7 +277,7 @@ let riskData = [
     },
     {
         "id": "FI",
-        "value": 2
+        "value": 0
     },
     {
         "id": "FJ",
@@ -441,7 +441,7 @@ let riskData = [
     },
     {
         "id": "JE",
-        "value": 0
+        "value": 1
     },
     {
         "id": "JM",
@@ -699,7 +699,7 @@ let riskData = [
     },
     {
         "id": "PF",
-        "value": 0
+        "value": 1
     },
     {
         "id": "PG",
@@ -788,7 +788,7 @@ let riskData = [
     },
     {
         "id": "SE",
-        "value": 2
+        "value": 1
     },
     {
         "id": "SG",
@@ -1127,7 +1127,19 @@ let countryData = {
     // Estonia
     "EE": [
         {
+            "id": "EE-37",
+            "value": 1
+        },
+        {
+            "id": "EE-39",
+            "value": 1
+        },
+        {
             "id": "EE-44",
+            "value": 1
+        },
+        {
+            "id": "EE-70",
             "value": 1
         }
     ],
@@ -1199,12 +1211,12 @@ let countryData = {
         }
     ],
     // Finland
-    "FI": [
-        {
-            "id": "FI-12",
-            "value": 1
-        }
-    ],
+    // "FI": [
+    //     {
+    //         "id": "FI-12",
+    //         "value": 1
+    //     }
+    // ],
     // United Kingdom
     "GB": [
         {
@@ -1261,7 +1273,7 @@ let countryData = {
         },
         {
             "id": "JE",
-            "value": 0 // Actually GG
+            "value": 1 // Actually JE
         },
         {
             "id": "IM",
@@ -1292,6 +1304,14 @@ let countryData = {
         },
         {
             "id": "GR-I",
+            "value": 1
+        },
+        {
+            "id": "GR-J",
+            "value": 1
+        },
+        {
+            "id": "GR-K",
             "value": 1
         }
     ],
@@ -1657,7 +1677,27 @@ let countryData = {
     // Norway
     "NO": [
         {
+            "id": "NO-01",
+            "value": 1
+        },
+        {
+            "id": "NO-02",
+            "value": 1
+        },
+        {
             "id": "NO-03",
+            "value": 1
+        },
+        {
+            "id": "NO-06",
+            "value": 1
+        },
+        {
+            "id": "NO-12",
+            "value": 1
+        },
+        {
+            "id": "NO-14",
             "value": 1
         }
     ],
@@ -1708,88 +1748,88 @@ let countryData = {
         }
     ],
     // Sweden
-    "SE": [
-        {
-            "id": "SE-AB",
-            "value": 1
-        },
-        {
-            "id": "SE-AC",
-            "value": 1
-        },
-        {
-            "id": "SE-BD",
-            "value": 1
-        },
-        {
-            "id": "SE-C",
-            "value": 1
-        },
-        {
-            "id": "SE-D",
-            "value": 1
-        },
-        {
-            "id": "SE-E",
-            "value": 1
-        },
-        {
-            "id": "SE-F",
-            "value": 1
-        },
-        {
-            "id": "SE-G",
-            "value": 1
-        },
-        {
-            "id": "SE-H",
-            "value": 1
-        },
-        {
-            "id": "SE-I",
-            "value": 1
-        },
-        {
-            "id": "SE-K",
-            "value": 1
-        },
-        {
-            "id": "SE-M",
-            "value": 1
-        },
-        {
-            "id": "SE-N",
-            "value": 1
-        },
-        {
-            "id": "SE-O",
-            "value": 1
-        },
-        {
-            "id": "SE-S",
-            "value": 1
-        },
-        {
-            "id": "SE-T",
-            "value": 1
-        },
-        {
-            "id": "SE-U",
-            "value": 1
-        },
-        {
-            "id": "SE-W",
-            "value": 1
-        },
-        {
-            "id": "SE-X",
-            "value": 1
-        },
-        {
-            "id": "SE-Z",
-            "value": 1
-        }
-    ],
+    // "SE": [
+    //     {
+    //         "id": "SE-AB",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SE-AC",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SE-BD",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SE-C",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SE-D",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SE-E",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SE-F",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SE-G",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SE-H",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SE-I",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SE-K",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SE-M",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SE-N",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SE-O",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SE-S",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SE-T",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SE-U",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SE-W",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SE-X",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SE-Z",
+    //         "value": 1
+    //     }
+    // ],
     // Slovenia
     // "SI": [
     //     {
