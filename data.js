@@ -137,7 +137,7 @@ let riskData = [
     },
     {
         "id": "BW",
-        "value": 0
+        "value": 1
     },
     {
         "id": "BY",
@@ -277,7 +277,7 @@ let riskData = [
     },
     {
         "id": "FI",
-        "value": 0
+        "value": 2
     },
     {
         "id": "FJ",
@@ -433,7 +433,7 @@ let riskData = [
     },
     {
         "id": "IS",
-        "value": 1
+        "value": 0
     },
     {
         "id": "IT",
@@ -529,7 +529,7 @@ let riskData = [
     },
     {
         "id": "LT",
-        "value": 2
+        "value": 1
     },
     {
         "id": "LU",
@@ -537,9 +537,7 @@ let riskData = [
     },
     {
         "id": "LV",
-        "value": 2,
-        "mapValue": 2,
-        "extra": "Mehr Informationen, siehe RKI"
+        "value": 1,
     },
     {
         "id": "LY",
@@ -1211,12 +1209,12 @@ let countryData = {
         }
     ],
     // Finland
-    // "FI": [
-    //     {
-    //         "id": "FI-12",
-    //         "value": 1
-    //     }
-    // ],
+    "FI": [
+        {
+            "id": "FI-18",
+            "value": 1
+        }
+    ],
     // United Kingdom
     "GB": [
         {
@@ -1300,6 +1298,10 @@ let countryData = {
         },
         {
             "id": "GR-E",
+            "value": 1
+        },
+        {
+            "id": "GR-H",
             "value": 1
         },
         {
@@ -1636,44 +1638,44 @@ let countryData = {
     //     }
     // ],
     // Lithuania
-    "LT": [
-        {
-            "id": "LT-AL",
-            "value": 1
-        },
-        {
-            "id": "LT-KL",
-            "value": 1
-        },
-        {
-            "id": "LT-KU",
-            "value": 1
-        },
-        {
-            "id": "LT-MR",
-            "value": 1
-        },
-        {
-            "id": "LT-PN",
-            "value": 1
-        },
-        {
-            "id": "LT-SA",
-            "value": 1
-        },
-        {
-            "id": "LT-TA",
-            "value": 1
-        },
-        {
-            "id": "LT-TE",
-            "value": 1
-        },
-        {
-            "id": "LT-VL",
-            "value": 1
-        }
-    ],
+    // "LT": [
+    //     {
+    //         "id": "LT-AL",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "LT-KL",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "LT-KU",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "LT-MR",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "LT-PN",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "LT-SA",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "LT-TA",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "LT-TE",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "LT-VL",
+    //         "value": 1
+    //     }
+    // ],
     // Norway
     "NO": [
         {
