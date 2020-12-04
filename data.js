@@ -1137,11 +1137,23 @@ let countryData = {
             "value": 1
         },
         {
+            "id": "EE-65",
+            "value": 1
+        },
+        {
             "id": "EE-70",
             "value": 1
         },
         {
             "id": "EE-78",
+            "value": 1
+        },
+        {
+            "id": "EE-84",
+            "value": 1
+        },
+        {
+            "id": "EE-86",
             "value": 1
         }
     ],
@@ -1214,6 +1226,14 @@ let countryData = {
     ],
     // Finland
     "FI": [
+        {
+            "id": "FI-14",
+            "value": 1
+        },
+        {
+            "id": "FI-16",
+            "value": 1
+        },
         {
             "id": "FI-18",
             "value": 1
@@ -1298,7 +1318,7 @@ let countryData = {
         },
         {
             "id": "GR-D",
-            "value": 1
+            "value": 0
         },
         {
             "id": "GR-E",
@@ -1310,7 +1330,7 @@ let countryData = {
         },
         {
             "id": "GR-H",
-            "value": 1
+            "value": 0
         },
         {
             "id": "GR-I",
@@ -1459,7 +1479,7 @@ let countryData = {
     "IE": [
         {
             "id": "IE-CW",
-            "value": 1
+            "value": 0
         },
         {
             "id": "IE-CN",
@@ -1495,7 +1515,7 @@ let countryData = {
         },
         {
             "id": "IE-KK",
-            "value": 1
+            "value": 0
         },
         {
             "id": "IE-LS",
@@ -1547,11 +1567,11 @@ let countryData = {
         },
         {
             "id": "IE-WD",
-            "value": 1
+            "value": 0
         },
         {
             "id": "IE-WX",
-            "value": 1
+            "value": 0
         },
         {
             "id": "IE-WW",
