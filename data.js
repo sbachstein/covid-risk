@@ -297,7 +297,7 @@ let riskData = [
     },
     {
         "id": "FR",
-        "value": 1
+        "value": 2
     },
     {
         "id": "GA",
@@ -345,7 +345,7 @@ let riskData = [
     },
     {
         "id": "GP",
-        "value": 1
+        "value": 0
     },
     {
         "id": "GQ",
@@ -597,7 +597,7 @@ let riskData = [
     },
     {
         "id": "MQ",
-        "value": 1
+        "value": 0
     },
     {
         "id": "MR",
@@ -750,7 +750,7 @@ let riskData = [
     },
     {
         "id": "RE",
-        "value": 1
+        "value": 0
     },
     {
         "id": "RO",
@@ -1137,6 +1137,18 @@ let countryData = {
             "value": 1
         },
         {
+            "id": "EE-49",
+            "value": 1
+        },
+        {
+            "id": "EE-57",
+            "value": 1
+        },
+        {
+            "id": "EE-59",
+            "value": 1
+        },
+        {
             "id": "EE-65",
             "value": 1
         },
@@ -1236,6 +1248,65 @@ let countryData = {
         },
         {
             "id": "FI-18",
+            "value": 1
+        }
+    ],
+    // France
+    "FR": [
+        {
+            "id": "FR-ARA",
+            "value": 1
+        },
+        {
+            "id": "FR-BFC",
+            "value": 1
+        },
+        {
+            "id": "FR-CVL",
+            "value": 1
+        },
+        {
+            "id": "FR-GES",
+            "value": 1
+        },
+        {
+            "id": "FR-GUA",
+            "value": 1
+        },
+        {
+            "id": "FR-HDF",
+            "value": 1
+        },
+        {
+            "id": "FR-IDF",
+            "value": 1
+        },
+        {
+            "id": "FR-MAY",
+            "value": 1
+        },
+        {
+            "id": "FR-NOR",
+            "value": 1
+        },
+        {
+            "id": "FR-NAQ",
+            "value": 1
+        },
+        {
+            "id": "FR-OCC",
+            "value": 1
+        },
+        {
+            "id": "FR-PDL",
+            "value": 1
+        },
+        {
+            "id": "FR-PAC",
+            "value": 1
+        },
+        {
+            "id": "FR-LRE",
             "value": 1
         }
     ],
@@ -1583,7 +1654,7 @@ let countryData = {
         }
     ],
     // Italy
-    // "IT": [
+     "IT": [
     //     {
     //         "id": "IT-21",
     //         "value": 1,
@@ -1672,11 +1743,11 @@ let countryData = {
     //         "id": "MT", // Actually MT
     //         "value": 1
     //     },
-    //     {
-    //         "id": "FR-H", // Actually part of FR
-    //         "value": 1
-    //     }
-    // ],
+        {
+            "id": "FR-H", // Actually part of FR
+            "value": 0
+        }
+    ],
     // Lithuania
     // "LT": [
     //     {
@@ -1732,14 +1803,6 @@ let countryData = {
         },
         {
             "id": "NO-06",
-            "value": 1
-        },
-        {
-            "id": "NO-12",
-            "value": 1
-        },
-        {
-            "id": "NO-14",
             "value": 1
         }
     ],
