@@ -105,7 +105,7 @@ let riskData = [
     },
     {
         "id": "BM",
-        "value": 0
+        "value": 1
     },
     {
         "id": "BN",
@@ -269,7 +269,7 @@ let riskData = [
     },
     {
         "id": "ES",
-        "value": 2
+        "value": 1
     },
     {
         "id": "ET",
@@ -935,7 +935,7 @@ let riskData = [
     },
     {
         "id": "UY",
-        "value": 0
+        "value": 1
     },
     {
         "id": "UZ",
@@ -1153,6 +1153,10 @@ let countryData = {
             "value": 1
         },
         {
+            "id": "EE-67",
+            "value": 1
+        },
+        {
             "id": "EE-70",
             "value": 1
         },
@@ -1170,72 +1174,72 @@ let countryData = {
         }
     ],
     // Spain
-    "ES": [
-        {
-            "id": "ES-AN",
-            "value": 1
-        },
-        {
-            "id": "ES-AR",
-            "value": 1
-        },
-        {
-            "id": "ES-AS",
-            "value": 1
-        },
-        {
-            "id": "ES-CB",
-            "value": 1
-        },
-        {
-            "id": "ES-CL",
-            "value": 1
-        },
-        {
-            "id": "ES-CM",
-            "value": 1
-        },
-        {
-            "id": "ES-CT",
-            "value": 1
-        },
-        {
-            "id": "ES-EX",
-            "value": 1
-        },
-        {
-            "id": "ES-GA",
-            "value": 1
-        },
-        {
-            "id": "ES-IB",
-            "value": 1
-        },
-        {
-            "id": "ES-MC",
-            "value": 1
-        },
-        {
-            "id": "ES-MD",
-            "value": 1
-        },
-        {
-            "id": "ES-NC",
-            "value": 1
-        },
-        {
-            "id": "ES-PV",
-            "value": 1
-        },
-        {
-            "id": "ES-RI",
-            "value": 1
-        },
-        {
-            "id": "ES-VC",
-            "value": 1
-        }
-    ],
+    // "ES": [
+    //     {
+    //         "id": "ES-AN",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "ES-AR",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "ES-AS",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "ES-CB",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "ES-CL",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "ES-CM",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "ES-CT",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "ES-EX",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "ES-GA",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "ES-IB",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "ES-MC",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "ES-MD",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "ES-NC",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "ES-PV",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "ES-RI",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "ES-VC",
+    //         "value": 1
+    //     }
+    // ],
     // Finland
     "FI": [
         {
@@ -1248,6 +1252,10 @@ let countryData = {
         },
         {
             "id": "FI-18",
+            "value": 1
+        },
+        {
+            "id": "FI-19",
             "value": 1
         }
     ],
@@ -1393,10 +1401,6 @@ let countryData = {
         },
         {
             "id": "GR-E",
-            "value": 1
-        },
-        {
-            "id": "GR-G",
             "value": 1
         },
         {
