@@ -253,7 +253,7 @@ let riskData = [
     },
     {
         "id": "EE",
-        "value": 2
+        "value": 1
     },
     {
         "id": "EG",
@@ -637,7 +637,7 @@ let riskData = [
     },
     {
         "id": "NA",
-        "value": 0
+        "value": 1
     },
     {
         "id": "NC",
@@ -1123,56 +1123,56 @@ let countryData = {
     //     }
     // ],
     // Estonia
-    "EE": [
-        {
-            "id": "EE-37",
-            "value": 1
-        },
-        {
-            "id": "EE-39",
-            "value": 1
-        },
-        {
-            "id": "EE-44",
-            "value": 1
-        },
-        {
-            "id": "EE-49",
-            "value": 1
-        },
-        {
-            "id": "EE-57",
-            "value": 1
-        },
-        {
-            "id": "EE-59",
-            "value": 1
-        },
-        {
-            "id": "EE-65",
-            "value": 1
-        },
-        {
-            "id": "EE-67",
-            "value": 1
-        },
-        {
-            "id": "EE-70",
-            "value": 1
-        },
-        {
-            "id": "EE-78",
-            "value": 1
-        },
-        {
-            "id": "EE-84",
-            "value": 1
-        },
-        {
-            "id": "EE-86",
-            "value": 1
-        }
-    ],
+    // "EE": [
+    //     {
+    //         "id": "EE-37",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "EE-39",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "EE-44",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "EE-49",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "EE-57",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "EE-59",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "EE-65",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "EE-67",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "EE-70",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "EE-78",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "EE-84",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "EE-86",
+    //         "value": 1
+    //     }
+    // ],
     // Spain
     // "ES": [
     //     {
@@ -1242,10 +1242,6 @@ let countryData = {
     // ],
     // Finland
     "FI": [
-        {
-            "id": "FI-14",
-            "value": 1
-        },
         {
             "id": "FI-16",
             "value": 1
@@ -1554,7 +1550,7 @@ let countryData = {
     "IE": [
         {
             "id": "IE-CW",
-            "value": 0
+            "value": 1
         },
         {
             "id": "IE-CN",
@@ -1590,7 +1586,7 @@ let countryData = {
         },
         {
             "id": "IE-KK",
-            "value": 0
+            "value": 1
         },
         {
             "id": "IE-LS",
@@ -1642,11 +1638,11 @@ let countryData = {
         },
         {
             "id": "IE-WD",
-            "value": 0
+            "value": 1
         },
         {
             "id": "IE-WX",
-            "value": 0
+            "value": 1
         },
         {
             "id": "IE-WW",
@@ -1803,6 +1799,14 @@ let countryData = {
         },
         {
             "id": "NO-03",
+            "value": 1
+        },
+        {
+            "id": "NO-04",
+            "value": 1
+        },
+        {
+            "id": "NO-05",
             "value": 1
         },
         {
