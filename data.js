@@ -293,11 +293,11 @@ let riskData = [
     },
     {
         "id": "FO",
-        "value": 0
+        "value": 1
     },
     {
         "id": "FR",
-        "value": 2
+        "value": 1
     },
     {
         "id": "GA",
@@ -405,7 +405,7 @@ let riskData = [
     },
     {
         "id": "IE",
-        "value": 2
+        "value": 1
     },
     {
         "id": "IL",
@@ -733,7 +733,7 @@ let riskData = [
     },
     {
         "id": "PT",
-        "value": 2,
+        "value": 1,
         "map": "portugalRegionsHigh"
     },
     {
@@ -1243,10 +1243,6 @@ let countryData = {
     // Finland
     "FI": [
         {
-            "id": "FI-16",
-            "value": 1
-        },
-        {
             "id": "FI-18",
             "value": 1
         },
@@ -1256,64 +1252,64 @@ let countryData = {
         }
     ],
     // France
-    "FR": [
-        {
-            "id": "FR-ARA",
-            "value": 1
-        },
-        {
-            "id": "FR-BFC",
-            "value": 1
-        },
-        {
-            "id": "FR-CVL",
-            "value": 1
-        },
-        {
-            "id": "FR-GES",
-            "value": 1
-        },
-        {
-            "id": "FR-GUA",
-            "value": 1
-        },
-        {
-            "id": "FR-HDF",
-            "value": 1
-        },
-        {
-            "id": "FR-IDF",
-            "value": 1
-        },
-        {
-            "id": "FR-MAY",
-            "value": 1
-        },
-        {
-            "id": "FR-NOR",
-            "value": 1
-        },
-        {
-            "id": "FR-NAQ",
-            "value": 1
-        },
-        {
-            "id": "FR-OCC",
-            "value": 1
-        },
-        {
-            "id": "FR-PDL",
-            "value": 1
-        },
-        {
-            "id": "FR-PAC",
-            "value": 1
-        },
-        {
-            "id": "FR-LRE",
-            "value": 1
-        }
-    ],
+    // "FR": [
+    //     {
+    //         "id": "FR-ARA",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-BFC",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-CVL",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-GES",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-GUA",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-HDF",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-IDF",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-MAY",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-NOR",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-NAQ",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-OCC",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-PDL",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-PAC",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-LRE",
+    //         "value": 1
+    //     }
+    // ],
     // United Kingdom
     "GB": [
         {
@@ -1362,7 +1358,7 @@ let countryData = {
         },
         {
             "id": "IE",
-            "value": 2 // Actually part of IE
+            "value": 1 // Actually part of IE
         },
         {
             "id": "GG",
@@ -1548,106 +1544,106 @@ let countryData = {
     // ],
     // Ireland
     "IE": [
-        {
-            "id": "IE-CW",
-            "value": 1
-        },
-        {
-            "id": "IE-CN",
-            "value": 1
-        },
-        {
-            "id": "IE-CE",
-            "value": 1
-        },
-        {
-            "id": "IE-CO",
-            "value": 0
-        },
-        {
-            "id": "IE-DL",
-            "value": 1
-        },
-        {
-            "id": "IE-D",
-            "value": 1
-        },
-        {
-            "id": "IE-G",
-            "value": 0
-        },
-        {
-            "id": "IE-KY",
-            "value": 0
-        },
-        {
-            "id": "IE-KE",
-            "value": 1
-        },
-        {
-            "id": "IE-KK",
-            "value": 1
-        },
-        {
-            "id": "IE-LS",
-            "value": 0
-        },
-        {
-            "id": "IE-LM",
-            "value": 1
-        },
-        {
-            "id": "IE-LK",
-            "value": 1
-        },
-        {
-            "id": "IE-LD",
-            "value": 0
-        },
-        {
-            "id": "IE-LH",
-            "value": 1
-        },
-        {
-            "id": "IE-MO",
-            "value": 0
-        },
-        {
-            "id": "IE-MH",
-            "value": 1
-        },
-        {
-            "id": "IE-MN",
-            "value": 1
-        },
-        {
-            "id": "IE-OY",
-            "value": 0
-        },
-        {
-            "id": "IE-RN",
-            "value": 0
-        },
-        {
-            "id": "IE-SO",
-            "value": 1
-        },
-        {
-            "id": "IE-TA",
-            "value": 1
-        },
-        {
-            "id": "IE-WD",
-            "value": 1
-        },
-        {
-            "id": "IE-WX",
-            "value": 1
-        },
-        {
-            "id": "IE-WW",
-            "value": 1
-        },
+    //     {
+    //         "id": "IE-CW",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-CN",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-CE",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-CO",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "IE-DL",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-D",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-G",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "IE-KY",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "IE-KE",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-KK",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-LS",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "IE-LM",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-LK",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-LD",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "IE-LH",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-MO",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "IE-MH",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-MN",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-OY",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "IE-RN",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "IE-SO",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-TA",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-WD",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-WX",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "IE-WW",
+    //         "value": 1
+    //     },
         {
             "id": "GB-NIR", // Actually part of GB
             "value":1
@@ -1743,10 +1739,10 @@ let countryData = {
     //         "id": "MT", // Actually MT
     //         "value": 1
     //     },
-        {
-            "id": "FR-H", // Actually part of FR
-            "value": 0
-        }
+        // {
+        //     "id": "FR-H", // Actually part of FR
+        //     "value": 0
+        // }
     ],
     // Lithuania
     // "LT": [
@@ -1812,7 +1808,15 @@ let countryData = {
         {
             "id": "NO-06",
             "value": 1
-        }
+        },
+        {
+            "id": "NO-11",
+            "value": 1
+        },
+        {
+            "id": "NO-23",
+            "value": 1
+        },
     ],
     // Poland
     // "PL": [
@@ -1838,32 +1842,32 @@ let countryData = {
     //     }
     // ],
     // Portugal
-    "PT": [
-        {
-            "id": "PT-ALE",
-            "value": 1
-        },
-        {
-            "id": "PT-ALG",
-            "value": 1
-        },
-        {
-            "id": "PT-Aç",
-            "value": 1
-        },
-        {
-            "id": "PT-C",
-            "value": 1
-        },
-        {
-            "id": "PT-L",
-            "value": 1
-        },
-        {
-            "id": "PT-N",
-            "value": 1
-        }
-    ],
+    // "PT": [
+    //     {
+    //         "id": "PT-ALE",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "PT-ALG",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "PT-Aç",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "PT-C",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "PT-L",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "PT-N",
+    //         "value": 1
+    //     }
+    // ],
     // Sweden
     // "SE": [
     //     {
