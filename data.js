@@ -225,7 +225,7 @@ let riskData = [
     },
     {
         "id": "DE",
-        "value": 3
+        "value": 4
     },
     {
         "id": "DJ",
@@ -305,7 +305,7 @@ let riskData = [
     },
     {
         "id": "GB",
-        "value": 1
+        "value": 3
     },
     {
         "id": "GD",
@@ -405,7 +405,7 @@ let riskData = [
     },
     {
         "id": "IE",
-        "value": 1
+        "value": 3
     },
     {
         "id": "IL",
@@ -991,7 +991,7 @@ let riskData = [
     },
     {
         "id": "ZA",
-        "value": 1
+        "value": 3
     },
     {
         "id": "ZM",
@@ -1312,53 +1312,53 @@ let countryData = {
     // ],
     // United Kingdom
     "GB": [
-        {
-            "id": "GB-UKF",
-            "value": 1
-        },
-        {
-            "id": "GB-UKC",
-            "value": 1
-        },
-        {
-            "id": "GB-UKD",
-            "value": 1
-        },
-        {
-            "id": "GB-UKG",
-            "value": 1
-        },
-        {
-            "id": "GB-UKE",
-            "value": 1
-        },
-        {
-            "id": "GB-UKH",
-            "value": 1
-        },
-        {
-            "id": "GB-UKI",
-            "value": 1
-        },
-        {
-            "id": "GB-UKJ",
-            "value": 1
-        },
-        {
-            "id": "GB-NIR",
-            "value": 1
-        },
-        {
-            "id": "GB-WLS",
-            "value": 1
-        },
-        {
-            "id": "GB-SCT",
-            "value": 1
-        },
+        // {
+        //     "id": "GB-UKF",
+        //     "value": 1
+        // },
+        // {
+        //     "id": "GB-UKC",
+        //     "value": 1
+        // },
+        // {
+        //     "id": "GB-UKD",
+        //     "value": 1
+        // },
+        // {
+        //     "id": "GB-UKG",
+        //     "value": 1
+        // },
+        // {
+        //     "id": "GB-UKE",
+        //     "value": 1
+        // },
+        // {
+        //     "id": "GB-UKH",
+        //     "value": 1
+        // },
+        // {
+        //     "id": "GB-UKI",
+        //     "value": 1
+        // },
+        // {
+        //     "id": "GB-UKJ",
+        //     "value": 1
+        // },
+        // {
+        //     "id": "GB-NIR",
+        //     "value": 1
+        // },
+        // {
+        //     "id": "GB-WLS",
+        //     "value": 1
+        // },
+        // {
+        //     "id": "GB-SCT",
+        //     "value": 1
+        // },
         {
             "id": "IE",
-            "value": 1 // Actually part of IE
+            "value": 3 // Actually part of IE
         },
         {
             "id": "GG",
@@ -1366,7 +1366,7 @@ let countryData = {
         },
         {
             "id": "JE",
-            "value": 1 // Actually JE
+            "value": 0 // Actually JE
         },
         {
             "id": "IM",
@@ -1646,7 +1646,7 @@ let countryData = {
     //     },
         {
             "id": "GB-NIR", // Actually part of GB
-            "value":1
+            "value": 3
         }
     ],
     // Italy
