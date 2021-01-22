@@ -16,6 +16,7 @@ let colorSet =
         "#009900",
         "#CC0000",
         "#FF9900",
+        "#770022",
         "#FF00FF",
         "#9999FF"
     ];
@@ -35,12 +36,16 @@ legend.data = [
         "fill": colorSet[1]
     },
     {
-        "name": "Virusvarianten-Gebiet",
+        "name": "Hochinzidenzgebiet",
         "fill": colorSet[3]
     },
     {
-        "name": "Deutschland",
+        "name": "Virusvarianten-Gebiet",
         "fill": colorSet[4]
+    },
+    {
+        "name": "Deutschland",
+        "fill": colorSet[5]
     }
 ];
 legend.align = "center";
