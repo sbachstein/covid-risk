@@ -9,7 +9,7 @@ let riskData = [
     },
     {
         "id": "AF",
-        "value": 1
+        "value": 3
     },
     {
         "id": "AG",
@@ -137,7 +137,7 @@ let riskData = [
     },
     {
         "id": "BW",
-        "value": 1
+        "value": 3
     },
     {
         "id": "BY",
@@ -249,7 +249,7 @@ let riskData = [
     },
     {
         "id": "EC",
-        "value": 1
+        "value": 3
     },
     {
         "id": "EE",
@@ -293,7 +293,7 @@ let riskData = [
     },
     {
         "id": "FO",
-        "value": 1
+        "value": 0
     },
     {
         "id": "FR",
@@ -525,7 +525,7 @@ let riskData = [
     },
     {
         "id": "LS",
-        "value": 1
+        "value": 4
     },
     {
         "id": "LT",
@@ -621,7 +621,7 @@ let riskData = [
     },
     {
         "id": "MW",
-        "value": 1
+        "value": 3
     },
     {
         "id": "MX",
@@ -633,11 +633,11 @@ let riskData = [
     },
     {
         "id": "MZ",
-        "value": 1
+        "value": 3
     },
     {
         "id": "NA",
-        "value": 1
+        "value": 3
     },
     {
         "id": "NC",
@@ -782,7 +782,7 @@ let riskData = [
     },
     {
         "id": "SD",
-        "value": 1
+        "value": 3
     },
     {
         "id": "SE",
@@ -847,11 +847,11 @@ let riskData = [
     },
     {
         "id": "SY",
-        "value": 1
+        "value": 3
     },
     {
         "id": "SZ",
-        "value": 1
+        "value": 4
     },
     {
         "id": "TC",
@@ -995,11 +995,11 @@ let riskData = [
     },
     {
         "id": "ZM",
-        "value": 1
+        "value": 3
     },
     {
         "id": "ZW",
-        "value": 1
+        "value": 3
     }    
 ];
 
@@ -1377,7 +1377,7 @@ let countryData = {
     "GR": [
         {
             "id": "GR-A",
-            "value": 1
+            "value": 0
         },
         {
             "id": "GR-B",
@@ -2006,4 +2006,10 @@ let countryData = {
     //         "value": 1
     //     }
     // ]
+    "ZA": [
+        {
+            "id": "LS", // Actually part of LS
+            "value": 4
+        }
+    ]
 }
