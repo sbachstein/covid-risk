@@ -137,7 +137,7 @@ let riskData = [
     },
     {
         "id": "BW",
-        "value": 3
+        "value": 4
     },
     {
         "id": "BY",
@@ -509,7 +509,7 @@ let riskData = [
     },
     {
         "id": "LC",
-        "value": 0
+        "value": 1
     },
     {
         "id": "LI",
@@ -621,7 +621,7 @@ let riskData = [
     },
     {
         "id": "MW",
-        "value": 3
+        "value": 4
     },
     {
         "id": "MX",
@@ -633,7 +633,7 @@ let riskData = [
     },
     {
         "id": "MZ",
-        "value": 3
+        "value": 4
     },
     {
         "id": "NA",
@@ -995,11 +995,11 @@ let riskData = [
     },
     {
         "id": "ZM",
-        "value": 3
+        "value": 4
     },
     {
         "id": "ZW",
-        "value": 3
+        "value": 4
     }    
 ];
 
@@ -1397,11 +1397,11 @@ let countryData = {
         },
         {
             "id": "GR-H",
-            "value": 0
+            "value": 1
         },
         {
             "id": "GR-I",
-            "value": 0
+            "value": 1
         },
         {
             "id": "GR-J",
@@ -1811,19 +1811,19 @@ let countryData = {
         },
         {
             "id": "NO-07",
-            "value": 1
+            "value": 0
         },
         {
             "id": "NO-08",
-            "value": 1
+            "value": 0
         },
         {
             "id": "NO-11",
-            "value": 1
+            "value": 0
         },
         {
             "id": "NO-23",
-            "value": 1
+            "value": 0
         },
     ],
     // Poland
