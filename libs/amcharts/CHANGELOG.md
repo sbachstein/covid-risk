@@ -5,6 +5,113 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 Please note, that this project, while following numbering syntax, it DOES NOT
 adhere to [Semantic Versioning](http://semver.org/spec/v2.0.0.html) rules.
 
+## [4.10.15] - 2021-02-03
+
+### Fixed
+- Fixed issue with toggling multiple `ColumnSeries3D` (introduced in last version).
+
+
+## [4.10.14] - 2021-02-02
+
+### Added
+- Exporting: all adapters related to XLSX export, will now have `xslx` property holding reference to processor, that needs to be used in order to modify actual workbooks for export.
+
+### Fixed
+- `StepLineSeries` might get "stuck" during zoom/data updates in some cases.
+- `ColumnSeries3D` was not staying hidden across data updates.
+- Columns on `DateAxis` were not being positioned properly when changing `firstDayOfWeek`.
+- RangeSelector plugin: YTD was not working properly when data was being grouped to years.
+- Disposing chart on a click of a custom `ExportMenu` item was resulting in JS errors.
+- In some setups "ghost paper" (invisible div) was influencing document layout.
+- In charts where Series had very small amplitude of values, related `ValueAxis` could get end up in a dead loop.
+- HTML tooltips were not being sized properly in some cases.
+
+
+## [4.10.13] - 2020-12-18
+
+### Added
+- Export: PDF export options now support `scale`, `minWidth`, `minHeight`, `maxWidth`, and `maxHeight` options.
+
+### Changed
+- Setting `ignoreZeroValues = true` on `PieSeries`/`PyramidSeries` will now hide `null`-value slices, too.
+
+### Fixed
+- Inserting a new bullet into an initialized Series will now invalidate it cause the new bullet to appear immediately.
+- Using `timezone` might shift axis label values by one day in some cases.
+- `"i"` input date format was not properly parsing formats with no milliseconds and with timezone offset, e.g. (`"...+10:30"`).
+- Export: `normalizeSVG()` method was producing wrong SVG width/height in output if scale parameter was not being passed in.
+- RangeSelector plugin: "YTD" pre-defined period was not working properly with some data-grouping setups.
+
+
+## [4.10.12] - 2020-11-26
+
+### Changed
+- `DateAxis` setting `timezone` is being deprecated. Please consider setting `timezone` on chart or axis `dateFormatter`. `DateAxis` will now properly place grid in time zones that use non-whole hour fractions, e.g. ("Australia/Adelaide").
+- Accessibility: Roles and tabindexes in `ExportMenu` elements has been altered to better comply with ARIA standards.
+
+### Fixed
+- Scrollbar could act funky when repeatedly clicking on its grips.
+- A minor conflict with Google Charts lib on IE fixed.
+- Improved performance of `ValueAxis` scale calculation.
+- Setting `min` and `max` on a `DateAxis` could result in excessive overzoom and an empty grid in some cases.
+- Overzooming `DateAxis` coul dresult in some extra space shown on it.
+- Legend was dynamically adding items on a Treemap chart when drilling-down.
+- When Legend's labels' `width` were set in percent, they were not being properly sized.
+
+
+## [4.10.11] - 2020-11-13
+
+### Added
+- New setting `reverseGeodata` (default: `false`) on `MapChart` and `MapSeries`. amCharts requires polygon coordinates to be in clockwise order. Some map data have them in counter-clockwise. If your custom map appears garbled, try setting this to `true`.
+- New global option: `am4core.options.pixelPerfectPrecision` (default: `0`). Precision (number of decimal points) to be used when rounding point x/y for elements that have `pixelPerfect = true` set.
+
+### Fixed
+- `XYChartScrollbar` was not inheriting `inputDateFormat` from the chart properly.
+- Clicking on a chart on mobile devices could sometimes make them document scroll a bit.
+- Accessibility: pressing ENTER while there is a focused element with `showTooltipOn = "hit"` will not display its tooltip.
+- RangeSelector (plugin) was not properly removing its elements after `dispose()` it will now auto-dispose when related axis is disposed.
+- In some cases a console error could be displayed when using `XYCursor` over chart when data was being updated.
+- Very long labels with `wrap = true` may have been wrapping incorrectly in some cases.
+- JSON config: `rgb(...)` and `rgba(...)` syntax was not recongnised in `ColorSet`'s `baseColor`.
+
+
+## [4.10.10] - 2020-11-03
+
+### Changed
+- License check for `MapChart` was not working. If you are using commercial `MapChart`, make sure you use `addLicense()` for both Charts and Maps products.
+
+### Fixed
+- Better dispose check for delayed `"out"` event.
+- Applying accessibility to some labels with only numeric information was resulting in error.
+- Chart could result in an SO in some rare cases.
+- Using `strictMinMax` with `includeRangesInMinMax` sometimes could caulse wrong zooms.
+- In some cases Legend's item labels were being truncated when cahrt container was shrinking, but were not being restored to their full width once it was enlarged back.
+
+
+## [4.10.9] - 2020-10-23
+
+### Changed
+- Export: API functions like `getCSV`, `getSVG`, `getJSON`, `getExcel` will not error out if no opeionts or format identifier is passed in.
+
+### Fixed
+- Better invalidation of charts with `am4core.options.queue = true` enabled.
+- A slice in `PieSeries` remained enlarged (as hovered) after subsequent taps on it on a touch device.
+- In some rare cases, on mobile devices a JS error could be invoked when disposing series/axes.
+- Vertical `ValueAxis` was not auto-zooming in some cases.
+
+
+## [4.10.8] - 2020-10-19
+
+### Added
+- New `Tooltip` property `ignoreBounds` (default `false`). If set to `true`, will not try to contain tooltips within the boundaries of the chart.
+
+### Fixed
+- Export: Invoking export's `getSVG()` method without passing in options as a second parameter was resulting in error.
+- Series' actual value was not being properly updated in all cases when used with `gropuDataItem` adapter.
+- Series with with extremely small value range could result in an SO.
+- Resetting data to an empty data set on an `XYSeries` witth bullets and a data grouping enabled, could result in bullets being left on the screen.
+
+
 ## [4.10.7] - 2020-10-10
 
 ### Fixed
