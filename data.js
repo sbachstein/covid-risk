@@ -665,7 +665,8 @@ let riskData = [
     },
     {
         "id": "NO",
-        "value": 2
+        "value": 2,
+        "map": "norway2020Low"
     },
     {
         "id": "NP",
@@ -1786,45 +1787,13 @@ let countryData = {
     // Norway
     "NO": [
         {
-            "id": "NO-01",
-            "value": 1
-        },
-        {
-            "id": "NO-02",
-            "value": 1
-        },
-        {
             "id": "NO-03",
             "value": 1
         },
         {
-            "id": "NO-04",
-            "value": 0
-        },
-        {
-            "id": "NO-05",
-            "value": 0
-        },
-        {
-            "id": "NO-06",
+            "id": "NO-30",
             "value": 1
-        },
-        {
-            "id": "NO-07",
-            "value": 0
-        },
-        {
-            "id": "NO-08",
-            "value": 0
-        },
-        {
-            "id": "NO-11",
-            "value": 0
-        },
-        {
-            "id": "NO-23",
-            "value": 0
-        },
+        }
     ],
     // Poland
     // "PL": [
