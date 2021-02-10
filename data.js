@@ -734,7 +734,7 @@ let riskData = [
     {
         "id": "PT",
         "value": 4,
-        "map": "portugalRegionsHigh"
+        "map": "portugalRegionsLow"
     },
     {
         "id": "PW",
@@ -799,7 +799,7 @@ let riskData = [
     {
         "id": "SI",
         "value": 3,
-        "map": "sloveniaRegionsHigh"
+        "map": "sloveniaRegionsLow"
     },
     {
         "id": "SJ",
