@@ -89,7 +89,7 @@ let riskData = [
     },
     {
         "id": "BH",
-        "value": 1
+        "value": 3
     },
     {
         "id": "BI",
@@ -221,7 +221,7 @@ let riskData = [
     },
     {
         "id": "CZ",
-        "value": 3
+        "value": 4
     },
     {
         "id": "DE",
@@ -233,7 +233,7 @@ let riskData = [
     },
     {
         "id": "DK",
-        "value": 1
+        "value": 2
     },
     {
         "id": "DM",
@@ -509,7 +509,7 @@ let riskData = [
     },
     {
         "id": "LC",
-        "value": 1
+        "value": 3
     },
     {
         "id": "LI",
@@ -637,7 +637,7 @@ let riskData = [
     },
     {
         "id": "NA",
-        "value": 3
+        "value": 1
     },
     {
         "id": "NC",
@@ -779,7 +779,7 @@ let riskData = [
     },
     {
         "id": "SC",
-        "value": 1
+        "value": 3
     },
     {
         "id": "SD",
@@ -808,7 +808,7 @@ let riskData = [
     },
     {
         "id": "SK",
-        "value": 1
+        "value": 4
     },
     {
         "id": "SL",
@@ -948,7 +948,7 @@ let riskData = [
     },
     {
         "id": "VC",
-        "value": 1
+        "value": 3
     },
     {
         "id": "VE",
@@ -1033,8 +1033,8 @@ let countryData = {
         },
         {
             "id": "AT-7",
-            "value": 2,
-            "extra": "Jungholz ausgenommen"
+            "value": 4,
+            "extra": "Jungholz ausgenommen, Rißtal und Lienz (Osttirol) nur Risikogebiet"
         },
         {
             "id": "AT-8",
@@ -1113,16 +1113,24 @@ let countryData = {
     //     }
     // ],
     // Denmark
-    // "DK": [
-    //     {
-    //         "id": "DK-81",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "DK-84",
-    //         "value": 1
-    //     }
-    // ],
+    "DK": [
+        {
+            "id": "DK-81",
+            "value": 1
+        },
+        {
+            "id": "DK-83",
+            "value": 1
+        },
+        {
+            "id": "DK-84",
+            "value": 1
+        },
+        {
+            "id": "DK-85",
+            "value": 1
+        }
+    ],
     // Estonia
     // "EE": [
     //     {
@@ -1243,6 +1251,14 @@ let countryData = {
     // ],
     // Finland
     "FI": [
+        {
+            "id": "FI-08",
+            "value": 1
+        },
+        {
+            "id": "FI-12",
+            "value": 1
+        },
         {
             "id": "FI-18",
             "value": 1
@@ -1386,7 +1402,7 @@ let countryData = {
         },
         {
             "id": "GR-C",
-            "value": 1
+            "value": 0
         },
         {
             "id": "GR-D",
@@ -1394,6 +1410,10 @@ let countryData = {
         },
         {
             "id": "GR-E",
+            "value": 0
+        },
+        {
+            "id": "GR-G",
             "value": 1
         },
         {
