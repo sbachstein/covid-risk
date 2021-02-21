@@ -9,11 +9,11 @@ let riskData = [
     },
     {
         "id": "AF",
-        "value": 3
+        "value": 1
     },
     {
         "id": "AG",
-        "value": 0
+        "value": 1
     },
     {
         "id": "AI",
@@ -209,7 +209,7 @@ let riskData = [
     },
     {
         "id": "CW",
-        "value": 1
+        "value": 0
     },
     {
         "id": "CX",
@@ -269,7 +269,7 @@ let riskData = [
     },
     {
         "id": "ES",
-        "value": 3
+        "value": 1
     },
     {
         "id": "ET",
@@ -529,7 +529,7 @@ let riskData = [
     },
     {
         "id": "LT",
-        "value": 3
+        "value": 1
     },
     {
         "id": "LU",
@@ -698,7 +698,7 @@ let riskData = [
     },
     {
         "id": "PF",
-        "value": 1
+        "value": 0
     },
     {
         "id": "PG",
