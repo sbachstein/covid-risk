@@ -297,7 +297,8 @@ let riskData = [
     },
     {
         "id": "FR",
-        "value": 1
+        "value": 1,
+        "map": "franceDepartmentsLow"
     },
     {
         "id": "GA",
@@ -1273,64 +1274,12 @@ let countryData = {
         }
     ],
     // France
-    // "FR": [
-    //     {
-    //         "id": "FR-ARA",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "FR-BFC",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "FR-CVL",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "FR-GES",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "FR-GUA",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "FR-HDF",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "FR-IDF",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "FR-MAY",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "FR-NOR",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "FR-NAQ",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "FR-OCC",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "FR-PDL",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "FR-PAC",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "FR-LRE",
-    //         "value": 1
-    //     }
-    // ],
+    "FR": [
+        {
+            "id": "FR-57",
+            "value": 4
+        },
+    ],
     // United Kingdom
     "GB": [
         // {
