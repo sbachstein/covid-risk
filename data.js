@@ -354,7 +354,7 @@ let riskData = [
     },
     {
         "id": "GR",
-        "value": 2
+        "value": 1
     },
     {
         "id": "GS",
@@ -390,7 +390,7 @@ let riskData = [
     },
     {
         "id": "HR",
-        "value": 1
+        "value": 2
     },
     {
         "id": "HT",
@@ -398,7 +398,7 @@ let riskData = [
     },
     {
         "id": "HU",
-        "value": 1
+        "value": 3
     },
     {
         "id": "ID",
@@ -450,7 +450,7 @@ let riskData = [
     },
     {
         "id": "JO",
-        "value": 1
+        "value": 3
     },
     {
         "id": "JP",
@@ -788,7 +788,7 @@ let riskData = [
     },
     {
         "id": "SE",
-        "value": 1
+        "value": 3
     },
     {
         "id": "SG",
@@ -933,7 +933,7 @@ let riskData = [
     },
     {
         "id": "US",
-        "value": 3
+        "value": 1
     },
     {
         "id": "UY",
@@ -1254,7 +1254,7 @@ let countryData = {
     "FI": [
         {
             "id": "FI-08",
-            "value": 1
+            "value": 0
         },
         {
             "id": "FI-12",
@@ -1344,111 +1344,135 @@ let countryData = {
         }
     ],
     // Greece
-    "GR": [
-        {
-            "id": "GR-A",
-            "value": 0
-        },
-        {
-            "id": "GR-B",
-            "value": 1
-        },
-        {
-            "id": "GR-C",
-            "value": 0
-        },
-        {
-            "id": "GR-D",
-            "value": 0
-        },
-        {
-            "id": "GR-E",
-            "value": 0
-        },
-        {
-            "id": "GR-G",
-            "value": 1
-        },
-        {
-            "id": "GR-H",
-            "value": 1
-        },
-        {
-            "id": "GR-I",
-            "value": 1
-        },
-        {
-            "id": "GR-J",
-            "value": 1
-        },
-        {
-            "id": "GR-K",
-            "value": 0
-        }
-    ],
-    // Croatia
-    // "HR": [
+    // "GR": [
     //     {
-    //         "id": "HR-01",
+    //         "id": "GR-A",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "GR-B",
     //         "value": 1
     //     },
     //     {
-    //         "id": "HR-02",
+    //         "id": "GR-C",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "GR-D",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "GR-E",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "GR-G",
     //         "value": 1
     //     },
     //     {
-    //         "id": "HR-03",
+    //         "id": "GR-H",
     //         "value": 1
     //     },
     //     {
-    //         "id": "HR-04",
+    //         "id": "GR-I",
     //         "value": 1
     //     },
     //     {
-    //         "id": "HR-05",
+    //         "id": "GR-J",
     //         "value": 1
     //     },
     //     {
-    //         "id": "HR-07",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-09",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-10",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-11",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-14",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-16",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-17",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-19",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-20",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-21",
-    //         "value": 1
+    //         "id": "GR-K",
+    //         "value": 0
     //     }
     // ],
+    // Croatia
+    "HR": [
+        {
+            "id": "HR-01",
+            "value": 1
+        },
+        {
+            "id": "HR-02",
+            "value": 0
+        },
+        {
+            "id": "HR-03",
+            "value": 1
+        },
+        {
+            "id": "HR-04",
+            "value": 1
+        },
+        {
+            "id": "HR-05",
+            "value": 1
+        },
+        {
+            "id": "HR-06",
+            "value": 1
+        },
+        {
+            "id": "HR-07",
+            "value": 0
+        },
+        {
+            "id": "HR-08",
+            "value": 1
+        },
+        {
+            "id": "HR-09",
+            "value": 1
+        },
+        {
+            "id": "HR-10",
+            "value": 1
+        },
+        {
+            "id": "HR-11",
+            "value": 0
+        },
+        {
+            "id": "HR-12",
+            "value": 1
+        },
+        {
+            "id": "HR-13",
+            "value": 1
+        },
+        {
+            "id": "HR-14",
+            "value": 1
+        },
+        {
+            "id": "HR-15",
+            "value": 1
+        },
+        {
+            "id": "HR-16",
+            "value": 1
+        },
+        {
+            "id": "HR-17",
+            "value": 1
+        },
+        {
+            "id": "HR-18",
+            "value": 0
+        },
+        {
+            "id": "HR-19",
+            "value": 1
+        },
+        {
+            "id": "HR-20",
+            "value": 1
+        },
+        {
+            "id": "HR-21",
+            "value": 1
+        }
+    ],
     // Hungary
     // "HU": [
     //     {
@@ -1765,6 +1789,10 @@ let countryData = {
         },
         {
             "id": "NO-30",
+            "value": 1
+        },
+        {
+            "id": "NO-42",
             "value": 1
         }
     ],
