@@ -57,7 +57,7 @@ let riskData = [
     },
     {
         "id": "AX",
-        "value": 0
+        "value": 1
     },
     {
         "id": "AZ",
@@ -125,7 +125,7 @@ let riskData = [
     },
     {
         "id": "BS",
-        "value": 1
+        "value": 0
     },
     {
         "id": "BT",
@@ -269,7 +269,7 @@ let riskData = [
     },
     {
         "id": "ES",
-        "value": 1
+        "value": 2
     },
     {
         "id": "ET",
@@ -346,7 +346,7 @@ let riskData = [
     },
     {
         "id": "GP",
-        "value": 0
+        "value": 1
     },
     {
         "id": "GQ",
@@ -554,7 +554,7 @@ let riskData = [
     },
     {
         "id": "MD",
-        "value": 1
+        "value": 3
     },
     {
         "id": "ME",
@@ -735,7 +735,7 @@ let riskData = [
     },
     {
         "id": "PT",
-        "value": 4,
+        "value": 2,
         "map": "portugalRegionsLow"
     },
     {
@@ -917,7 +917,7 @@ let riskData = [
     },
     {
         "id": "TZ",
-        "value": 1
+        "value": 3
     },
     {
         "id": "UA",
@@ -1117,7 +1117,7 @@ let countryData = {
     "DK": [
         {
             "id": "DK-81",
-            "value": 1
+            "value": 0
         },
         {
             "id": "DK-83",
@@ -1184,74 +1184,90 @@ let countryData = {
     //     }
     // ],
     // Spain
-    // "ES": [
-    //     {
-    //         "id": "ES-AN",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "ES-AR",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "ES-AS",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "ES-CB",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "ES-CL",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "ES-CM",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "ES-CT",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "ES-EX",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "ES-GA",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "ES-IB",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "ES-MC",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "ES-MD",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "ES-NC",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "ES-PV",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "ES-RI",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "ES-VC",
-    //         "value": 1
-    //     }
-    // ],
+    "ES": [
+        {
+            "id": "ES-AN",
+            "value": 1
+        },
+        {
+            "id": "ES-AR",
+            "value": 1
+        },
+        {
+            "id": "ES-AS",
+            "value": 1
+        },
+        {
+            "id": "ES-CN",
+            "value": 1
+        },
+        {
+            "id": "ES-CB",
+            "value": 1
+        },
+        {
+            "id": "ES-CL",
+            "value": 1
+        },
+        {
+            "id": "ES-CM",
+            "value": 0
+        },
+        {
+            "id": "ES-CT",
+            "value": 1
+        },
+        {
+            "id": "ES-CE",
+            "value": 1
+        },
+        {
+            "id": "ES-EX",
+            "value": 0
+        },
+        {
+            "id": "ES-GA",
+            "value": 1
+        },
+        {
+            "id": "ES-IB",
+            "value": 0
+        },
+        {
+            "id": "ES-RI",
+            "value": 0
+        },
+        {
+            "id": "ES-MD",
+            "value": 1
+        },
+        {
+            "id": "ES-ML",
+            "value": 1
+        },
+        {
+            "id": "ES-MC",
+            "value": 0
+        },
+        {
+            "id": "ES-NC",
+            "value": 1
+        },
+        {
+            "id": "ES-PV",
+            "value": 1
+        },
+        {
+            "id": "ES-VC",
+            "value": 0
+        }
+    ],
     // Finland
     "FI": [
+        {
+            "id": "FI-01", // Actually part of AX
+            "value": 1
+        },
         {
             "id": "FI-08",
             "value": 0
@@ -1820,32 +1836,36 @@ let countryData = {
     //     }
     // ],
     // Portugal
-    // "PT": [
-    //     {
-    //         "id": "PT-ALE",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "PT-ALG",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "PT-Aç",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "PT-C",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "PT-L",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "PT-N",
-    //         "value": 1
-    //     }
-    // ],
+    "PT": [
+        {
+            "id": "PT-ALE",
+            "value": 0
+        },
+        {
+            "id": "PT-ALG",
+            "value": 1
+        },
+        {
+            "id": "PT-Aç",
+            "value": 0
+        },
+        {
+            "id": "PT-C",
+            "value": 0
+        },
+        {
+            "id": "PT-L",
+            "value": 1
+        },
+        {
+            "id": "PT-M",
+            "value": 1
+        },
+        {
+            "id": "PT-N",
+            "value": 0
+        }
+    ],
     // Sweden
     // "SE": [
     //     {
