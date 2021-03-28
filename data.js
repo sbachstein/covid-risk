@@ -221,7 +221,7 @@ let riskData = [
     },
     {
         "id": "CZ",
-        "value": 4
+        "value": 3
     },
     {
         "id": "DE",
@@ -233,7 +233,7 @@ let riskData = [
     },
     {
         "id": "DK",
-        "value": 2
+        "value": 1
     },
     {
         "id": "DM",
@@ -297,7 +297,7 @@ let riskData = [
     },
     {
         "id": "FR",
-        "value": 1,
+        "value": 3,
         "map": "franceDepartmentsLow"
     },
     {
@@ -318,7 +318,7 @@ let riskData = [
     },
     {
         "id": "GF",
-        "value": 1
+        "value": 3
     },
     {
         "id": "GG",
@@ -346,7 +346,7 @@ let riskData = [
     },
     {
         "id": "GP",
-        "value": 1
+        "value": 3
     },
     {
         "id": "GQ",
@@ -410,7 +410,7 @@ let riskData = [
     },
     {
         "id": "IL",
-        "value": 3
+        "value": 1
     },
     {
         "id": "IM",
@@ -598,7 +598,7 @@ let riskData = [
     },
     {
         "id": "MQ",
-        "value": 0
+        "value": 3
     },
     {
         "id": "MR",
@@ -752,7 +752,7 @@ let riskData = [
     },
     {
         "id": "RE",
-        "value": 1
+        "value": 3
     },
     {
         "id": "RO",
@@ -809,7 +809,7 @@ let riskData = [
     },
     {
         "id": "SK",
-        "value": 4
+        "value": 3
     },
     {
         "id": "SL",
@@ -989,7 +989,7 @@ let riskData = [
     },
     {
         "id": "YT",
-        "value": 1
+        "value": 3
     },
     {
         "id": "ZA",
@@ -1034,7 +1034,7 @@ let countryData = {
         },
         {
             "id": "AT-7",
-            "value": 4,
+            "value": 2,
             "extra": "Jungholz ausgenommen, Rißtal und Lienz (Osttirol) nur Risikogebiet"
         },
         {
@@ -1114,24 +1114,24 @@ let countryData = {
     //     }
     // ],
     // Denmark
-    "DK": [
-        {
-            "id": "DK-81",
-            "value": 0
-        },
-        {
-            "id": "DK-83",
-            "value": 1
-        },
-        {
-            "id": "DK-84",
-            "value": 1
-        },
-        {
-            "id": "DK-85",
-            "value": 1
-        }
-    ],
+    // "DK": [
+    //     {
+    //         "id": "DK-81",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "DK-83",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "DK-84",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "DK-85",
+    //         "value": 1
+    //     }
+    // ],
     // Estonia
     // "EE": [
     //     {
@@ -1273,16 +1273,28 @@ let countryData = {
             "value": 1
         },
         {
+            "id": "FI-06",
+            "value": 1
+        },
+        {
             "id": "FI-08",
             "value": 0
+        },
+        {
+            "id": "FI-11",
+            "value": 1
         },
         {
             "id": "FI-12",
             "value": 0
         },
         {
-            "id": "FI-17",
+            "id": "FI-16",
             "value": 1
+        },
+        {
+            "id": "FI-17",
+            "value": 0
         },
         {
             "id": "FI-18",
@@ -1450,7 +1462,7 @@ let countryData = {
         },
         {
             "id": "HR-11",
-            "value": 0
+            "value": 1
         },
         {
             "id": "HR-12",
@@ -1757,10 +1769,10 @@ let countryData = {
     //         "id": "MT", // Actually MT
     //         "value": 1
     //     },
-        // {
-        //     "id": "FR-H", // Actually part of FR
-        //     "value": 0
-        // }
+        {
+            "id": "FR-H", // Actually part of FR
+            "value": 3
+        }
     ],
     // Lithuania
     // "LT": [
@@ -1808,6 +1820,10 @@ let countryData = {
             "value": 1
         },
         {
+            "id": "NO-11",
+            "value": 1
+        },
+        {
             "id": "NO-30",
             "value": 1
         },
@@ -1817,7 +1833,7 @@ let countryData = {
         },
         {
             "id": "NO-42",
-            "value": 1
+            "value": 0
         }
     ],
     // Poland
