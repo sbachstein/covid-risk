@@ -5,7 +5,7 @@ let riskData = [
     },
     {
         "id": "AE",
-        "value": 3
+        "value": 1
     },
     {
         "id": "AF",
@@ -37,7 +37,7 @@ let riskData = [
     },
     {
         "id": "AR",
-        "value": 1
+        "value": 3
     },
     {
         "id": "AS",
@@ -69,7 +69,7 @@ let riskData = [
     },
     {
         "id": "BB",
-        "value": 1
+        "value": 0
     },
     {
         "id": "BD",
@@ -306,7 +306,7 @@ let riskData = [
     },
     {
         "id": "GB",
-        "value": 1
+        "value": 0
     },
     {
         "id": "GD",
@@ -322,7 +322,7 @@ let riskData = [
     },
     {
         "id": "GG",
-        "value": 1
+        "value": 0
     },
     {
         "id": "GH",
@@ -330,7 +330,7 @@ let riskData = [
     },
     {
         "id": "GI",
-        "value": 1
+        "value": 0
     },
     {
         "id": "GL",
@@ -414,7 +414,7 @@ let riskData = [
     },
     {
         "id": "IM",
-        "value": 1
+        "value": 0
     },
     {
         "id": "IN",
@@ -442,7 +442,7 @@ let riskData = [
     },
     {
         "id": "JE",
-        "value": 1
+        "value": 0
     },
     {
         "id": "JM",
@@ -1211,7 +1211,7 @@ let countryData = {
         },
         {
             "id": "ES-CM",
-            "value": 0
+            "value": 1
         },
         {
             "id": "ES-CT",
@@ -1286,7 +1286,7 @@ let countryData = {
         },
         {
             "id": "FI-11",
-            "value": 1
+            "value": 0
         },
         {
             "id": "FI-12",
@@ -1368,15 +1368,15 @@ let countryData = {
         },
         {
             "id": "GG",
-            "value": 1 // Actually GG
+            "value": 0 // Actually GG
         },
         {
             "id": "JE",
-            "value": 1 // Actually JE
+            "value": 0 // Actually JE
         },
         {
             "id": "IM",
-            "value": 1 // Actually IM
+            "value": 0 // Actually IM
         }
     ],
     // Greece
@@ -1580,7 +1580,7 @@ let countryData = {
     "IE": [
         {
             "id": "IE-CW",
-            "value": 1
+            "value": 0
         },
         {
             "id": "IE-CN",
@@ -1588,7 +1588,7 @@ let countryData = {
         },
         {
             "id": "IE-CE",
-            "value": 1
+            "value": 0
         },
         {
             "id": "IE-CO",
@@ -1616,7 +1616,7 @@ let countryData = {
         },
         {
             "id": "IE-KK",
-            "value": 1
+            "value": 0
         },
         {
             "id": "IE-LS",
@@ -1628,7 +1628,7 @@ let countryData = {
         },
         {
             "id": "IE-LK",
-            "value": 1
+            "value": 0
         },
         {
             "id": "IE-LD",
@@ -1664,11 +1664,11 @@ let countryData = {
         },
         {
             "id": "IE-TA",
-            "value": 1
+            "value": 0
         },
         {
             "id": "IE-WD",
-            "value": 1
+            "value": 0
         },
         {
             "id": "IE-WH",
@@ -1676,7 +1676,7 @@ let countryData = {
         },
         {
             "id": "IE-WX",
-            "value": 1
+            "value": 0
         },
         {
             "id": "IE-WW",
@@ -1684,7 +1684,7 @@ let countryData = {
         },
         {
             "id": "GB-NIR", // Actually part of GB
-            "value": 1
+            "value": 0
         }
     ],
     // Italy
@@ -1875,11 +1875,11 @@ let countryData = {
         },
         {
             "id": "PT-ALG",
-            "value": 0
+            "value": 1
         },
         {
             "id": "PT-Aç",
-            "value": 0
+            "value": 1
         },
         {
             "id": "PT-C",
