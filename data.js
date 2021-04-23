@@ -13,7 +13,7 @@ let riskData = [
     },
     {
         "id": "AG",
-        "value": 1
+        "value": 0
     },
     {
         "id": "AI",
@@ -21,7 +21,7 @@ let riskData = [
     },
     {
         "id": "AL",
-        "value": 3
+        "value": 1
     },
     {
         "id": "AM",
@@ -125,7 +125,7 @@ let riskData = [
     },
     {
         "id": "BS",
-        "value": 0
+        "value": 1
     },
     {
         "id": "BT",
@@ -205,7 +205,7 @@ let riskData = [
     },
     {
         "id": "CV",
-        "value": 1
+        "value": 3
     },
     {
         "id": "CW",
@@ -241,7 +241,7 @@ let riskData = [
     },
     {
         "id": "DO",
-        "value": 1
+        "value": 0
     },
     {
         "id": "DZ",
@@ -418,7 +418,7 @@ let riskData = [
     },
     {
         "id": "IN",
-        "value": 1
+        "value": 3
     },
     {
         "id": "IO",
@@ -510,7 +510,7 @@ let riskData = [
     },
     {
         "id": "LC",
-        "value": 1
+        "value": 0
     },
     {
         "id": "LI",
@@ -554,7 +554,7 @@ let riskData = [
     },
     {
         "id": "MD",
-        "value": 3
+        "value": 1
     },
     {
         "id": "ME",
@@ -687,7 +687,7 @@ let riskData = [
     },
     {
         "id": "OM",
-        "value": 1
+        "value": 3
     },
     {
         "id": "PA",
@@ -748,7 +748,7 @@ let riskData = [
     },
     {
         "id": "QA",
-        "value": 1
+        "value": 3
     },
     {
         "id": "RE",
@@ -893,7 +893,7 @@ let riskData = [
     },
     {
         "id": "TN",
-        "value": 1
+        "value": 3
     },
     {
         "id": "TO",
@@ -1270,7 +1270,7 @@ let countryData = {
         },
         {
             "id": "FI-02",
-            "value": 1
+            "value": 0
         },
         {
             "id": "FI-06",
@@ -1282,7 +1282,7 @@ let countryData = {
         },
         {
             "id": "FI-09",
-            "value": 1
+            "value": 0
         },
         {
             "id": "FI-11",
@@ -1604,7 +1604,7 @@ let countryData = {
         },
         {
             "id": "IE-G",
-            "value": 1
+            "value": 0
         },
         {
             "id": "IE-KY",
@@ -1640,7 +1640,7 @@ let countryData = {
         },
         {
             "id": "IE-MO",
-            "value": 1
+            "value": 0
         },
         {
             "id": "IE-MH",
@@ -1656,7 +1656,7 @@ let countryData = {
         },
         {
             "id": "IE-RN",
-            "value": 1
+            "value": 0
         },
         {
             "id": "IE-SO",
@@ -1837,7 +1837,7 @@ let countryData = {
         },
         {
             "id": "NO-38",
-            "value": 1
+            "value": 0
         },
         {
             "id": "NO-42",
