@@ -418,7 +418,7 @@ let riskData = [
     },
     {
         "id": "IN",
-        "value": 3
+        "value": 4
     },
     {
         "id": "IO",
