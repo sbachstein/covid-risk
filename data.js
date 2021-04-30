@@ -85,7 +85,7 @@ let riskData = [
     },
     {
         "id": "BG",
-        "value": 3
+        "value": 1
     },
     {
         "id": "BH",
@@ -221,7 +221,7 @@ let riskData = [
     },
     {
         "id": "CZ",
-        "value": 3
+        "value": 1
     },
     {
         "id": "DE",
@@ -530,7 +530,7 @@ let riskData = [
     },
     {
         "id": "LT",
-        "value": 1
+        "value": 3
     },
     {
         "id": "LU",
@@ -586,7 +586,7 @@ let riskData = [
     },
     {
         "id": "MN",
-        "value": 1
+        "value": 3
     },
     {
         "id": "MO",
@@ -961,7 +961,7 @@ let riskData = [
     },
     {
         "id": "VI",
-        "value": 1
+        "value": 0
     },
     {
         "id": "VN",
@@ -1310,12 +1310,12 @@ let countryData = {
         }
     ],
     // France
-    "FR": [
-        {
-            "id": "FR-57",
-            "value": 4
-        },
-    ],
+    // "FR": [
+    //     {
+    //         "id": "FR-57",
+    //         "value": 4
+    //     },
+    // ],
     // United Kingdom
     "GB": [
         // {
@@ -1841,7 +1841,7 @@ let countryData = {
         },
         {
             "id": "NO-42",
-            "value": 0
+            "value": 1
         }
     ],
     // Poland
