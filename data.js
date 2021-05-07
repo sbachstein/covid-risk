@@ -17,15 +17,15 @@ let riskData = [
     },
     {
         "id": "AI",
-        "value": 0
-    },
-    {
-        "id": "AL",
         "value": 1
     },
     {
+        "id": "AL",
+        "value": 0
+    },
+    {
         "id": "AM",
-        "value": 3
+        "value": 1
     },
     {
         "id": "AO",
@@ -197,7 +197,7 @@ let riskData = [
     },
     {
         "id": "CR",
-        "value": 1
+        "value": 3
     },
     {
         "id": "CU",
@@ -314,7 +314,7 @@ let riskData = [
     },
     {
         "id": "GE",
-        "value": 1
+        "value": 3
     },
     {
         "id": "GF",
@@ -398,7 +398,7 @@ let riskData = [
     },
     {
         "id": "HU",
-        "value": 3
+        "value": 1
     },
     {
         "id": "ID",
@@ -558,7 +558,7 @@ let riskData = [
     },
     {
         "id": "ME",
-        "value": 3
+        "value": 1
     },
     {
         "id": "MF",
@@ -610,7 +610,7 @@ let riskData = [
     },
     {
         "id": "MT",
-        "value": 1
+        "value": 0
     },
     {
         "id": "MU",
@@ -618,7 +618,7 @@ let riskData = [
     },
     {
         "id": "MV",
-        "value": 1
+        "value": 3
     },
     {
         "id": "MW",
@@ -630,7 +630,7 @@ let riskData = [
     },
     {
         "id": "MY",
-        "value": 0
+        "value": 1
     },
     {
         "id": "MZ",
@@ -671,7 +671,7 @@ let riskData = [
     },
     {
         "id": "NP",
-        "value": 1
+        "value": 3
     },
     {
         "id": "NR",
@@ -715,7 +715,7 @@ let riskData = [
     },
     {
         "id": "PL",
-        "value": 3
+        "value": 1
     },
     {
         "id": "PM",
@@ -1302,11 +1302,11 @@ let countryData = {
         },
         {
             "id": "FI-18",
-            "value": 1
+            "value": 0
         },
         {
             "id": "FI-19",
-            "value": 1
+            "value": 0
         }
     ],
     // France
@@ -1829,7 +1829,7 @@ let countryData = {
         },
         {
             "id": "NO-11",
-            "value": 1
+            "value": 0
         },
         {
             "id": "NO-30",
@@ -1837,7 +1837,7 @@ let countryData = {
         },
         {
             "id": "NO-38",
-            "value": 0
+            "value": 1
         },
         {
             "id": "NO-42",
@@ -1875,7 +1875,7 @@ let countryData = {
         },
         {
             "id": "PT-ALG",
-            "value": 1
+            "value": 0
         },
         {
             "id": "PT-Aç",
