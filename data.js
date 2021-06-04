@@ -117,7 +117,7 @@ let riskData = [
     },
     {
         "id": "BQ",
-        "value": 1
+        "value": 0
     },
     {
         "id": "BR",
@@ -169,7 +169,7 @@ let riskData = [
     },
     {
         "id": "CH",
-        "value": 1
+        "value": 2
     },
     {
         "id": "CI",
@@ -209,7 +209,7 @@ let riskData = [
     },
     {
         "id": "CW",
-        "value": 1
+        "value": 0
     },
     {
         "id": "CX",
@@ -221,7 +221,7 @@ let riskData = [
     },
     {
         "id": "CZ",
-        "value": 1
+        "value": 0
     },
     {
         "id": "DE",
@@ -297,7 +297,7 @@ let riskData = [
     },
     {
         "id": "FR",
-        "value": 1,
+        "value": 2,
         "map": "franceDepartmentsLow"
     },
     {
@@ -390,7 +390,7 @@ let riskData = [
     },
     {
         "id": "HR",
-        "value": 1
+        "value": 2
     },
     {
         "id": "HT",
@@ -438,7 +438,7 @@ let riskData = [
     },
     {
         "id": "IT",
-        "value": 1
+        "value": 0
     },
     {
         "id": "JE",
@@ -530,7 +530,7 @@ let riskData = [
     },
     {
         "id": "LT",
-        "value": 3
+        "value": 1
     },
     {
         "id": "LU",
@@ -788,7 +788,7 @@ let riskData = [
     },
     {
         "id": "SE",
-        "value": 3
+        "value": 1
     },
     {
         "id": "SG",
@@ -901,7 +901,7 @@ let riskData = [
     },
     {
         "id": "TR",
-        "value": 3
+        "value": 1
     },
     {
         "id": "TT",
@@ -937,7 +937,7 @@ let riskData = [
     },
     {
         "id": "UY",
-        "value": 3
+        "value": 4
     },
     {
         "id": "UZ",
@@ -945,7 +945,7 @@ let riskData = [
     },
     {
         "id": "VA",
-        "value": 1
+        "value": 0
     },
     {
         "id": "VC",
@@ -989,7 +989,7 @@ let riskData = [
     },
     {
         "id": "YT",
-        "value": 1
+        "value": 0
     },
     {
         "id": "ZA",
@@ -1010,32 +1010,32 @@ let countryData = {
     "AT": [
         {
             "id": "AT-1",
-            "value": 1
+            "value": 0
         },
         {
             "id": "AT-2",
-            "value": 1
+            "value": 0
         },
         {
             "id": "AT-3",
-            "value": 1
+            "value": 0
         },
         {
             "id": "AT-4",
-            "value": 1
+            "value": 0
         },
         {
             "id": "AT-5",
-            "value": 1
+            "value": 0
         },
         {
             "id": "AT-6",
-            "value": 1
+            "value": 0
         },
         {
             "id": "AT-7",
             "value": 2,
-            "extra": "Jungholz ausgenommen, Rißtal und Lienz (Osttirol) nur Risikogebiet"
+            "extra": "Jungholz ausgenommen"
         },
         {
             "id": "AT-8",
@@ -1044,7 +1044,7 @@ let countryData = {
         },
         {
             "id": "AT-9",
-            "value": 1
+            "value": 0
         }
     ],
     // Bulgaria
@@ -1071,48 +1071,112 @@ let countryData = {
     //     }
     // ],
     // Switzerland
-    // "CH": [
-    //     {
-    //         "id": "CH-FR",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "CH-GE",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "CH-JU",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "CH-NE",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "CH-NW",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "CH-SZ",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "CH-UR",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "CH-VD",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "CH-ZG",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "CH-ZH",
-    //         "value": 1
-    //     }
-    // ],
+    "CH": [
+        {
+            "id": "CH-AG",
+            "value": 0
+        },
+        {
+            "id": "CH-AR",
+            "value": 1
+        },
+        {
+            "id": "CH-AI",
+            "value": 1
+        },
+        {
+            "id": "CH-BL",
+            "value": 0
+        },
+        {
+            "id": "CH-BS",
+            "value": 0
+        },
+        {
+            "id": "CH-BE",
+            "value": 1
+        },
+        {
+            "id": "CH-FR",
+            "value": 1
+        },
+        {
+            "id": "CH-GE",
+            "value": 1
+        },
+        {
+            "id": "CH-GL",
+            "value": 1
+        },
+        {
+            "id": "CH-GR",
+            "value": 0
+        },
+        {
+            "id": "CH-JU",
+            "value": 1
+        },
+        {
+            "id": "CH-LU",
+            "value": 1
+        },
+        {
+            "id": "CH-NE",
+            "value": 1
+        },
+        {
+            "id": "CH-NW",
+            "value": 1
+        },
+        {
+            "id": "CH-OW",
+            "value": 1
+        },
+        {
+            "id": "CH-SG",
+            "value": 1
+        },
+        {
+            "id": "CH-SH",
+            "value": 1
+        },
+        {
+            "id": "CH-SZ",
+            "value": 1
+        },
+        {
+            "id": "CH-SO",
+            "value": 0
+        },
+        {
+            "id": "CH-TG",
+            "value": 1
+        },
+        {
+            "id": "CH-TI",
+            "value": 0
+        },
+        {
+            "id": "CH-UR",
+            "value": 1
+        },
+        {
+            "id": "CH-VS",
+            "value": 1
+        },
+        {
+            "id": "CH-VD",
+            "value": 1
+        },
+        {
+            "id": "CH-ZG",
+            "value": 0
+        },
+        {
+            "id": "CH-ZH",
+            "value": 0
+        }
+    ],
     // Denmark
     // "DK": [
     //     {
@@ -1310,12 +1374,412 @@ let countryData = {
     //     }
     // ],
     // France
-    // "FR": [
-    //     {
-    //         "id": "FR-57",
-    //         "value": 4
-    //     },
-    // ],
+    "FR": [
+        {
+            "id": "FR-01",
+            "value": 1
+        },
+        {
+            "id": "FR-02",
+            "value": 1
+        },
+        {
+            "id": "FR-03",
+            "value": 1
+        },
+        {
+            "id": "FR-04",
+            "value": 1
+        },
+        {
+            "id": "FR-05",
+            "value": 1
+        },
+        {
+            "id": "FR-06",
+            "value": 1
+        },
+        {
+            "id": "FR-07",
+            "value": 1
+        },
+        {
+            "id": "FR-08",
+            "value": 1
+        },
+        {
+            "id": "FR-09",
+            "value": 1
+        },
+        {
+            "id": "FR-10",
+            "value": 1
+        },
+        {
+            "id": "FR-11",
+            "value": 1
+        },
+        {
+            "id": "FR-12",
+            "value": 1
+        },
+        {
+            "id": "FR-13",
+            "value": 1
+        },
+        {
+            "id": "FR-14",
+            "value": 1
+        },
+        {
+            "id": "FR-15",
+            "value": 1
+        },
+        {
+            "id": "FR-16",
+            "value": 1
+        },
+        {
+            "id": "FR-17",
+            "value": 1
+        },
+        {
+            "id": "FR-18",
+            "value": 1
+        },
+        {
+            "id": "FR-19",
+            "value": 1
+        },
+        {
+            "id": "FR-2A",
+            "value": 0
+        },
+        {
+            "id": "FR-2B",
+            "value": 0
+        },
+        {
+            "id": "FR-21",
+            "value": 1
+        },
+        {
+            "id": "FR-22",
+            "value": 1
+        },
+        {
+            "id": "FR-23",
+            "value": 1
+        },
+        {
+            "id": "FR-24",
+            "value": 1
+        },
+        {
+            "id": "FR-25",
+            "value": 1
+        },
+        {
+            "id": "FR-26",
+            "value": 1
+        },
+        {
+            "id": "FR-27",
+            "value": 1
+        },
+        {
+            "id": "FR-28",
+            "value": 1
+        },
+        {
+            "id": "FR-29",
+            "value": 1
+        },
+        {
+            "id": "FR-30",
+            "value": 1
+        },
+        {
+            "id": "FR-31",
+            "value": 1
+        },
+        {
+            "id": "FR-32",
+            "value": 1
+        },
+        {
+            "id": "FR-33",
+            "value": 1
+        },
+        {
+            "id": "FR-34",
+            "value": 1
+        },
+        {
+            "id": "FR-35",
+            "value": 1
+        },
+        {
+            "id": "FR-36",
+            "value": 1
+        },
+        {
+            "id": "FR-37",
+            "value": 1
+        },
+        {
+            "id": "FR-38",
+            "value": 1
+        },
+        {
+            "id": "FR-39",
+            "value": 1
+        },
+        {
+            "id": "FR-40",
+            "value": 1
+        },
+        {
+            "id": "FR-41",
+            "value": 1
+        },
+        {
+            "id": "FR-42",
+            "value": 1
+        },
+        {
+            "id": "FR-43",
+            "value": 1
+        },
+        {
+            "id": "FR-44",
+            "value": 1
+        },
+        {
+            "id": "FR-45",
+            "value": 1
+        },
+        {
+            "id": "FR-46",
+            "value": 1
+        },
+        {
+            "id": "FR-47",
+            "value": 1
+        },
+        {
+            "id": "FR-48",
+            "value": 1
+        },
+        {
+            "id": "FR-49",
+            "value": 1
+        },
+        {
+            "id": "FR-50",
+            "value": 1
+        },
+        {
+            "id": "FR-51",
+            "value": 1
+        },
+        {
+            "id": "FR-52",
+            "value": 1
+        },
+        {
+            "id": "FR-53",
+            "value": 1
+        },
+        {
+            "id": "FR-54",
+            "value": 1
+        },
+        {
+            "id": "FR-55",
+            "value": 1
+        },
+        {
+            "id": "FR-56",
+            "value": 1
+        },
+        {
+            "id": "FR-57",
+            "value": 1
+        },
+        {
+            "id": "FR-58",
+            "value": 1
+        },
+        {
+            "id": "FR-59",
+            "value": 1
+        },
+        {
+            "id": "FR-60",
+            "value": 1
+        },
+        {
+            "id": "FR-61",
+            "value": 1
+        },
+        {
+            "id": "FR-62",
+            "value": 1
+        },
+        {
+            "id": "FR-63",
+            "value": 1
+        },
+        {
+            "id": "FR-64",
+            "value": 1
+        },
+        {
+            "id": "FR-65",
+            "value": 1
+        },
+        {
+            "id": "FR-66",
+            "value": 1
+        },
+        {
+            "id": "FR-67",
+            "value": 1
+        },
+        {
+            "id": "FR-68",
+            "value": 1
+        },
+        {
+            "id": "FR-69",
+            "value": 1
+        },
+        {
+            "id": "FR-70",
+            "value": 1
+        },
+        {
+            "id": "FR-71",
+            "value": 1
+        },
+        {
+            "id": "FR-72",
+            "value": 1
+        },
+        {
+            "id": "FR-73",
+            "value": 1
+        },
+        {
+            "id": "FR-74",
+            "value": 1
+        },
+        {
+            "id": "FR-75",
+            "value": 1
+        },
+        {
+            "id": "FR-76",
+            "value": 1
+        },
+        {
+            "id": "FR-77",
+            "value": 1
+        },
+        {
+            "id": "FR-78",
+            "value": 1
+        },
+        {
+            "id": "FR-79",
+            "value": 1
+        },
+        {
+            "id": "FR-80",
+            "value": 1
+        },
+        {
+            "id": "FR-81",
+            "value": 1
+        },
+        {
+            "id": "FR-82",
+            "value": 1
+        },
+        {
+            "id": "FR-83",
+            "value": 1
+        },
+        {
+            "id": "FR-84",
+            "value": 1
+        },
+        {
+            "id": "FR-85",
+            "value": 1
+        },
+        {
+            "id": "FR-86",
+            "value": 1
+        },
+        {
+            "id": "FR-87",
+            "value": 1
+        },
+        {
+            "id": "FR-88",
+            "value": 1
+        },
+        {
+            "id": "FR-89",
+            "value": 1
+        },
+        {
+            "id": "FR-90",
+            "value": 1
+        },
+        {
+            "id": "FR-91",
+            "value": 1
+        },
+        {
+            "id": "FR-92",
+            "value": 1
+        },
+        {
+            "id": "FR-93",
+            "value": 1
+        },
+        {
+            "id": "FR-94",
+            "value": 1
+        },
+        {
+            "id": "FR-95",
+            "value": 1
+        },
+        {
+            "id": "FR-971",
+            "value": 1
+        },
+        {
+            "id": "FR-972",
+            "value": 1
+        },
+        {
+            "id": "FR-973",
+            "value": 1
+        },
+        {
+            "id": "FR-974",
+            "value": 1
+        },
+        {
+            "id": "FR-976",
+            "value": 1
+        }
+    ],
     // United Kingdom
     "GB": [
         // {
@@ -1423,92 +1887,92 @@ let countryData = {
     //     }
     // ],
     // Croatia
-    // "HR": [
-    //     {
-    //         "id": "HR-01",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-02",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-03",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-04",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-05",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-06",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-07",
-    //         "value": 0
-    //     },
-    //     {
-    //         "id": "HR-08",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-09",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-10",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-11",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-12",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-13",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-14",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-15",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-16",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-17",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-18",
-    //         "value": 0
-    //     },
-    //     {
-    //         "id": "HR-19",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-20",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "HR-21",
-    //         "value": 1
-    //     }
-    // ],
+    "HR": [
+        {
+            "id": "HR-01",
+            "value": 1
+        },
+        {
+            "id": "HR-02",
+            "value": 0
+        },
+        {
+            "id": "HR-03",
+            "value": 1
+        },
+        {
+            "id": "HR-04",
+            "value": 0
+        },
+        {
+            "id": "HR-05",
+            "value": 1
+        },
+        {
+            "id": "HR-06",
+            "value": 1
+        },
+        {
+            "id": "HR-07",
+            "value": 1
+        },
+        {
+            "id": "HR-08",
+            "value": 1
+        },
+        {
+            "id": "HR-09",
+            "value": 1
+        },
+        {
+            "id": "HR-10",
+            "value": 1
+        },
+        {
+            "id": "HR-11",
+            "value": 0
+        },
+        {
+            "id": "HR-12",
+            "value": 1
+        },
+        {
+            "id": "HR-13",
+            "value": 1
+        },
+        {
+            "id": "HR-14",
+            "value": 1
+        },
+        {
+            "id": "HR-15",
+            "value": 1
+        },
+        {
+            "id": "HR-16",
+            "value": 1
+        },
+        {
+            "id": "HR-17",
+            "value": 0
+        },
+        {
+            "id": "HR-18",
+            "value": 0
+        },
+        {
+            "id": "HR-19",
+            "value": 0
+        },
+        {
+            "id": "HR-20",
+            "value": 1
+        },
+        {
+            "id": "HR-21",
+            "value": 1
+        }
+    ],
     // Hungary
     // "HU": [
     //     {
@@ -1779,7 +2243,7 @@ let countryData = {
     //     },
         {
             "id": "FR-H", // Actually part of FR
-            "value": 1
+            "value": 0
         }
     ],
     // Lithuania
@@ -1845,6 +2309,14 @@ let countryData = {
         },
         {
             "id": "NO-42",
+            "value": 1
+        },
+        {
+            "id": "NO-50",
+            "value": 1
+        },
+        {
+            "id": "NO-54",
             "value": 1
         }
     ],
