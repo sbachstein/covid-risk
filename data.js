@@ -77,7 +77,7 @@ let riskData = [
     },
     {
         "id": "BE",
-        "value": 1
+        "value": 0
     },
     {
         "id": "BF",
@@ -101,7 +101,7 @@ let riskData = [
     },
     {
         "id": "BL",
-        "value": 1
+        "value": 0
     },
     {
         "id": "BM",
@@ -169,7 +169,7 @@ let riskData = [
     },
     {
         "id": "CH",
-        "value": 2
+        "value": 0
     },
     {
         "id": "CI",
@@ -205,7 +205,7 @@ let riskData = [
     },
     {
         "id": "CV",
-        "value": 3
+        "value": 1
     },
     {
         "id": "CW",
@@ -233,7 +233,7 @@ let riskData = [
     },
     {
         "id": "DK",
-        "value": 1
+        "value": 2
     },
     {
         "id": "DM",
@@ -253,7 +253,7 @@ let riskData = [
     },
     {
         "id": "EE",
-        "value": 1
+        "value": 0
     },
     {
         "id": "EG",
@@ -297,7 +297,7 @@ let riskData = [
     },
     {
         "id": "FR",
-        "value": 2,
+        "value": 0,
         "map": "franceDepartmentsLow"
     },
     {
@@ -354,7 +354,7 @@ let riskData = [
     },
     {
         "id": "GR",
-        "value": 2
+        "value": 0
     },
     {
         "id": "GS",
@@ -450,7 +450,7 @@ let riskData = [
     },
     {
         "id": "JO",
-        "value": 1
+        "value": 0
     },
     {
         "id": "JP",
@@ -478,7 +478,7 @@ let riskData = [
     },
     {
         "id": "KN",
-        "value": 0
+        "value": 1
     },
     {
         "id": "KP",
@@ -510,7 +510,7 @@ let riskData = [
     },
     {
         "id": "LC",
-        "value": 1
+        "value": 0
     },
     {
         "id": "LI",
@@ -530,7 +530,7 @@ let riskData = [
     },
     {
         "id": "LT",
-        "value": 1
+        "value": 0
     },
     {
         "id": "LU",
@@ -598,7 +598,7 @@ let riskData = [
     },
     {
         "id": "MQ",
-        "value": 1
+        "value": 0
     },
     {
         "id": "MR",
@@ -638,7 +638,7 @@ let riskData = [
     },
     {
         "id": "NA",
-        "value": 3
+        "value": 4
     },
     {
         "id": "NC",
@@ -662,11 +662,11 @@ let riskData = [
     },
     {
         "id": "NL",
-        "value": 1
+        "value": 2
     },
     {
         "id": "NO",
-        "value": 2,
+        "value": 0,
         "map": "norway2020Low"
     },
     {
@@ -687,7 +687,7 @@ let riskData = [
     },
     {
         "id": "OM",
-        "value": 1
+        "value": 3
     },
     {
         "id": "PA",
@@ -731,7 +731,7 @@ let riskData = [
     },
     {
         "id": "PS",
-        "value": 1
+        "value": 0
     },
     {
         "id": "PT",
@@ -800,7 +800,7 @@ let riskData = [
     },
     {
         "id": "SI",
-        "value": 1,
+        "value": 2,
         "map": "sloveniaRegionsLow"
     },
     {
@@ -925,7 +925,7 @@ let riskData = [
     },
     {
         "id": "UG",
-        "value": 0
+        "value": 1
     },
     {
         "id": "UM",
@@ -1071,131 +1071,135 @@ let countryData = {
     //     }
     // ],
     // Switzerland
-    "CH": [
-        {
-            "id": "CH-AG",
-            "value": 0
-        },
-        {
-            "id": "CH-AR",
-            "value": 1
-        },
-        {
-            "id": "CH-AI",
-            "value": 1
-        },
-        {
-            "id": "CH-BL",
-            "value": 0
-        },
-        {
-            "id": "CH-BS",
-            "value": 0
-        },
-        {
-            "id": "CH-BE",
-            "value": 0
-        },
-        {
-            "id": "CH-FR",
-            "value": 1
-        },
-        {
-            "id": "CH-GE",
-            "value": 1
-        },
-        {
-            "id": "CH-GL",
-            "value": 1
-        },
-        {
-            "id": "CH-GR",
-            "value": 0
-        },
-        {
-            "id": "CH-JU",
-            "value": 1
-        },
-        {
-            "id": "CH-LU",
-            "value": 1
-        },
-        {
-            "id": "CH-NE",
-            "value": 1
-        },
-        {
-            "id": "CH-NW",
-            "value": 1
-        },
-        {
-            "id": "CH-OW",
-            "value": 1
-        },
-        {
-            "id": "CH-SG",
-            "value": 1
-        },
-        {
-            "id": "CH-SH",
-            "value": 1
-        },
-        {
-            "id": "CH-SZ",
-            "value": 1
-        },
-        {
-            "id": "CH-SO",
-            "value": 0
-        },
-        {
-            "id": "CH-TG",
-            "value": 0
-        },
-        {
-            "id": "CH-TI",
-            "value": 0
-        },
-        {
-            "id": "CH-UR",
-            "value": 1
-        },
-        {
-            "id": "CH-VS",
-            "value": 1
-        },
-        {
-            "id": "CH-VD",
-            "value": 1
-        },
-        {
-            "id": "CH-ZG",
-            "value": 0
-        },
-        {
-            "id": "CH-ZH",
-            "value": 0
-        }
-    ],
-    // Denmark
-    // "DK": [
+    // "CH": [
     //     {
-    //         "id": "DK-81",
+    //         "id": "CH-AG",
     //         "value": 0
     //     },
     //     {
-    //         "id": "DK-83",
+    //         "id": "CH-AR",
     //         "value": 1
     //     },
     //     {
-    //         "id": "DK-84",
+    //         "id": "CH-AI",
     //         "value": 1
     //     },
     //     {
-    //         "id": "DK-85",
+    //         "id": "CH-BL",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "CH-BS",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "CH-BE",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "CH-FR",
     //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-GE",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-GL",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-GR",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "CH-JU",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-LU",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-NE",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-NW",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-OW",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-SG",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-SH",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-SZ",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-SO",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "CH-TG",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "CH-TI",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "CH-UR",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-VS",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-VD",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "CH-ZG",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "CH-ZH",
+    //         "value": 0
     //     }
     // ],
+    // Denmark
+    "DK": [
+        {
+            "id": "DK-81",
+            "value": 1
+        },
+        {
+            "id": "DK-82",
+            "value": 1
+        },
+        {
+            "id": "DK-83",
+            "value": 1
+        },
+        {
+            "id": "DK-84",
+            "value": 1
+        },
+        {
+            "id": "DK-85",
+            "value": 0
+        }
+    ],
     // Estonia
     // "EE": [
     //     {
@@ -1255,7 +1259,7 @@ let countryData = {
         },
         {
             "id": "ES-AR",
-            "value": 1
+            "value": 0
         },
         {
             "id": "ES-AS",
@@ -1271,7 +1275,7 @@ let countryData = {
         },
         {
             "id": "ES-CL",
-            "value": 1
+            "value": 0
         },
         {
             "id": "ES-CM",
@@ -1279,7 +1283,7 @@ let countryData = {
         },
         {
             "id": "ES-CT",
-            "value": 1
+            "value": 0
         },
         {
             "id": "ES-CE",
@@ -1303,11 +1307,11 @@ let countryData = {
         },
         {
             "id": "ES-MD",
-            "value": 1
+            "value": 0
         },
         {
             "id": "ES-ML",
-            "value": 1
+            "value": 0
         },
         {
             "id": "ES-MC",
@@ -1374,412 +1378,412 @@ let countryData = {
     //     }
     // ],
     // France
-    "FR": [
-        {
-            "id": "FR-01",
-            "value": 1
-        },
-        {
-            "id": "FR-02",
-            "value": 1
-        },
-        {
-            "id": "FR-03",
-            "value": 1
-        },
-        {
-            "id": "FR-04",
-            "value": 1
-        },
-        {
-            "id": "FR-05",
-            "value": 1
-        },
-        {
-            "id": "FR-06",
-            "value": 1
-        },
-        {
-            "id": "FR-07",
-            "value": 1
-        },
-        {
-            "id": "FR-08",
-            "value": 1
-        },
-        {
-            "id": "FR-09",
-            "value": 1
-        },
-        {
-            "id": "FR-10",
-            "value": 1
-        },
-        {
-            "id": "FR-11",
-            "value": 1
-        },
-        {
-            "id": "FR-12",
-            "value": 1
-        },
-        {
-            "id": "FR-13",
-            "value": 1
-        },
-        {
-            "id": "FR-14",
-            "value": 1
-        },
-        {
-            "id": "FR-15",
-            "value": 1
-        },
-        {
-            "id": "FR-16",
-            "value": 1
-        },
-        {
-            "id": "FR-17",
-            "value": 1
-        },
-        {
-            "id": "FR-18",
-            "value": 1
-        },
-        {
-            "id": "FR-19",
-            "value": 1
-        },
-        {
-            "id": "FR-2A",
-            "value": 0
-        },
-        {
-            "id": "FR-2B",
-            "value": 0
-        },
-        {
-            "id": "FR-21",
-            "value": 1
-        },
-        {
-            "id": "FR-22",
-            "value": 1
-        },
-        {
-            "id": "FR-23",
-            "value": 1
-        },
-        {
-            "id": "FR-24",
-            "value": 1
-        },
-        {
-            "id": "FR-25",
-            "value": 1
-        },
-        {
-            "id": "FR-26",
-            "value": 1
-        },
-        {
-            "id": "FR-27",
-            "value": 1
-        },
-        {
-            "id": "FR-28",
-            "value": 1
-        },
-        {
-            "id": "FR-29",
-            "value": 1
-        },
-        {
-            "id": "FR-30",
-            "value": 1
-        },
-        {
-            "id": "FR-31",
-            "value": 1
-        },
-        {
-            "id": "FR-32",
-            "value": 1
-        },
-        {
-            "id": "FR-33",
-            "value": 1
-        },
-        {
-            "id": "FR-34",
-            "value": 1
-        },
-        {
-            "id": "FR-35",
-            "value": 1
-        },
-        {
-            "id": "FR-36",
-            "value": 1
-        },
-        {
-            "id": "FR-37",
-            "value": 1
-        },
-        {
-            "id": "FR-38",
-            "value": 1
-        },
-        {
-            "id": "FR-39",
-            "value": 1
-        },
-        {
-            "id": "FR-40",
-            "value": 1
-        },
-        {
-            "id": "FR-41",
-            "value": 1
-        },
-        {
-            "id": "FR-42",
-            "value": 1
-        },
-        {
-            "id": "FR-43",
-            "value": 1
-        },
-        {
-            "id": "FR-44",
-            "value": 1
-        },
-        {
-            "id": "FR-45",
-            "value": 1
-        },
-        {
-            "id": "FR-46",
-            "value": 1
-        },
-        {
-            "id": "FR-47",
-            "value": 1
-        },
-        {
-            "id": "FR-48",
-            "value": 1
-        },
-        {
-            "id": "FR-49",
-            "value": 1
-        },
-        {
-            "id": "FR-50",
-            "value": 1
-        },
-        {
-            "id": "FR-51",
-            "value": 1
-        },
-        {
-            "id": "FR-52",
-            "value": 1
-        },
-        {
-            "id": "FR-53",
-            "value": 1
-        },
-        {
-            "id": "FR-54",
-            "value": 1
-        },
-        {
-            "id": "FR-55",
-            "value": 1
-        },
-        {
-            "id": "FR-56",
-            "value": 1
-        },
-        {
-            "id": "FR-57",
-            "value": 1
-        },
-        {
-            "id": "FR-58",
-            "value": 1
-        },
-        {
-            "id": "FR-59",
-            "value": 1
-        },
-        {
-            "id": "FR-60",
-            "value": 1
-        },
-        {
-            "id": "FR-61",
-            "value": 1
-        },
-        {
-            "id": "FR-62",
-            "value": 1
-        },
-        {
-            "id": "FR-63",
-            "value": 1
-        },
-        {
-            "id": "FR-64",
-            "value": 1
-        },
-        {
-            "id": "FR-65",
-            "value": 1
-        },
-        {
-            "id": "FR-66",
-            "value": 1
-        },
-        {
-            "id": "FR-67",
-            "value": 1
-        },
-        {
-            "id": "FR-68",
-            "value": 1
-        },
-        {
-            "id": "FR-69",
-            "value": 1
-        },
-        {
-            "id": "FR-70",
-            "value": 1
-        },
-        {
-            "id": "FR-71",
-            "value": 1
-        },
-        {
-            "id": "FR-72",
-            "value": 1
-        },
-        {
-            "id": "FR-73",
-            "value": 1
-        },
-        {
-            "id": "FR-74",
-            "value": 1
-        },
-        {
-            "id": "FR-75",
-            "value": 1
-        },
-        {
-            "id": "FR-76",
-            "value": 1
-        },
-        {
-            "id": "FR-77",
-            "value": 1
-        },
-        {
-            "id": "FR-78",
-            "value": 1
-        },
-        {
-            "id": "FR-79",
-            "value": 1
-        },
-        {
-            "id": "FR-80",
-            "value": 1
-        },
-        {
-            "id": "FR-81",
-            "value": 1
-        },
-        {
-            "id": "FR-82",
-            "value": 1
-        },
-        {
-            "id": "FR-83",
-            "value": 1
-        },
-        {
-            "id": "FR-84",
-            "value": 1
-        },
-        {
-            "id": "FR-85",
-            "value": 1
-        },
-        {
-            "id": "FR-86",
-            "value": 1
-        },
-        {
-            "id": "FR-87",
-            "value": 1
-        },
-        {
-            "id": "FR-88",
-            "value": 1
-        },
-        {
-            "id": "FR-89",
-            "value": 1
-        },
-        {
-            "id": "FR-90",
-            "value": 1
-        },
-        {
-            "id": "FR-91",
-            "value": 1
-        },
-        {
-            "id": "FR-92",
-            "value": 1
-        },
-        {
-            "id": "FR-93",
-            "value": 1
-        },
-        {
-            "id": "FR-94",
-            "value": 1
-        },
-        {
-            "id": "FR-95",
-            "value": 1
-        },
-        {
-            "id": "FR-971",
-            "value": 1
-        },
-        {
-            "id": "FR-972",
-            "value": 1
-        },
-        {
-            "id": "FR-973",
-            "value": 1
-        },
-        {
-            "id": "FR-974",
-            "value": 1
-        },
-        {
-            "id": "FR-976",
-            "value": 1
-        }
-    ],
+    // "FR": [
+    //     {
+    //         "id": "FR-01",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-02",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-03",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-04",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-05",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-06",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-07",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-08",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-09",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-10",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-11",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-12",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-13",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-14",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-15",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-16",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-17",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-18",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-19",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-2A",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "FR-2B",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "FR-21",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-22",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-23",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-24",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-25",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-26",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-27",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-28",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-29",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-30",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-31",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-32",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-33",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-34",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-35",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-36",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-37",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-38",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-39",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-40",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-41",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-42",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-43",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-44",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-45",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-46",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-47",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-48",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-49",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-50",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-51",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-52",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-53",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-54",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-55",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-56",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-57",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-58",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-59",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-60",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-61",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-62",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-63",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-64",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-65",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-66",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-67",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-68",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-69",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-70",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-71",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-72",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-73",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-74",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-75",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-76",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-77",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-78",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-79",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-80",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-81",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-82",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-83",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-84",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-85",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-86",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-87",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-88",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-89",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-90",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-91",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-92",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-93",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-94",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-95",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-971",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-972",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-973",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-974",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "FR-976",
+    //         "value": 1
+    //     }
+    // ],
     // United Kingdom
     "GB": [
         // {
@@ -1844,60 +1848,60 @@ let countryData = {
         }
     ],
     // Greece
-    "GR": [
-        {
-            "id": "GR-A",
-            "value": 0
-        },
-        {
-            "id": "GR-B",
-            "value": 1
-        },
-        {
-            "id": "GR-C",
-            "value": 1
-        },
-        {
-            "id": "GR-D",
-            "value": 1
-        },
-        {
-            "id": "GR-E",
-            "value": 1
-        },
-        {
-            "id": "GR-F",
-            "value": 1
-        },
-        {
-            "id": "GR-G",
-            "value": 1
-        },
-        {
-            "id": "GR-H",
-            "value": 1
-        },
-        {
-            "id": "GR-I",
-            "value": 0
-        },
-        {
-            "id": "GR-J",
-            "value": 0
-        },
-        {
-            "id": "GR-K",
-            "value": 0
-        },
-        {
-            "id": "GR-L",
-            "value": 1
-        },
-        {
-            "id": "GR-M",
-            "value": 1
-        }
-    ],
+    // "GR": [
+    //     {
+    //         "id": "GR-A",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "GR-B",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "GR-C",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "GR-D",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "GR-E",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "GR-F",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "GR-G",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "GR-H",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "GR-I",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "GR-J",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "GR-K",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "GR-L",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "GR-M",
+    //         "value": 1
+    //     }
+    // ],
     // Croatia
     "HR": [
         {
@@ -2297,41 +2301,92 @@ let countryData = {
     //         "value": 1
     //     }
     // ],
-    // Norway
-    "NO": [
+    // Netherlands
+    "NL": [
         {
-            "id": "NO-03",
+            "id": "NL-DR",
             "value": 1
         },
         {
-            "id": "NO-11",
+            "id": "NL-FL",
+            "value": 1
+        },
+        {
+            "id": "NL-FR",
             "value": 0
         },
         {
-            "id": "NO-30",
+            "id": "NL-GE",
+            "value": 1
+        },
+        {
+            "id": "NL-GR",
             "value": 0
         },
         {
-            "id": "NO-34",
+            "id": "NL-LI",
+            "value": 1
+        },
+        {
+            "id": "NL-NB",
+            "value": 1
+        },
+        {
+            "id": "NL-NH",
+            "value": 1
+        },
+        {
+            "id": "NL-OV",
+            "value": 1
+        },
+        {
+            "id": "NL-UT",
+            "value": 1
+        },
+        {
+            "id": "NL-ZE",
             "value": 0
         },
         {
-            "id": "NO-38",
-            "value": 1
-        },
-        {
-            "id": "NO-42",
-            "value": 1
-        },
-        {
-            "id": "NO-50",
-            "value": 1
-        },
-        {
-            "id": "NO-54",
+            "id": "NL-ZH",
             "value": 1
         }
     ],
+    // Norway
+    // "NO": [
+    //     {
+    //         "id": "NO-03",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "NO-11",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "NO-30",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "NO-34",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "NO-38",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "NO-42",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "NO-50",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "NO-54",
+    //         "value": 1
+    //     }
+    // ],
     // Poland
     // "PL": [
     //     {
@@ -2470,52 +2525,57 @@ let countryData = {
     //     }
     // ],
     // Slovenia
-    // "SI": [
-    //     {
-    //         "id": "SI-GO",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SI-JS",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SI-KO",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SI-LJ",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SI-PD",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SI-PM",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SI-NO",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SI-PS",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SI-SA",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SI-SP",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SI-ZS",
-    //         "value": 1
-    //     }
-    // ]
+    "SI": [
+        {
+            "id": "SI-GO",
+            "value": 1
+        },
+        {
+            "id": "SI-JP",
+            "value": 1
+        },
+        {
+            "id": "SI-JS",
+            "value": 0
+        },
+        {
+            "id": "SI-KO",
+            "value": 0
+        },
+        {
+            "id": "SI-LJ",
+            "value": 1
+        },
+        {
+            "id": "SI-PD",
+            "value": 1
+        },
+        {
+            "id": "SI-PM",
+            "value": 0
+        },
+        {
+            "id": "SI-NO",
+            "value": 1
+        },
+        {
+            "id": "SI-PS",
+            "value": 1
+        },
+        {
+            "id": "SI-SA",
+            "value": 0
+        },
+        {
+            "id": "SI-SP",
+            "value": 0
+        },
+        {
+            "id": "SI-ZS",
+            "value": 0
+        }
+    ],
+    // South Africa
     "ZA": [
         {
             "id": "LS", // Actually part of LS
