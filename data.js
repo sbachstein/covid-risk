@@ -233,7 +233,7 @@ let riskData = [
     },
     {
         "id": "DK",
-        "value": 2
+        "value": 0
     },
     {
         "id": "DM",
@@ -281,7 +281,7 @@ let riskData = [
     },
     {
         "id": "FJ",
-        "value": 0
+        "value": 1
     },
     {
         "id": "FK",
@@ -534,11 +534,11 @@ let riskData = [
     },
     {
         "id": "LU",
-        "value": 1
+        "value": 0
     },
     {
         "id": "LV",
-        "value": 1,
+        "value": 0,
     },
     {
         "id": "LY",
@@ -662,7 +662,7 @@ let riskData = [
     },
     {
         "id": "NL",
-        "value": 2
+        "value": 0
     },
     {
         "id": "NO",
@@ -735,7 +735,7 @@ let riskData = [
     },
     {
         "id": "PT",
-        "value": 2,
+        "value": 4,
         "map": "portugalRegionsLow"
     },
     {
@@ -764,11 +764,11 @@ let riskData = [
     },
     {
         "id": "RU",
-        "value": 1
+        "value": 4
     },
     {
         "id": "RW",
-        "value": 0
+        "value": 1
     },
     {
         "id": "SA",
@@ -788,7 +788,7 @@ let riskData = [
     },
     {
         "id": "SE",
-        "value": 1
+        "value": 2
     },
     {
         "id": "SG",
@@ -800,7 +800,7 @@ let riskData = [
     },
     {
         "id": "SI",
-        "value": 2,
+        "value": 0,
         "map": "sloveniaRegionsLow"
     },
     {
@@ -1178,28 +1178,28 @@ let countryData = {
     //     }
     // ],
     // Denmark
-    "DK": [
-        {
-            "id": "DK-81",
-            "value": 1
-        },
-        {
-            "id": "DK-82",
-            "value": 1
-        },
-        {
-            "id": "DK-83",
-            "value": 1
-        },
-        {
-            "id": "DK-84",
-            "value": 1
-        },
-        {
-            "id": "DK-85",
-            "value": 0
-        }
-    ],
+    // "DK": [
+    //     {
+    //         "id": "DK-81",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "DK-82",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "DK-83",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "DK-84",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "DK-85",
+    //         "value": 0
+    //     }
+    // ],
     // Estonia
     // "EE": [
     //     {
@@ -1922,7 +1922,7 @@ let countryData = {
         },
         {
             "id": "HR-05",
-            "value": 1
+            "value": 0
         },
         {
             "id": "HR-06",
@@ -1954,7 +1954,7 @@ let countryData = {
         },
         {
             "id": "HR-13",
-            "value": 0
+            "value": 1
         },
         {
             "id": "HR-14",
@@ -2302,56 +2302,56 @@ let countryData = {
     //     }
     // ],
     // Netherlands
-    "NL": [
-        {
-            "id": "NL-DR",
-            "value": 1
-        },
-        {
-            "id": "NL-FL",
-            "value": 1
-        },
-        {
-            "id": "NL-FR",
-            "value": 0
-        },
-        {
-            "id": "NL-GE",
-            "value": 1
-        },
-        {
-            "id": "NL-GR",
-            "value": 0
-        },
-        {
-            "id": "NL-LI",
-            "value": 1
-        },
-        {
-            "id": "NL-NB",
-            "value": 1
-        },
-        {
-            "id": "NL-NH",
-            "value": 1
-        },
-        {
-            "id": "NL-OV",
-            "value": 1
-        },
-        {
-            "id": "NL-UT",
-            "value": 1
-        },
-        {
-            "id": "NL-ZE",
-            "value": 0
-        },
-        {
-            "id": "NL-ZH",
-            "value": 1
-        }
-    ],
+    // "NL": [
+    //     {
+    //         "id": "NL-DR",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "NL-FL",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "NL-FR",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "NL-GE",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "NL-GR",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "NL-LI",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "NL-NB",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "NL-NH",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "NL-OV",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "NL-UT",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "NL-ZE",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "NL-ZH",
+    //         "value": 1
+    //     }
+    // ],
     // Norway
     // "NO": [
     //     {
@@ -2411,170 +2411,170 @@ let countryData = {
     //     }
     // ],
     // Portugal
-    "PT": [
-        {
-            "id": "PT-ALE",
-            "value": 0
-        },
-        {
-            "id": "PT-ALG",
-            "value": 0
-        },
-        {
-            "id": "PT-Aç",
-            "value": 1
-        },
-        {
-            "id": "PT-C",
-            "value": 0
-        },
-        {
-            "id": "PT-L",
-            "value": 1
-        },
-        {
-            "id": "PT-M",
-            "value": 0
-        },
-        {
-            "id": "PT-N",
-            "value": 0
-        }
-    ],
-    // Sweden
-    // "SE": [
+    // "PT": [
     //     {
-    //         "id": "SE-AB",
+    //         "id": "PT-ALE",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "PT-ALG",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "PT-Aç",
     //         "value": 1
     //     },
     //     {
-    //         "id": "SE-AC",
+    //         "id": "PT-C",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "PT-L",
     //         "value": 1
     //     },
     //     {
-    //         "id": "SE-BD",
-    //         "value": 1
+    //         "id": "PT-M",
+    //         "value": 0
     //     },
     //     {
-    //         "id": "SE-C",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SE-D",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SE-E",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SE-F",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SE-G",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SE-H",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SE-I",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SE-K",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SE-M",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SE-N",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SE-O",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SE-S",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SE-T",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SE-U",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SE-W",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SE-X",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "SE-Z",
-    //         "value": 1
+    //         "id": "PT-N",
+    //         "value": 0
     //     }
     // ],
-    // Slovenia
-    "SI": [
+    // Sweden
+    "SE": [
         {
-            "id": "SI-GO",
-            "value": 1
-        },
-        {
-            "id": "SI-JP",
-            "value": 1
-        },
-        {
-            "id": "SI-JS",
+            "id": "SE-AB",
             "value": 0
         },
         {
-            "id": "SI-KO",
+            "id": "SE-AC",
             "value": 0
         },
         {
-            "id": "SI-LJ",
+            "id": "SE-BD",
             "value": 1
         },
         {
-            "id": "SI-PD",
-            "value": 1
-        },
-        {
-            "id": "SI-PM",
+            "id": "SE-C",
             "value": 0
         },
         {
-            "id": "SI-NO",
-            "value": 1
-        },
-        {
-            "id": "SI-PS",
-            "value": 1
-        },
-        {
-            "id": "SI-SA",
+            "id": "SE-D",
             "value": 0
         },
         {
-            "id": "SI-SP",
+            "id": "SE-E",
             "value": 0
         },
         {
-            "id": "SI-ZS",
+            "id": "SE-F",
+            "value": 0
+        },
+        {
+            "id": "SE-G",
+            "value": 1
+        },
+        {
+            "id": "SE-H",
+            "value": 0
+        },
+        {
+            "id": "SE-I",
+            "value": 0
+        },
+        {
+            "id": "SE-K",
+            "value": 0
+        },
+        {
+            "id": "SE-M",
+            "value": 0
+        },
+        {
+            "id": "SE-N",
+            "value": 0
+        },
+        {
+            "id": "SE-O",
+            "value": 0
+        },
+        {
+            "id": "SE-S",
+            "value": 1
+        },
+        {
+            "id": "SE-T",
+            "value": 0
+        },
+        {
+            "id": "SE-U",
+            "value": 0
+        },
+        {
+            "id": "SE-W",
+            "value": 0
+        },
+        {
+            "id": "SE-X",
+            "value": 0
+        },
+        {
+            "id": "SE-Z",
             "value": 0
         }
     ],
+    // Slovenia
+    // "SI": [
+    //     {
+    //         "id": "SI-GO",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SI-JP",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SI-JS",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "SI-KO",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "SI-LJ",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SI-PD",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SI-PM",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "SI-NO",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SI-PS",
+    //         "value": 1
+    //     },
+    //     {
+    //         "id": "SI-SA",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "SI-SP",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "SI-ZS",
+    //         "value": 0
+    //     }
+    // ],
     // South Africa
     "ZA": [
         {
