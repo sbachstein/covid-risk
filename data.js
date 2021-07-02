@@ -53,7 +53,7 @@ let riskData = [
     },
     {
         "id": "AW",
-        "value": 1
+        "value": 0
     },
     {
         "id": "AX",
@@ -217,7 +217,7 @@ let riskData = [
     },
     {
         "id": "CY",
-        "value": 0
+        "value": 1
     },
     {
         "id": "CZ",
@@ -346,7 +346,7 @@ let riskData = [
     },
     {
         "id": "GP",
-        "value": 1
+        "value": 0
     },
     {
         "id": "GQ",
@@ -666,7 +666,7 @@ let riskData = [
     },
     {
         "id": "NO",
-        "value": 0,
+        "value": 2,
         "map": "norway2020Low"
     },
     {
@@ -748,7 +748,7 @@ let riskData = [
     },
     {
         "id": "QA",
-        "value": 1
+        "value": 0
     },
     {
         "id": "RE",
@@ -1271,7 +1271,7 @@ let countryData = {
         },
         {
             "id": "ES-CB",
-            "value": 0
+            "value": 1
         },
         {
             "id": "ES-CL",
@@ -1283,7 +1283,7 @@ let countryData = {
         },
         {
             "id": "ES-CT",
-            "value": 0
+            "value": 1
         },
         {
             "id": "ES-CE",
@@ -1982,7 +1982,7 @@ let countryData = {
         },
         {
             "id": "HR-20",
-            "value": 1
+            "value": 0
         },
         {
             "id": "HR-21",
@@ -2353,40 +2353,40 @@ let countryData = {
     //     }
     // ],
     // Norway
-    // "NO": [
-    //     {
-    //         "id": "NO-03",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "NO-11",
-    //         "value": 0
-    //     },
-    //     {
-    //         "id": "NO-30",
-    //         "value": 0
-    //     },
-    //     {
-    //         "id": "NO-34",
-    //         "value": 0
-    //     },
-    //     {
-    //         "id": "NO-38",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "NO-42",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "NO-50",
-    //         "value": 1
-    //     },
-    //     {
-    //         "id": "NO-54",
-    //         "value": 1
-    //     }
-    // ],
+    "NO": [
+        {
+            "id": "NO-03",
+            "value": 0
+        },
+        {
+            "id": "NO-11",
+            "value": 1
+        },
+        {
+            "id": "NO-30",
+            "value": 0
+        },
+        {
+            "id": "NO-34",
+            "value": 0
+        },
+        {
+            "id": "NO-38",
+            "value": 0
+        },
+        {
+            "id": "NO-42",
+            "value": 1
+        },
+        {
+            "id": "NO-50",
+            "value": 0
+        },
+        {
+            "id": "NO-54",
+            "value": 0
+        }
+    ],
     // Poland
     // "PL": [
     //     {
