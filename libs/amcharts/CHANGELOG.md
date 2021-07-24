@@ -5,6 +5,66 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 Please note, that this project, while following numbering syntax, it DOES NOT
 adhere to [Semantic Versioning](http://semver.org/spec/v2.0.0.html) rules.
 
+## [4.10.20] - 2021-06-17
+
+### Fixed
+- In-line formatting of labels was triggering errors on pages with strict CSP rules.
+
+
+## [4.10.19] - 2021-06-08
+
+### Fixed
+- Export: dynamic CSS `<style>` added by `Export` was not applying global `nonce` option.
+- `RangeSelector` plugin: some pre-set period buttons were behaving incorrectly when there was no animated theme enabled.
+- In some cases labels for `ValueAxis` were prone to a floating-point issue.
+- `OverlapBuster` plugin. Was not always working properly without animated theme.
+- Minor tweak to multiple series tooltip arrangements.
+- JSON config: sometimes items pushed to `children` were not being created.
+- Truncation of Legend's labels sometimes were being knocked off by the `XYCursor` activities.
+
+
+## [4.10.18] - 2021-04-21
+
+### Fixed
+- `SliceGrouper` was not working when chart was a child of another `Container`.
+- `SliceGrouper` was not updating properly when `am4core.options.queue = true` was set.
+- `DateAxis` labels were showing zeros instead of proper milliseconds in IE.
+- In some cases hidden link in `SankeyDiagram` could cause rollover tooltip to appear.
+- Stroke of the slices in a `FunnelChart` was not being drawn complete.
+- JSON config: value list of the `List` element was not being properly truncated to supplied lenght.
+- JSON config: event list as array was not working properly.
+- Using `timezone` setting in some timezones could offset Series' bullets.
+- Absolute pixel `width` in `RadarColumn` was being ignored.
+
+
+## [4.10.17] - 2021-03-19
+
+### Added
+- New setting for `Export`: `webFontFilter`. Allows it to set to a regular expression. If set only those external fonts that their URL match regular exporession will be loaded.
+- New setting for `ForceDirectedSeries`: `showOnTick` (default `10`). Render series hidden until Xth tick.
+- New setting for `XYCursor`: `snapOnPan` (default `true`). Indicates whether to "snap" zoom selection to equal periods when panning by cursor ends.
+
+### Fixed
+- Zooming of chart with multiple vertical axes of which one was inverted was incorrect.
+- `minZoomCount` was not being taken into account when zooming with mouse wheel.
+- JSON config: `exporting.dataFields` setting was being ignored.
+- Creating chart before its container is ready, was resulting in extra element in DOM in some cases.
+
+
+## [4.10.16] - 2021-03-03
+
+### Fixed
+- In some rare cases an critical error could happen on hoverable objects on touch-only displays.
+- Zooming and drag-rotating a resized `MapChart` could throw off the map position.
+- It was possible to continue zooming the chart using mouse wheel even when max zoom was reached.
+- Zooming "inverted" horizontal axis was incorrect.
+- Updating data on `SankeyDiagram` in some cases could result in an SO.
+- `TreeMap` was showing incorrectly sized nodes with empty children array.
+- Sometimes wrapping long strings were causing punctuation at the end of the word to wrap into the next line.
+- Dynamically switching `logarithmic` setting for a `ValueAxis` was not updating its scale properly in some cases.
+- `SliceGrouper` plugin was not updating properly when manipulating data and/or series.
+
+
 ## [4.10.15] - 2021-02-03
 
 ### Fixed
