@@ -36,7 +36,7 @@ legend.data = [
         "fill": colorSet[1]
     },
     {
-        "name": "Hochinzidenzgebiet",
+        "name": "Hochrisikogebiet",
         "fill": colorSet[3]
     },
     {
