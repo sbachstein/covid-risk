@@ -317,7 +317,7 @@ let riskData = [
     },
     {
         "id": "GF",
-        "value": 0
+        "value": 3
     },
     {
         "id": "GG",
@@ -409,7 +409,7 @@ let riskData = [
     },
     {
         "id": "IL",
-        "value": 0
+        "value": 3
     },
     {
         "id": "IM",
@@ -457,7 +457,7 @@ let riskData = [
     },
     {
         "id": "KE",
-        "value": 0
+        "value": 3
     },
     {
         "id": "KG",
@@ -557,7 +557,7 @@ let riskData = [
     },
     {
         "id": "ME",
-        "value": 0
+        "value": 3
     },
     {
         "id": "MF",
@@ -698,7 +698,7 @@ let riskData = [
     },
     {
         "id": "PF",
-        "value": 0
+        "value": 3
     },
     {
         "id": "PG",
@@ -734,7 +734,7 @@ let riskData = [
     },
     {
         "id": "PT",
-        "value": 3,
+        "value": 2,
         "map": "portugalRegionsLow"
     },
     {
@@ -900,7 +900,7 @@ let riskData = [
     },
     {
         "id": "TR",
-        "value": 0
+        "value": 3
     },
     {
         "id": "TT",
@@ -932,7 +932,7 @@ let riskData = [
     },
     {
         "id": "US",
-        "value": 0
+        "value": 3
     },
     {
         "id": "UY",
@@ -964,7 +964,7 @@ let riskData = [
     },
     {
         "id": "VN",
-        "value": 0
+        "value": 3
     },
     {
         "id": "VU",
@@ -2058,36 +2058,36 @@ let countryData = {
     //     }
     // ],
     // Portugal
-    // "PT": [
-    //     {
-    //         "id": "PT-ALE",
-    //         "value": 0
-    //     },
-    //     {
-    //         "id": "PT-ALG",
-    //         "value": 0
-    //     },
-    //     {
-    //         "id": "PT-Aç",
-    //         "value": 0
-    //     },
-    //     {
-    //         "id": "PT-C",
-    //         "value": 0
-    //     },
-    //     {
-    //         "id": "PT-L",
-    //         "value": 0
-    //     },
-    //     {
-    //         "id": "PT-M",
-    //         "value": 0
-    //     },
-    //     {
-    //         "id": "PT-N",
-    //         "value": 0
-    //     }
-    // ],
+    "PT": [
+        {
+            "id": "PT-ALE",
+            "value": 0
+        },
+        {
+            "id": "PT-ALG",
+            "value": 3
+        },
+        {
+            "id": "PT-Aç",
+            "value": 0
+        },
+        {
+            "id": "PT-C",
+            "value": 0
+        },
+        {
+            "id": "PT-L",
+            "value": 3
+        },
+        {
+            "id": "PT-M",
+            "value": 0
+        },
+        {
+            "id": "PT-N",
+            "value": 0
+        }
+    ],
     // Sweden
     // "SE": [
     //     {
