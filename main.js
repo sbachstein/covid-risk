@@ -31,10 +31,10 @@ legend.data = [
         "name": "Regionale Risikogebiete",
         "fill": colorSet[2]
     },
-    {
-        "name": "Risikogebiet",
-        "fill": colorSet[1]
-    },
+    // {
+    //     "name": "Risikogebiet",
+    //     "fill": colorSet[1]
+    // },
     {
         "name": "Hochrisikogebiet",
         "fill": colorSet[3]
