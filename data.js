@@ -181,7 +181,7 @@ let riskData = [
     },
     {
         "id": "CL",
-        "value": 3
+        "value": 0
     },
     {
         "id": "CM",
@@ -269,7 +269,7 @@ let riskData = [
     },
     {
         "id": "ES",
-        "value": 2
+        "value": 0
     },
     {
         "id": "ET",
@@ -445,7 +445,7 @@ let riskData = [
     },
     {
         "id": "JM",
-        "value": 0
+        "value": 3
     },
     {
         "id": "JO",
@@ -477,7 +477,7 @@ let riskData = [
     },
     {
         "id": "KN",
-        "value": 0
+        "value": 3
     },
     {
         "id": "KP",
@@ -509,7 +509,7 @@ let riskData = [
     },
     {
         "id": "LC",
-        "value": 0
+        "value": 3
     },
     {
         "id": "LI",
@@ -1251,84 +1251,84 @@ let countryData = {
     //     }
     // ],
     // Spain
-    "ES": [
-        {
-            "id": "ES-AN",
-            "value": 3
-        },
-        {
-            "id": "ES-AR",
-            "value": 3
-        },
-        {
-            "id": "ES-AS",
-            "value": 0
-        },
-        {
-            "id": "ES-CN",
-            "value": 0
-        },
-        {
-            "id": "ES-CB",
-            "value": 3
-        },
-        {
-            "id": "ES-CL",
-            "value": 3
-        },
-        {
-            "id": "ES-CM",
-            "value": 0
-        },
-        {
-            "id": "ES-CT",
-            "value": 0
-        },
-        {
-            "id": "ES-CE",
-            "value": 3
-        },
-        {
-            "id": "ES-EX",
-            "value": 3
-        },
-        {
-            "id": "ES-GA",
-            "value": 3
-        },
-        {
-            "id": "ES-IB",
-            "value": 3
-        },
-        {
-            "id": "ES-RI",
-            "value": 3
-        },
-        {
-            "id": "ES-MD",
-            "value": 3
-        },
-        {
-            "id": "ES-ML",
-            "value": 3
-        },
-        {
-            "id": "ES-MC",
-            "value": 3
-        },
-        {
-            "id": "ES-NC",
-            "value": 3
-        },
-        {
-            "id": "ES-PV",
-            "value": 3
-        },
-        {
-            "id": "ES-VC",
-            "value": 0
-        }
-    ],
+    // "ES": [
+    //     {
+    //         "id": "ES-AN",
+    //         "value": 3
+    //     },
+    //     {
+    //         "id": "ES-AR",
+    //         "value": 3
+    //     },
+    //     {
+    //         "id": "ES-AS",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "ES-CN",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "ES-CB",
+    //         "value": 3
+    //     },
+    //     {
+    //         "id": "ES-CL",
+    //         "value": 3
+    //     },
+    //     {
+    //         "id": "ES-CM",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "ES-CT",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "ES-CE",
+    //         "value": 3
+    //     },
+    //     {
+    //         "id": "ES-EX",
+    //         "value": 3
+    //     },
+    //     {
+    //         "id": "ES-GA",
+    //         "value": 3
+    //     },
+    //     {
+    //         "id": "ES-IB",
+    //         "value": 3
+    //     },
+    //     {
+    //         "id": "ES-RI",
+    //         "value": 3
+    //     },
+    //     {
+    //         "id": "ES-MD",
+    //         "value": 3
+    //     },
+    //     {
+    //         "id": "ES-ML",
+    //         "value": 3
+    //     },
+    //     {
+    //         "id": "ES-MC",
+    //         "value": 3
+    //     },
+    //     {
+    //         "id": "ES-NC",
+    //         "value": 3
+    //     },
+    //     {
+    //         "id": "ES-PV",
+    //         "value": 3
+    //     },
+    //     {
+    //         "id": "ES-VC",
+    //         "value": 0
+    //     }
+    // ],
     // Finland
     // "FI": [
     //     {
@@ -2077,7 +2077,7 @@ let countryData = {
         },
         {
             "id": "PT-L",
-            "value": 3
+            "value": 0
         },
         {
             "id": "PT-M",
