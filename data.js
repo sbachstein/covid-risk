@@ -13,7 +13,7 @@ let riskData = [
     },
     {
         "id": "AG",
-        "value": 0
+        "value": 3
     },
     {
         "id": "AI",
@@ -25,7 +25,7 @@ let riskData = [
     },
     {
         "id": "AM",
-        "value": 0
+        "value": 3
     },
     {
         "id": "AO",
@@ -69,11 +69,11 @@ let riskData = [
     },
     {
         "id": "BB",
-        "value": 0
+        "value": 3
     },
     {
         "id": "BD",
-        "value": 3
+        "value": 0
     },
     {
         "id": "BE",
@@ -121,7 +121,7 @@ let riskData = [
     },
     {
         "id": "BR",
-        "value": 3
+        "value": 0
     },
     {
         "id": "BS",
@@ -137,7 +137,7 @@ let riskData = [
     },
     {
         "id": "BW",
-        "value": 3
+        "value": 0
     },
     {
         "id": "BY",
@@ -145,7 +145,7 @@ let riskData = [
     },
     {
         "id": "BZ",
-        "value": 0
+        "value": 3
     },
     {
         "id": "CA",
@@ -217,7 +217,7 @@ let riskData = [
     },
     {
         "id": "CY",
-        "value": 3
+        "value": 0
     },
     {
         "id": "CZ",
@@ -373,7 +373,7 @@ let riskData = [
     },
     {
         "id": "GY",
-        "value": 0
+        "value": 3
     },
     {
         "id": "HK",
@@ -417,7 +417,7 @@ let riskData = [
     },
     {
         "id": "IN",
-        "value": 3
+        "value": 0
     },
     {
         "id": "IO",
@@ -525,7 +525,7 @@ let riskData = [
     },
     {
         "id": "LS",
-        "value": 3
+        "value": 0
     },
     {
         "id": "LT",
@@ -553,7 +553,7 @@ let riskData = [
     },
     {
         "id": "MD",
-        "value": 0
+        "value": 3
     },
     {
         "id": "ME",
@@ -621,7 +621,7 @@ let riskData = [
     },
     {
         "id": "MW",
-        "value": 3
+        "value": 0
     },
     {
         "id": "MX",
@@ -670,7 +670,7 @@ let riskData = [
     },
     {
         "id": "NP",
-        "value": 3
+        "value": 0
     },
     {
         "id": "NR",
@@ -734,7 +734,7 @@ let riskData = [
     },
     {
         "id": "PT",
-        "value": 2,
+        "value": 0,
         "map": "portugalRegionsLow"
     },
     {
@@ -852,7 +852,7 @@ let riskData = [
     },
     {
         "id": "SZ",
-        "value": 3
+        "value": 0
     },
     {
         "id": "TC",
@@ -952,7 +952,7 @@ let riskData = [
     },
     {
         "id": "VE",
-        "value": 0
+        "value": 3
     },
     {
         "id": "VG",
@@ -992,15 +992,15 @@ let riskData = [
     },
     {
         "id": "ZA",
-        "value": 3
+        "value": 0
     },
     {
         "id": "ZM",
-        "value": 3
+        "value": 0
     },
     {
         "id": "ZW",
-        "value": 3
+        "value": 0
     }    
 ];
 
@@ -1731,7 +1731,7 @@ let countryData = {
         },
         {
             "id": "IE-G",
-            "value": 3
+            "value": 0
         },
         {
             "id": "IE-KY",
@@ -1767,7 +1767,7 @@ let countryData = {
         },
         {
             "id": "IE-MO",
-            "value": 3
+            "value": 0
         },
         {
             "id": "IE-MH",
@@ -1783,7 +1783,7 @@ let countryData = {
         },
         {
             "id": "IE-RN",
-            "value": 3
+            "value": 0
         },
         {
             "id": "IE-SO",
@@ -2058,36 +2058,36 @@ let countryData = {
     //     }
     // ],
     // Portugal
-    "PT": [
-        {
-            "id": "PT-ALE",
-            "value": 0
-        },
-        {
-            "id": "PT-ALG",
-            "value": 3
-        },
-        {
-            "id": "PT-Aç",
-            "value": 0
-        },
-        {
-            "id": "PT-C",
-            "value": 0
-        },
-        {
-            "id": "PT-L",
-            "value": 0
-        },
-        {
-            "id": "PT-M",
-            "value": 0
-        },
-        {
-            "id": "PT-N",
-            "value": 0
-        }
-    ],
+    // "PT": [
+    //     {
+    //         "id": "PT-ALE",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "PT-ALG",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "PT-Aç",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "PT-C",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "PT-L",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "PT-M",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "PT-N",
+    //         "value": 0
+    //     }
+    // ],
     // Sweden
     // "SE": [
     //     {
@@ -2226,7 +2226,7 @@ let countryData = {
     "ZA": [
         {
             "id": "LS", // Actually part of LS
-            "value": 3
+            "value": 0
         }
     ]
 }
