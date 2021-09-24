@@ -93,7 +93,7 @@ let riskData = [
     },
     {
         "id": "BI",
-        "value": 0
+        "value": 3
     },
     {
         "id": "BJ",
@@ -273,7 +273,7 @@ let riskData = [
     },
     {
         "id": "ET",
-        "value": 0
+        "value": 3
     },
     {
         "id": "FI",
@@ -297,7 +297,7 @@ let riskData = [
     },
     {
         "id": "FR",
-        "value": 2,
+        "value": 0,
     },
     {
         "id": "GA",
@@ -453,7 +453,7 @@ let riskData = [
     },
     {
         "id": "JP",
-        "value": 3
+        "value": 0
     },
     {
         "id": "KE",
@@ -641,7 +641,7 @@ let riskData = [
     },
     {
         "id": "NC",
-        "value": 0
+        "value": 3
     },
     {
         "id": "NE",
@@ -799,7 +799,7 @@ let riskData = [
     },
     {
         "id": "SI",
-        "value": 0,
+        "value": 3,
         "map": "sloveniaRegionsLow"
     },
     {
@@ -820,7 +820,7 @@ let riskData = [
     },
     {
         "id": "SN",
-        "value": 3
+        "value": 0
     },
     {
         "id": "SO",
@@ -948,7 +948,7 @@ let riskData = [
     },
     {
         "id": "VC",
-        "value": 0
+        "value": 3
     },
     {
         "id": "VE",
@@ -1377,60 +1377,60 @@ let countryData = {
     //     }
     // ],
     // France
-    "FR": [
-        {
-            "id": "FR-COR",
-            "value": 0
-        },
-        {
-            "id": "FR-ARA",
-            "value": 0
-        },
-        {
-            "id": "FR-BFC",
-            "value": 0
-        },
-        {
-            "id": "FR-BRE",
-            "value": 0
-        },
-        {
-            "id": "FR-CVL",
-            "value": 0
-        },
-        {
-            "id": "FR-GES",
-            "value": 0
-        },
-        {
-            "id": "FR-HDF",
-            "value": 0
-        },
-        {
-            "id": "FR-IDF",
-            "value": 0
-        },
-        {
-            "id": "FR-NAQ",
-            "value": 0
-        },
-        {
-            "id": "FR-NOR",
-            "value": 0
-        },
-        {
-            "id": "FR-OCC",
-            "value": 0
-        },
-        {
-            "id": "FR-PAC",
-            "value": 3
-        },
-        {
-            "id": "FR-PDL",
-            "value": 0
-        }
-    ],
+    // "FR": [
+    //     {
+    //         "id": "FR-COR",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "FR-ARA",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "FR-BFC",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "FR-BRE",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "FR-CVL",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "FR-GES",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "FR-HDF",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "FR-IDF",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "FR-NAQ",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "FR-NOR",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "FR-OCC",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "FR-PAC",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "FR-PDL",
+    //         "value": 0
+    //     }
+    // ],
     // United Kingdom
     "GB": [
         // {
