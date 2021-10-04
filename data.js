@@ -141,7 +141,7 @@ let riskData = [
     },
     {
         "id": "BY",
-        "value": 0
+        "value": 3
     },
     {
         "id": "BZ",
@@ -529,7 +529,7 @@ let riskData = [
     },
     {
         "id": "LT",
-        "value": 0
+        "value": 3
     },
     {
         "id": "LU",
@@ -633,7 +633,7 @@ let riskData = [
     },
     {
         "id": "MZ",
-        "value": 3
+        "value": 0
     },
     {
         "id": "NA",
@@ -755,7 +755,7 @@ let riskData = [
     },
     {
         "id": "RO",
-        "value": 0
+        "value": 3
     },
     {
         "id": "RS",
@@ -840,7 +840,7 @@ let riskData = [
     },
     {
         "id": "SV",
-        "value": 0
+        "value": 3
     },
     {
         "id": "SX",
