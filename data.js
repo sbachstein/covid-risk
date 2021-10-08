@@ -61,7 +61,7 @@ let riskData = [
     },
     {
         "id": "AZ",
-        "value": 3
+        "value": 0
     },
     {
         "id": "BA",
@@ -101,7 +101,7 @@ let riskData = [
     },
     {
         "id": "BL",
-        "value": 3
+        "value": 0
     },
     {
         "id": "BM",
@@ -109,7 +109,7 @@ let riskData = [
     },
     {
         "id": "BN",
-        "value": 0
+        "value": 3
     },
     {
         "id": "BO",
@@ -193,7 +193,7 @@ let riskData = [
     },
     {
         "id": "CO",
-        "value": 3
+        "value": 0
     },
     {
         "id": "CR",
@@ -253,7 +253,7 @@ let riskData = [
     },
     {
         "id": "EE",
-        "value": 0
+        "value": 3
     },
     {
         "id": "EG",
@@ -345,7 +345,7 @@ let riskData = [
     },
     {
         "id": "GP",
-        "value": 3
+        "value": 0
     },
     {
         "id": "GQ",
@@ -401,7 +401,7 @@ let riskData = [
     },
     {
         "id": "ID",
-        "value": 3
+        "value": 0
     },
     {
         "id": "IE",
@@ -497,7 +497,7 @@ let riskData = [
     },
     {
         "id": "KZ",
-        "value": 3
+        "value": 0
     },
     {
         "id": "LA",
@@ -537,7 +537,7 @@ let riskData = [
     },
     {
         "id": "LV",
-        "value": 0,
+        "value": 3,
     },
     {
         "id": "LY",
@@ -561,7 +561,7 @@ let riskData = [
     },
     {
         "id": "MF",
-        "value": 3
+        "value": 0
     },
     {
         "id": "MG",
@@ -597,7 +597,7 @@ let riskData = [
     },
     {
         "id": "MQ",
-        "value": 3
+        "value": 0
     },
     {
         "id": "MR",
@@ -665,7 +665,7 @@ let riskData = [
     },
     {
         "id": "NO",
-        "value": 2,
+        "value": 0,
         "map": "norway2020Low"
     },
     {
@@ -698,7 +698,7 @@ let riskData = [
     },
     {
         "id": "PF",
-        "value": 3
+        "value": 0
     },
     {
         "id": "PG",
@@ -920,7 +920,7 @@ let riskData = [
     },
     {
         "id": "UA",
-        "value": 0
+        "value": 3
     },
     {
         "id": "UG",
@@ -984,7 +984,7 @@ let riskData = [
     },
     {
         "id": "YE",
-        "value": 0
+        "value": 3
     },
     {
         "id": "YT",
@@ -1703,6 +1703,17 @@ let countryData = {
     //         "value": 0
     //     }
     // ],
+    // Indonesia
+    "ID": [
+        {
+            "id": "BN", // Actually BN
+            "value": 3
+        },
+        {
+            "id": "MY-13", // Actually part of MY
+            "value": 3
+        }
+    ],
     // Ireland
     "IE": [
         {
@@ -1948,6 +1959,13 @@ let countryData = {
     //         "value": 0
     //     }
     // ],
+    // Myanmar
+    "MY": [
+        {
+            "id": "BN", // Actually BN
+            "value": 3
+        },
+    ],
     // Netherlands
     // "NL": [
     //     {
@@ -2003,7 +2021,7 @@ let countryData = {
     "NO": [
         {
             "id": "NO-03",
-            "value": 3
+            "value": 0
         },
         {
             "id": "NO-11",
@@ -2011,7 +2029,7 @@ let countryData = {
         },
         {
             "id": "NO-30",
-            "value": 3
+            "value": 0
         },
         {
             "id": "NO-34",
