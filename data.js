@@ -45,7 +45,7 @@ let riskData = [
     },
     {
         "id": "AT",
-        "value": 0
+        "value": 3
     },
     {
         "id": "AU",
@@ -221,7 +221,7 @@ let riskData = [
     },
     {
         "id": "CZ",
-        "value": 0
+        "value": 3
     },
     {
         "id": "DE",
@@ -397,7 +397,7 @@ let riskData = [
     },
     {
         "id": "HU",
-        "value": 0
+        "value": 3
     },
     {
         "id": "ID",
@@ -501,7 +501,7 @@ let riskData = [
     },
     {
         "id": "LA",
-        "value": 0
+        "value": 3
     },
     {
         "id": "LB",
@@ -932,7 +932,7 @@ let riskData = [
     },
     {
         "id": "US",
-        "value": 3
+        "value": 0
     },
     {
         "id": "UY",
@@ -1006,7 +1006,7 @@ let riskData = [
 
 let countryData = {
     // Austria
-    // "AT": [
+    "AT": [
     //     {
     //         "id": "AT-1",
     //         "value": 0
@@ -1031,21 +1031,21 @@ let countryData = {
     //         "id": "AT-6",
     //         "value": 0
     //     },
-    //     {
-    //         "id": "AT-7",
-    //         "value": 2,
-    //         "extra": "Jungholz ausgenommen"
-    //     },
-    //     {
-    //         "id": "AT-8",
-    //         "value": 2,
-    //         "extra": "Kleinwalsertal ausgenommen"
-    //     },
+        {
+            "id": "AT-7",
+            "value": 3,
+            "extra": "Mittelberg, Jungholz und Rißtal ausgenommen"
+        },
+        // {
+        //     "id": "AT-8",
+        //     "value": 3,
+        //     "extra": "Kleinwalsertal ausgenommen"
+        // },
     //     {
     //         "id": "AT-9",
     //         "value": 0
     //     }
-    // ],
+    ],
     // Bulgaria
     // "BG": [
     //     {
