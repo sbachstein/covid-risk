@@ -77,7 +77,7 @@ let riskData = [
     },
     {
         "id": "BE",
-        "value": 0
+        "value": 3
     },
     {
         "id": "BF",
@@ -197,7 +197,7 @@ let riskData = [
     },
     {
         "id": "CR",
-        "value": 3
+        "value": 0
     },
     {
         "id": "CU",
@@ -317,7 +317,7 @@ let riskData = [
     },
     {
         "id": "GF",
-        "value": 3
+        "value": 0
     },
     {
         "id": "GG",
@@ -353,7 +353,7 @@ let riskData = [
     },
     {
         "id": "GR",
-        "value": 0
+        "value": 3
     },
     {
         "id": "GS",
@@ -361,7 +361,7 @@ let riskData = [
     },
     {
         "id": "GT",
-        "value": 3
+        "value": 0
     },
     {
         "id": "GU",
@@ -373,7 +373,7 @@ let riskData = [
     },
     {
         "id": "GY",
-        "value": 3
+        "value": 0
     },
     {
         "id": "HK",
@@ -405,7 +405,7 @@ let riskData = [
     },
     {
         "id": "IE",
-        "value": 2
+        "value": 3
     },
     {
         "id": "IL",
@@ -641,7 +641,7 @@ let riskData = [
     },
     {
         "id": "NC",
-        "value": 3
+        "value": 0
     },
     {
         "id": "NE",
@@ -661,7 +661,7 @@ let riskData = [
     },
     {
         "id": "NL",
-        "value": 0
+        "value": 3
     },
     {
         "id": "NO",
@@ -828,7 +828,7 @@ let riskData = [
     },
     {
         "id": "SR",
-        "value": 3
+        "value": 0
     },
     {
         "id": "SS",
@@ -1479,7 +1479,7 @@ let countryData = {
         // },
         {
             "id": "IE",
-            "value": 2 // Actually IE
+            "value": 3 // Actually IE
         },
         {
             "id": "GG",
@@ -1716,110 +1716,110 @@ let countryData = {
     ],
     // Ireland
     "IE": [
-        {
-            "id": "IE-CW",
-            "value": 0
-        },
-        {
-            "id": "IE-CN",
-            "value": 3
-        },
-        {
-            "id": "IE-CE",
-            "value": 0
-        },
-        {
-            "id": "IE-CO",
-            "value": 0
-        },
-        {
-            "id": "IE-DL",
-            "value": 3
-        },
-        {
-            "id": "IE-D",
-            "value": 0
-        },
-        {
-            "id": "IE-G",
-            "value": 0
-        },
-        {
-            "id": "IE-KY",
-            "value": 0
-        },
-        {
-            "id": "IE-KE",
-            "value": 0
-        },
-        {
-            "id": "IE-KK",
-            "value": 0
-        },
-        {
-            "id": "IE-LS",
-            "value": 0
-        },
-        {
-            "id": "IE-LM",
-            "value": 3
-        },
-        {
-            "id": "IE-LK",
-            "value": 0
-        },
-        {
-            "id": "IE-LD",
-            "value": 0
-        },
-        {
-            "id": "IE-LH",
-            "value": 0
-        },
-        {
-            "id": "IE-MO",
-            "value": 0
-        },
-        {
-            "id": "IE-MH",
-            "value": 0
-        },
-        {
-            "id": "IE-MN",
-            "value": 3
-        },
-        {
-            "id": "IE-OY",
-            "value": 0
-        },
-        {
-            "id": "IE-RN",
-            "value": 0
-        },
-        {
-            "id": "IE-SO",
-            "value": 3
-        },
-        {
-            "id": "IE-TA",
-            "value": 0
-        },
-        {
-            "id": "IE-WD",
-            "value": 0
-        },
-        {
-            "id": "IE-WH",
-            "value": 0
-        },
-        {
-            "id": "IE-WX",
-            "value": 0
-        },
-        {
-            "id": "IE-WW",
-            "value": 0
-        },
+        // {
+        //     "id": "IE-CW",
+        //     "value": 0
+        // },
+        // {
+        //     "id": "IE-CN",
+        //     "value": 3
+        // },
+        // {
+        //     "id": "IE-CE",
+        //     "value": 0
+        // },
+        // {
+        //     "id": "IE-CO",
+        //     "value": 0
+        // },
+        // {
+        //     "id": "IE-DL",
+        //     "value": 3
+        // },
+        // {
+        //     "id": "IE-D",
+        //     "value": 0
+        // },
+        // {
+        //     "id": "IE-G",
+        //     "value": 0
+        // },
+        // {
+        //     "id": "IE-KY",
+        //     "value": 0
+        // },
+        // {
+        //     "id": "IE-KE",
+        //     "value": 0
+        // },
+        // {
+        //     "id": "IE-KK",
+        //     "value": 0
+        // },
+        // {
+        //     "id": "IE-LS",
+        //     "value": 0
+        // },
+        // {
+        //     "id": "IE-LM",
+        //     "value": 3
+        // },
+        // {
+        //     "id": "IE-LK",
+        //     "value": 0
+        // },
+        // {
+        //     "id": "IE-LD",
+        //     "value": 0
+        // },
+        // {
+        //     "id": "IE-LH",
+        //     "value": 0
+        // },
+        // {
+        //     "id": "IE-MO",
+        //     "value": 0
+        // },
+        // {
+        //     "id": "IE-MH",
+        //     "value": 0
+        // },
+        // {
+        //     "id": "IE-MN",
+        //     "value": 3
+        // },
+        // {
+        //     "id": "IE-OY",
+        //     "value": 0
+        // },
+        // {
+        //     "id": "IE-RN",
+        //     "value": 0
+        // },
+        // {
+        //     "id": "IE-SO",
+        //     "value": 3
+        // },
+        // {
+        //     "id": "IE-TA",
+        //     "value": 0
+        // },
+        // {
+        //     "id": "IE-WD",
+        //     "value": 0
+        // },
+        // {
+        //     "id": "IE-WH",
+        //     "value": 0
+        // },
+        // {
+        //     "id": "IE-WX",
+        //     "value": 0
+        // },
+        // {
+        //     "id": "IE-WW",
+        //     "value": 0
+        // },
         {
             "id": "GB-NIR", // Actually part of GB
             "value": 3
