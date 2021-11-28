@@ -109,7 +109,7 @@ let riskData = [
     },
     {
         "id": "BN",
-        "value": 3
+        "value": 0
     },
     {
         "id": "BO",
@@ -137,7 +137,7 @@ let riskData = [
     },
     {
         "id": "BW",
-        "value": 0
+        "value": 4
     },
     {
         "id": "BY",
@@ -301,7 +301,7 @@ let riskData = [
     },
     {
         "id": "GA",
-        "value": 3
+        "value": 0
     },
     {
         "id": "GB",
@@ -477,7 +477,7 @@ let riskData = [
     },
     {
         "id": "KN",
-        "value": 3
+        "value": 0
     },
     {
         "id": "KP",
@@ -525,7 +525,7 @@ let riskData = [
     },
     {
         "id": "LS",
-        "value": 0
+        "value": 4
     },
     {
         "id": "LT",
@@ -621,7 +621,7 @@ let riskData = [
     },
     {
         "id": "MW",
-        "value": 0
+        "value": 4
     },
     {
         "id": "MX",
@@ -633,11 +633,11 @@ let riskData = [
     },
     {
         "id": "MZ",
-        "value": 0
+        "value": 4
     },
     {
         "id": "NA",
-        "value": 0
+        "value": 4
     },
     {
         "id": "NC",
@@ -657,7 +657,7 @@ let riskData = [
     },
     {
         "id": "NI",
-        "value": 3
+        "value": 0
     },
     {
         "id": "NL",
@@ -791,7 +791,7 @@ let riskData = [
     },
     {
         "id": "SG",
-        "value": 3
+        "value": 0
     },
     {
         "id": "SH",
@@ -836,11 +836,11 @@ let riskData = [
     },
     {
         "id": "ST",
-        "value": 3
+        "value": 0
     },
     {
         "id": "SV",
-        "value": 3
+        "value": 0
     },
     {
         "id": "SX",
@@ -852,7 +852,7 @@ let riskData = [
     },
     {
         "id": "SZ",
-        "value": 0
+        "value": 4
     },
     {
         "id": "TC",
@@ -992,7 +992,7 @@ let riskData = [
     },
     {
         "id": "ZA",
-        "value": 0
+        "value": 4
     },
     {
         "id": "ZM",
@@ -1000,7 +1000,7 @@ let riskData = [
     },
     {
         "id": "ZW",
-        "value": 0
+        "value": 4
     }    
 ];
 
@@ -1707,7 +1707,7 @@ let countryData = {
     "ID": [
         {
             "id": "BN", // Actually BN
-            "value": 3
+            "value": 0
         },
         {
             "id": "MY-13", // Actually part of MY
@@ -1963,7 +1963,7 @@ let countryData = {
     "MY": [
         {
             "id": "BN", // Actually BN
-            "value": 3
+            "value": 0
         },
     ],
     // Netherlands
@@ -2244,7 +2244,7 @@ let countryData = {
     "ZA": [
         {
             "id": "LS", // Actually part of LS
-            "value": 0
+            "value": 4
         }
     ]
 }
