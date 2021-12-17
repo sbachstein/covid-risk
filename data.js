@@ -1,7 +1,7 @@
 let riskData = [
     {
         "id": "AD",
-        "value": 0
+        "value": 3
     },
     {
         "id": "AE",
@@ -21,7 +21,7 @@ let riskData = [
     },
     {
         "id": "AL",
-        "value": 3
+        "value": 0
     },
     {
         "id": "AM",
@@ -85,7 +85,7 @@ let riskData = [
     },
     {
         "id": "BG",
-        "value": 3
+        "value": 0
     },
     {
         "id": "BH",
@@ -233,7 +233,7 @@ let riskData = [
     },
     {
         "id": "DK",
-        "value": 0
+        "value": 3
     },
     {
         "id": "DM",
@@ -253,7 +253,7 @@ let riskData = [
     },
     {
         "id": "EE",
-        "value": 3
+        "value": 0
     },
     {
         "id": "EG",
@@ -293,11 +293,11 @@ let riskData = [
     },
     {
         "id": "FO",
-        "value": 0
+        "value": 3
     },
     {
         "id": "FR",
-        "value": 0,
+        "value": 3,
     },
     {
         "id": "GA",
@@ -333,7 +333,7 @@ let riskData = [
     },
     {
         "id": "GL",
-        "value": 0
+        "value": 3
     },
     {
         "id": "GM",
@@ -505,7 +505,7 @@ let riskData = [
     },
     {
         "id": "LB",
-        "value": 0
+        "value": 3
     },
     {
         "id": "LC",
@@ -537,7 +537,7 @@ let riskData = [
     },
     {
         "id": "LV",
-        "value": 3,
+        "value": 0,
     },
     {
         "id": "LY",
@@ -553,7 +553,7 @@ let riskData = [
     },
     {
         "id": "MD",
-        "value": 3
+        "value": 0
     },
     {
         "id": "ME",
@@ -573,7 +573,7 @@ let riskData = [
     },
     {
         "id": "MK",
-        "value": 3
+        "value": 0
     },
     {
         "id": "ML",
@@ -665,7 +665,7 @@ let riskData = [
     },
     {
         "id": "NO",
-        "value": 0,
+        "value": 3,
         "map": "norway2020Low"
     },
     {
@@ -751,7 +751,7 @@ let riskData = [
     },
     {
         "id": "RE",
-        "value": 0
+        "value": 3
     },
     {
         "id": "RO",
@@ -1917,7 +1917,7 @@ let countryData = {
         },
         {
             "id": "FR-H", // Actually part of FR
-            "value": 0
+            "value": 3
         }
     ],
     // Lithuania
