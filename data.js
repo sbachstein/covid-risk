@@ -45,7 +45,7 @@ let riskData = [
     },
     {
         "id": "AT",
-        "value": 3
+        "value": 0
     },
     {
         "id": "AU",
@@ -65,7 +65,7 @@ let riskData = [
     },
     {
         "id": "BA",
-        "value": 3
+        "value": 0
     },
     {
         "id": "BB",
@@ -145,7 +145,7 @@ let riskData = [
     },
     {
         "id": "BZ",
-        "value": 3
+        "value": 0
     },
     {
         "id": "CA",
@@ -217,7 +217,7 @@ let riskData = [
     },
     {
         "id": "CY",
-        "value": 0
+        "value": 3
     },
     {
         "id": "CZ",
@@ -269,7 +269,7 @@ let riskData = [
     },
     {
         "id": "ES",
-        "value": 0
+        "value": 3
     },
     {
         "id": "ET",
@@ -277,7 +277,7 @@ let riskData = [
     },
     {
         "id": "FI",
-        "value": 0
+        "value": 3
     },
     {
         "id": "FJ",
@@ -549,7 +549,7 @@ let riskData = [
     },
     {
         "id": "MC",
-        "value": 0
+        "value": 3
     },
     {
         "id": "MD",
@@ -629,7 +629,7 @@ let riskData = [
     },
     {
         "id": "MY",
-        "value": 3
+        "value": 0
     },
     {
         "id": "MZ",
@@ -734,7 +734,7 @@ let riskData = [
     },
     {
         "id": "PT",
-        "value": 0,
+        "value": 3,
         "map": "portugalRegionsLow"
     },
     {
@@ -759,7 +759,7 @@ let riskData = [
     },
     {
         "id": "RS",
-        "value": 3
+        "value": 0
     },
     {
         "id": "RU",
@@ -932,7 +932,7 @@ let riskData = [
     },
     {
         "id": "US",
-        "value": 0
+        "value": 3
     },
     {
         "id": "UY",
@@ -1006,7 +1006,7 @@ let riskData = [
 
 let countryData = {
     // Austria
-    "AT": [
+    // "AT": [
     //     {
     //         "id": "AT-1",
     //         "value": 0
@@ -1031,11 +1031,11 @@ let countryData = {
     //         "id": "AT-6",
     //         "value": 0
     //     },
-        {
-            "id": "AT-7",
-            "value": 3,
-            "extra": "Mittelberg, Jungholz und Rißtal ausgenommen"
-        },
+        // {
+        //     "id": "AT-7",
+        //     "value": 3,
+        //     "extra": "Mittelberg, Jungholz und Rißtal ausgenommen"
+        // },
         // {
         //     "id": "AT-8",
         //     "value": 3,
@@ -1045,7 +1045,7 @@ let countryData = {
     //         "id": "AT-9",
     //         "value": 0
     //     }
-    ],
+    // ],
     // Bulgaria
     // "BG": [
     //     {
@@ -1711,7 +1711,7 @@ let countryData = {
         },
         {
             "id": "MY-13", // Actually part of MY
-            "value": 3
+            "value": 0
         }
     ],
     // Ireland
