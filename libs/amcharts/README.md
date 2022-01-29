@@ -1,56 +1,32 @@
-## amCharts 4
+## amCharts 5
 
-You are now in possession of amCharts 4 - the most advanced JavaScript dataviz
-library ever.
+amCharts 5 is the fastest, most advanced amCharts data vizualization library, ever.
 
-For a short overview of features, visit [this page](https://www.amcharts.com/javascript-charts/).
+For a short overview of features, visit [amCharts website](https://www.amcharts.com/).
 
 
 ### Important notice about support
 
-amCharts support is guaranteed for commercial license holders and amPlus
-subscribers. GitHub issues is not usually monitored by amCharts support
-staff and may not be answered. If you do have a license/subscription, you 
+amCharts support is guaranteed for holders of amPlus subscription service.
+GitHub issues is not usually monitored by amCharts support staff and may not be
+answered. If you do have a license/subscription, you
 may [contact us directly](https://www.amcharts.com/support/support-info/priority-support/)
 for support. If you don't, here are
 [a few options](https://www.amcharts.com/support/support-info/free-support/)
 for you.
 
 
-### Contents
-
-|Directory|Description|
-|---------|-----------|
-|/|Root directory containing library files and related files|
-|/deps/|3rd party libraries and other dependencies|
-|/examples/|Collection of working examples|
-|/lang/|Translation files / locales|
-|/themes/|Theme files|
-
-
 ### Documentation
 
 For extensive documentation, including getting started tutorials, as well
-as class reference visit [V4 documentation website](https://www.amcharts.com/docs/v4).
+as class reference visit [amCharts 5 documentation website](https://www.amcharts.com/docs/v5).
 
 
-### Other ways to get amCharts 4
+### amCharts 5 is available as
 
-* [NPM package](https://www.npmjs.com/package/@amcharts/amcharts4)
-* [GitHub repository](https://github.com/amcharts/amcharts4)
+* [NPM package](https://www.npmjs.com/package/@amcharts/amcharts5)
+* [GitHub repository](https://github.com/amcharts/amcharts5)
 * [ZIP download & CDN info](https://www.amcharts.com/download/)
-
-
-### CDN
-
-Copy of the contents of this package is available as a free CDN service,
-accessible via URL `https://www.amcharts.com/lib/4/...`, e.g.:
-
-```
-<script src="https://www.amcharts.com/lib/4/core.js"></script>
-<script src="https://www.amcharts.com/lib/4/charts.js"></script>
-<script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
-```
 
 
 ### Related packages
@@ -60,30 +36,30 @@ it does not include geodata itself (map files) needed to instantiate the maps.
 
 Those are available via separate package:
 
-* [NPM package](https://www.npmjs.com/package/@amcharts/amcharts4-geodata)
-* [GitHub repository (geodata)](https://github.com/amcharts/amcharts4-geodata)
-* [ZIP download](https://www.amcharts.com/download/download-v4/)
+* [NPM package](https://www.npmjs.com/package/@amcharts/amcharts5-geodata)
+* [GitHub repository (geodata)](https://github.com/amcharts/amcharts5-geodata)
+* [ZIP download](https://www.amcharts.com/download/download/)
 
 
 ### License
 
-If you have a commercial amCharts 4 license, this software is covered by your
+If you have a commercial amCharts 5 license, this software is covered by your
 license, which supersedes any other license bundled with this package.
 
 If you don't have a commercial license, the use of this software is covered by
 a freeware license. Refer to included LICENSE file. The license is also
-[available online](https://github.com/amcharts/amcharts4/blob/master/dist/script/LICENSE).
+[available online](https://github.com/amcharts/amcharts5/blob/master/packages/shared/LICENSE).
 
 
-### Making translations
+### Creating translations
 
-Please refer to [this tutorial](https://www.amcharts.com/docs/v4/tutorials/creating-translations/).
+Please refer to [this tutorial](https://www.amcharts.com/docs/v5/concepts/locales/creating-translations//).
 
 
 ### Changelog
 
-* [amCharts 4 Changelog](https://github.com/amcharts/amcharts4/blob/master/dist/script/CHANGELOG.md)
-* [Documentation Changelog](https://www.amcharts.com/docs/v4/changelog/)
+* [amCharts 5 Changelog](https://github.com/amcharts/amcharts5/blob/master/CHANGELOG.md)
+* [Documentation Changelog](https://www.amcharts.com/docs/v5/changelog/)
 
 
 ### Questions?
@@ -93,4 +69,4 @@ Please refer to [this tutorial](https://www.amcharts.com/docs/v4/tutorials/creat
 
 ### Found a bug?
 
-Open an [issue](https://github.com/amcharts/amcharts4/issues).
+Open an [issue](https://github.com/amcharts/amcharts5/issues).

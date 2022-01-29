@@ -1,168 +1,217 @@
-am4core.useTheme(am4themes_animated);
+am5.ready(function() {
 
-var chart = am4core.create("chartdiv", am4maps.MapChart);
-chart.hiddenState.properties.opacity = 0; // this creates initial fade-in
-chart.backgroundSeries.tooltipPosition = "pointer";
+    var root = am5.Root.new("chartdiv");
 
-chart.geodata = am4geodata_worldHigh;
-chart.projection = new am4maps.projections.Miller();
-chart.geodataNames = am4geodata_lang_DE;
+    root.locale = "de_DE"
+    root.setThemes([am5themes_Animated.new(root)])
 
-let backgroundTooltipText = "Klicken Sie auf ein Land";
-chart.backgroundSeries.tooltipText = backgroundTooltipText;
+    var chart = root.container.children.push(am5map.MapChart.new(root, {
+        panX: "translateX",
+        panY: "translateY",
+        projection: am5map.geoNaturalEarth1()
+    }));
 
-let colorSet =
-    [
-        "#009900",
-        "#CC0000",
-        "#FF9900",
-        "#770022",
-        "#FF00FF",
-        "#9999FF"
-    ];
+    var polygonSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
+        geoJSON: am5geodata_worldHigh,
+        exclude: ["AQ"]
+    }));
 
-let legend = chart.createChild(am4maps.Legend);
-legend.data = [
-    {
-        "name": "Kein Risikogebiet",
-        "fill": colorSet[0]
-    },
-    {
-        "name": "Regionale Risikogebiete",
-        "fill": colorSet[2]
-    },
-    // {
-    //     "name": "Risikogebiet",
-    //     "fill": colorSet[1]
-    // },
-    {
-        "name": "Hochrisikogebiet",
-        "fill": colorSet[3]
-    },
-    {
-        "name": "Virusvarianten-Gebiet",
-        "fill": colorSet[4]
-    },
-    {
-        "name": "Deutschland",
-        "fill": colorSet[5]
-    }
-];
-legend.align = "center";
-legend.valign = "top";
-legend.background.fill = "#d9d9d9";
-legend.itemContainers.template.clickable = false;
-legend.itemContainers.template.focusable = false;
-legend.itemContainers.template.cursorOverStyle = am4core.MouseCursorStyle.default;
+    polygonSeries.mapPolygons.template.setAll({
+        tooltipText: "{name}",
+        toggleKey: "active",
+        interactive: true
+    });
 
-var worldSeries = chart.series.push(new am4maps.MapPolygonSeries());
-worldSeries.useGeodata = true;
-worldSeries.exclude = ["AQ"];
-//worldSeries.mapPolygons.fill = "#9999ff" // TODO
+    //chart.hiddenState.properties.opacity = 0; // this creates initial fade-in
+    //chart.backgroundSeries.tooltipPosition = "pointer";
 
-var worldTemplate = worldSeries.mapPolygons.template;
-worldTemplate.tooltipText = "{name}\n\n{extra}";
-worldTemplate.fillOpacity = 0.7;
-worldTemplate.strokeOpacity = 0.4;
-worldTemplate.adapter.add("fill", function(fill, target) {
-    let value = target.dataItem.value;
-    if (value === undefined) return am4core.color("#d9d9d9");
-    let color = colorSet[value];
-    if (color === undefined) return am4core.color("#d9d9d9");
+    //chart.geodataNames = am5geodata_lang_DE;
 
-    return am4core.color(color);
-  });
+    //let backgroundTooltipText = "Klicken Sie auf ein Land";
+    //chart.backgroundSeries.tooltipText = backgroundTooltipText;
 
-var worldHoverState = worldTemplate.states.create("hover");
-worldHoverState.properties.fillOpacity = 1;
+    let colorSet =
+        [
+            "#009900",
+            "#CC0000",
+            "#FF9900",
+            "#770022",
+            "#FF00FF",
+            "#9999FF"
+        ];
+
+    var legend = chart.children.push(am5.Legend.new(root, {
+        centerX: am5.percent(50),
+        x: am5.percent(50),
+        marginTop: 15,
+        marginBottom: 15,
+        data: [
+            {
+                "name": "blag",
+                "fill": colorSet[0]
+            }
+        ]
+        }));
+
+    legend.data.setAll(
+        polygonSeries.dataItems
+    )
+
+    // let legend = chart.children.push(am5.Legend.new(root, {
+    //     data: [
+    //         {
+    //             "name": "Kein Risikogebiet",
+    //             "fill": colorSet[0]
+    //         },
+    //         {
+    //             "name": "Regionale Risikogebiete",
+    //             "fill": colorSet[2]
+    //         },
+    //         // {
+    //         //     "name": "Risikogebiet",
+    //         //     "fill": colorSet[1]
+    //         // },
+    //         {
+    //             "name": "Hochrisikogebiet",
+    //             "fill": colorSet[3]
+    //         },
+    //         {
+    //             "name": "Virusvarianten-Gebiet",
+    //             "fill": colorSet[4]
+    //         },
+    //         {
+    //             "name": "Deutschland",
+    //             "fill": colorSet[5]
+    //         }
+    //     ],
+    //     align: "center",
+    //     valign: "top",
+    //     background: {
+    //         fill: "#d9d9d9"
+    //     },
+    //     // itemContainers: {
+    //     //     template: {
+    //     //         clickable: false,
+    //     //         focusable: false,
+
+    //     //     }
+    //     // }
+    // }));
+
+    //legend.itemContainers.template.clickable = false;
+    //legend.itemContainers.template.focusable = false;
+    //legend.itemContainers.template.cursorOverStyle = am4core.MouseCursorStyle.default;
+
+    // var worldSeries = chart.series.push(new am4maps.MapPolygonSeries());
+    // worldSeries.useGeodata = true;
+    // worldSeries.exclude = ["AQ"];
+    // //worldSeries.mapPolygons.fill = "#9999ff" // TODO
+
+    // var worldTemplate = worldSeries.mapPolygons.template;
+    // worldTemplate.tooltipText = "{name}\n\n{extra}";
+    // worldTemplate.fillOpacity = 0.7;
+    // worldTemplate.strokeOpacity = 0.4;
+    // worldTemplate.adapter.add("fill", function(fill, target) {
+    //     let value = target.dataItem.value;
+    //     if (value === undefined) return am4core.color("#d9d9d9");
+    //     let color = colorSet[value];
+    //     if (color === undefined) return am4core.color("#d9d9d9");
+
+    //     return am4core.color(color);
+    // });
+
+    // var worldHoverState = worldTemplate.states.create("hover");
+    // worldHoverState.properties.fillOpacity = 1;
 
 
 
-var countrySeries = chart.series.push(new am4maps.MapPolygonSeries());
-countrySeries.useGeodata = true;
-countrySeries.hide();
-countrySeries.geodataSource.events.on("done", function(ev) {
-  worldSeries.hide();
-  countrySeries.show();
-});
+    // var countrySeries = chart.series.push(new am4maps.MapPolygonSeries());
+    // countrySeries.useGeodata = true;
+    // countrySeries.hide();
+    // countrySeries.geodataSource.events.on("done", function(ev) {
+    // worldSeries.hide();
+    // countrySeries.show();
+    // });
 
-var countryTemplate = countrySeries.mapPolygons.template;
-var countryDefaultColor = am4core.color("#d9d9d9");
-countryTemplate.tooltipText = "{name}\n\n{extra}";
-countryTemplate.fillOpacity = 0.7;
-countryTemplate.strokeOpacity = 0.4;
-countryTemplate.fill = am4core.color("#eee");
-countryTemplate.adapter.add("fill", function(fill, target) {
-    let value = target.dataItem.value;
-    if (value === undefined) return countryDefaultColor;
-    let color = colorSet[value];
-    if (color === undefined) return countryDefaultColor;
+    // var countryTemplate = countrySeries.mapPolygons.template;
+    // var countryDefaultColor = am4core.color("#d9d9d9");
+    // countryTemplate.tooltipText = "{name}\n\n{extra}";
+    // countryTemplate.fillOpacity = 0.7;
+    // countryTemplate.strokeOpacity = 0.4;
+    // countryTemplate.fill = am4core.color("#eee");
+    // countryTemplate.adapter.add("fill", function(fill, target) {
+    //     let value = target.dataItem.value;
+    //     if (value === undefined) return countryDefaultColor;
+    //     let color = colorSet[value];
+    //     if (color === undefined) return countryDefaultColor;
 
-    return am4core.color(color);
-});
+    //     return am4core.color(color);
+    // });
 
-var countryHoverState = countryTemplate.states.create("hover");
-countryHoverState.properties.fillOpacity = 1;
+    // var countryHoverState = countryTemplate.states.create("hover");
+    // countryHoverState.properties.fillOpacity = 1;
 
-// Add click listener for potential district map
-worldTemplate.events.on("hit", function(ev) {
-    ev.target.series.chart.zoomToMapObject(ev.target);
-    var map = ev.target.dataItem.dataContext.map;
-    if (map) {
-        ev.target.isHover = false;
-        countrySeries.data = countryData[ev.target.dataItem.dataContext.id]
-        countrySeries.geodataSource.url = "libs/amcharts/geodata/json/" + map + ".json";
-        countrySeries.geodataSource.load();
-        let countryValue = ev.target.dataItem.dataContext.value;
-        let mapValue = ev.target.dataItem.dataContext.mapValue;
-        if (mapValue) countryDefaultColor = colorSet[mapValue];
-        else if (countryValue == 2) countryDefaultColor = colorSet[0];
-        else countryDefaultColor = colorSet[ev.target.dataItem.dataContext.value];
-        chart.backgroundSeries.tooltipText = "";
-    }
-});
+    // // Add click listener for potential district map
+    // worldTemplate.events.on("hit", function(ev) {
+    //     ev.target.series.chart.zoomToMapObject(ev.target);
+    //     var map = ev.target.dataItem.dataContext.map;
+    //     if (map) {
+    //         ev.target.isHover = false;
+    //         countrySeries.data = countryData[ev.target.dataItem.dataContext.id]
+    //         countrySeries.geodataSource.url = "libs/amcharts/geodata/json/" + map + ".json";
+    //         countrySeries.geodataSource.load();
+    //         let countryValue = ev.target.dataItem.dataContext.value;
+    //         let mapValue = ev.target.dataItem.dataContext.mapValue;
+    //         if (mapValue) countryDefaultColor = colorSet[mapValue];
+    //         else if (countryValue == 2) countryDefaultColor = colorSet[0];
+    //         else countryDefaultColor = colorSet[ev.target.dataItem.dataContext.value];
+    //         chart.backgroundSeries.tooltipText = "";
+    //     }
+    // });
 
-// Go back if clicked on background
-chart.backgroundSeries.events.on("hit", function(ev) {
-    worldSeries.show();
-    chart.goHome();
-    countrySeries.hide();
-    chart.backgroundSeries.tooltipText = backgroundTooltipText;
-});
+    // // Go back if clicked on background
+    // chart.backgroundSeries.events.on("hit", function(ev) {
+    //     worldSeries.show();
+    //     chart.goHome();
+    //     countrySeries.hide();
+    //     chart.backgroundSeries.tooltipText = backgroundTooltipText;
+    // });
 
-// Enhance data by potential district maps
-var data = riskData
-data.forEach(function(entry, index, array) {
-    let id = entry["id"]
-    if (am4geodata_data_countries2.hasOwnProperty(id)) {
-        var country = am4geodata_data_countries2[id];
-        if (country.maps.length && !array[index].hasOwnProperty("map")) {
-            array[index]["map"] = country.maps[0];
-        }
-    }
-});
-worldSeries.data = data;
+    // // Enhance data by potential district maps
+    // var data = riskData
+    // data.forEach(function(entry, index, array) {
+    //     let id = entry["id"]
+    //     if (am5geodata_data_countries2.hasOwnProperty(id)) {
+    //         var country = am5geodata_data_countries2[id];
+    //         if (country.maps.length && !array[index].hasOwnProperty("map")) {
+    //             array[index]["map"] = country.maps[0];
+    //         }
+    //     }
+    // });
+    // worldSeries.data = data;
 
-// Add zoom control
-chart.zoomControl = new am4maps.ZoomControl();
+    // // Add zoom control
+    // chart.zoomControl = new am4maps.ZoomControl();
 
-// Add Home Button
-var homeButton = new am4core.Button();
-homeButton.events.on("hit", function(){
-    worldSeries.show();
-    chart.goHome();
-    countrySeries.hide();
-    chart.backgroundSeries.tooltipText = backgroundTooltipText;
-});
+    // // Add Home Button
+    // var homeButton = new am4core.Button();
+    // homeButton.events.on("hit", function(){
+    //     worldSeries.show();
+    //     chart.goHome();
+    //     countrySeries.hide();
+    //     chart.backgroundSeries.tooltipText = backgroundTooltipText;
+    // });
 
-homeButton.icon = new am4core.Sprite();
-homeButton.padding(7, 5, 7, 5);
-homeButton.width = 30;
-homeButton.icon.path = "M16,8 L14,8 L14,16 L10,16 L10,10 L6,10 L6,16 L2,16 L2,8 L0,8 L8,0 L16,8 Z M16,8";
-homeButton.marginBottom = 10;
-homeButton.parent = chart.zoomControl;
-homeButton.insertBefore(chart.zoomControl.plusButton);
+    // homeButton.icon = new am4core.Sprite();
+    // homeButton.padding(7, 5, 7, 5);
+    // homeButton.width = 30;
+    // homeButton.icon.path = "M16,8 L14,8 L14,16 L10,16 L10,10 L6,10 L6,16 L2,16 L2,8 L0,8 L8,0 L16,8 Z M16,8";
+    // homeButton.marginBottom = 10;
+    // homeButton.parent = chart.zoomControl;
+    // homeButton.insertBefore(chart.zoomControl.plusButton);
 
-// Add Minimap
-chart.smallMap = new am4maps.SmallMap();
-chart.smallMap.series.push(worldSeries);
+    // // Add Minimap
+    // chart.smallMap = new am4maps.SmallMap();
+    // chart.smallMap.series.push(worldSeries);
+
+})
