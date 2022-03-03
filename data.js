@@ -25,7 +25,7 @@ let riskData = [
     },
     {
         "id": "AM",
-        "value": 3
+        "value": 0
     },
     {
         "id": "AO",
@@ -45,7 +45,7 @@ let riskData = [
     },
     {
         "id": "AT",
-        "value": 3
+        "value": 0
     },
     {
         "id": "AU",
@@ -61,7 +61,7 @@ let riskData = [
     },
     {
         "id": "AZ",
-        "value": 3
+        "value": 0
     },
     {
         "id": "BA",
@@ -69,7 +69,7 @@ let riskData = [
     },
     {
         "id": "BB",
-        "value": 3
+        "value": 0
     },
     {
         "id": "BD",
@@ -89,7 +89,7 @@ let riskData = [
     },
     {
         "id": "BH",
-        "value": 3
+        "value": 0
     },
     {
         "id": "BI",
@@ -121,7 +121,7 @@ let riskData = [
     },
     {
         "id": "BR",
-        "value": 3
+        "value": 0
     },
     {
         "id": "BS",
@@ -129,7 +129,7 @@ let riskData = [
     },
     {
         "id": "BT",
-        "value": 3
+        "value": 0
     },
     {
         "id": "BV",
@@ -141,7 +141,7 @@ let riskData = [
     },
     {
         "id": "BY",
-        "value": 3
+        "value": 0
     },
     {
         "id": "BZ",
@@ -169,7 +169,7 @@ let riskData = [
     },
     {
         "id": "CH",
-        "value": 3
+        "value": 0
     },
     {
         "id": "CI",
@@ -181,7 +181,7 @@ let riskData = [
     },
     {
         "id": "CL",
-        "value": 3
+        "value": 0
     },
     {
         "id": "CM",
@@ -197,7 +197,7 @@ let riskData = [
     },
     {
         "id": "CR",
-        "value": 3
+        "value": 0
     },
     {
         "id": "CU",
@@ -217,11 +217,11 @@ let riskData = [
     },
     {
         "id": "CY",
-        "value": 3
+        "value": 0
     },
     {
         "id": "CZ",
-        "value": 3
+        "value": 0
     },
     {
         "id": "DE",
@@ -233,11 +233,11 @@ let riskData = [
     },
     {
         "id": "DK",
-        "value": 3
+        "value": 0
     },
     {
         "id": "DM",
-        "value": 3
+        "value": 0
     },
     {
         "id": "DO",
@@ -253,11 +253,11 @@ let riskData = [
     },
     {
         "id": "EE",
-        "value": 3
+        "value": 0
     },
     {
         "id": "EG",
-        "value": 3
+        "value": 0
     },
     {
         "id": "EH",
@@ -277,7 +277,7 @@ let riskData = [
     },
     {
         "id": "FI",
-        "value": 3
+        "value": 0
     },
     {
         "id": "FJ",
@@ -293,11 +293,11 @@ let riskData = [
     },
     {
         "id": "FO",
-        "value": 3
+        "value": 0
     },
     {
         "id": "FR",
-        "value": 3,
+        "value": 0,
     },
     {
         "id": "GA",
@@ -313,7 +313,7 @@ let riskData = [
     },
     {
         "id": "GE",
-        "value": 3
+        "value": 0
     },
     {
         "id": "GF",
@@ -333,7 +333,7 @@ let riskData = [
     },
     {
         "id": "GL",
-        "value": 3
+        "value": 0
     },
     {
         "id": "GM",
@@ -353,7 +353,7 @@ let riskData = [
     },
     {
         "id": "GR",
-        "value": 3
+        "value": 0
     },
     {
         "id": "GS",
@@ -361,7 +361,7 @@ let riskData = [
     },
     {
         "id": "GT",
-        "value": 3
+        "value": 0
     },
     {
         "id": "GU",
@@ -393,7 +393,7 @@ let riskData = [
     },
     {
         "id": "HT",
-        "value": 3
+        "value": 0
     },
     {
         "id": "HU",
@@ -409,7 +409,7 @@ let riskData = [
     },
     {
         "id": "IL",
-        "value": 3
+        "value": 0
     },
     {
         "id": "IM",
@@ -429,11 +429,11 @@ let riskData = [
     },
     {
         "id": "IR",
-        "value": 3
+        "value": 0
     },
     {
         "id": "IS",
-        "value": 3
+        "value": 0
     },
     {
         "id": "IT",
@@ -449,11 +449,11 @@ let riskData = [
     },
     {
         "id": "JO",
-        "value": 3
+        "value": 0
     },
     {
         "id": "JP",
-        "value": 3
+        "value": 0
     },
     {
         "id": "KE",
@@ -481,7 +481,7 @@ let riskData = [
     },
     {
         "id": "KP",
-        "value": 3
+        "value": 0
     },
     {
         "id": "KR",
@@ -489,7 +489,7 @@ let riskData = [
     },
     {
         "id": "KW",
-        "value": 3
+        "value": 0
     },
     {
         "id": "KY",
@@ -505,7 +505,7 @@ let riskData = [
     },
     {
         "id": "LB",
-        "value": 3
+        "value": 0
     },
     {
         "id": "LC",
@@ -513,7 +513,7 @@ let riskData = [
     },
     {
         "id": "LI",
-        "value": 3
+        "value": 0
     },
     {
         "id": "LK",
@@ -529,7 +529,7 @@ let riskData = [
     },
     {
         "id": "LT",
-        "value": 3
+        "value": 0
     },
     {
         "id": "LU",
@@ -537,11 +537,11 @@ let riskData = [
     },
     {
         "id": "LV",
-        "value": 3,
+        "value": 0,
     },
     {
         "id": "LY",
-        "value": 3
+        "value": 0
     },
     {
         "id": "MA",
@@ -549,7 +549,7 @@ let riskData = [
     },
     {
         "id": "MC",
-        "value": 3
+        "value": 0
     },
     {
         "id": "MD",
@@ -585,7 +585,7 @@ let riskData = [
     },
     {
         "id": "MN",
-        "value": 3
+        "value": 0
     },
     {
         "id": "MO",
@@ -597,7 +597,7 @@ let riskData = [
     },
     {
         "id": "MQ",
-        "value": 3
+        "value": 0
     },
     {
         "id": "MR",
@@ -617,7 +617,7 @@ let riskData = [
     },
     {
         "id": "MV",
-        "value": 3
+        "value": 0
     },
     {
         "id": "MW",
@@ -625,7 +625,7 @@ let riskData = [
     },
     {
         "id": "MX",
-        "value": 3
+        "value": 0
     },
     {
         "id": "MY",
@@ -641,7 +641,7 @@ let riskData = [
     },
     {
         "id": "NC",
-        "value": 3
+        "value": 0
     },
     {
         "id": "NE",
@@ -661,11 +661,11 @@ let riskData = [
     },
     {
         "id": "NL",
-        "value": 3
+        "value": 0
     },
     {
         "id": "NO",
-        "value": 3,
+        "value": 0,
         "map": "norway2020Low"
     },
     {
@@ -686,7 +686,7 @@ let riskData = [
     },
     {
         "id": "OM",
-        "value": 3
+        "value": 0
     },
     {
         "id": "PA",
@@ -702,7 +702,7 @@ let riskData = [
     },
     {
         "id": "PG",
-        "value": 3
+        "value": 0
     },
     {
         "id": "PH",
@@ -730,20 +730,20 @@ let riskData = [
     },
     {
         "id": "PS",
-        "value": 3
+        "value": 0
     },
     {
         "id": "PT",
-        "value": 3,
+        "value": 0,
         "map": "portugalRegionsLow"
     },
     {
         "id": "PW",
-        "value": 3
+        "value": 0
     },
     {
         "id": "PY",
-        "value": 3
+        "value": 0
     },
     {
         "id": "QA",
@@ -751,11 +751,11 @@ let riskData = [
     },
     {
         "id": "RE",
-        "value": 3
+        "value": 0
     },
     {
         "id": "RO",
-        "value": 3
+        "value": 0
     },
     {
         "id": "RS",
@@ -763,7 +763,7 @@ let riskData = [
     },
     {
         "id": "RU",
-        "value": 3
+        "value": 0
     },
     {
         "id": "RW",
@@ -775,7 +775,7 @@ let riskData = [
     },
     {
         "id": "SB",
-        "value": 3
+        "value": 0
     },
     {
         "id": "SC",
@@ -791,7 +791,7 @@ let riskData = [
     },
     {
         "id": "SG",
-        "value": 3
+        "value": 0
     },
     {
         "id": "SH",
@@ -799,7 +799,7 @@ let riskData = [
     },
     {
         "id": "SI",
-        "value": 3,
+        "value": 0,
         "map": "sloveniaRegionsLow"
     },
     {
@@ -808,7 +808,7 @@ let riskData = [
     },
     {
         "id": "SK",
-        "value": 3
+        "value": 0
     },
     {
         "id": "SL",
@@ -848,7 +848,7 @@ let riskData = [
     },
     {
         "id": "SY",
-        "value": 3
+        "value": 0
     },
     {
         "id": "SZ",
@@ -876,7 +876,7 @@ let riskData = [
     },
     {
         "id": "TJ",
-        "value": 3
+        "value": 0
     },
     {
         "id": "TK",
@@ -888,7 +888,7 @@ let riskData = [
     },
     {
         "id": "TM",
-        "value": 3
+        "value": 0
     },
     {
         "id": "TN",
@@ -900,11 +900,11 @@ let riskData = [
     },
     {
         "id": "TR",
-        "value": 3
+        "value": 0
     },
     {
         "id": "TT",
-        "value": 3
+        "value": 0
     },
     {
         "id": "TV",
@@ -936,7 +936,7 @@ let riskData = [
     },
     {
         "id": "UY",
-        "value": 3
+        "value": 0
     },
     {
         "id": "UZ",
@@ -952,7 +952,7 @@ let riskData = [
     },
     {
         "id": "VE",
-        "value": 3
+        "value": 0
     },
     {
         "id": "VG",
@@ -964,7 +964,7 @@ let riskData = [
     },
     {
         "id": "VN",
-        "value": 3
+        "value": 0
     },
     {
         "id": "VU",
@@ -984,7 +984,7 @@ let riskData = [
     },
     {
         "id": "YE",
-        "value": 3
+        "value": 0
     },
     {
         "id": "YT",
@@ -1006,7 +1006,7 @@ let riskData = [
 
 let countryData = {
     // Austria
-    "AT": [
+    // "AT": [
     //     {
     //         "id": "AT-1",
     //         "value": 0
@@ -1031,21 +1031,21 @@ let countryData = {
     //         "id": "AT-6",
     //         "value": 0
     //     },
-        {
-            "id": "AT-7",
-            "value": 3,
-            "extra": "Mittelberg, Jungholz und Rißtal ausgenommen"
-        },
-        {
-            "id": "AT-8",
-            "value": 3,
-            "extra": "Kleinwalsertal ausgenommen"
-        },
+        // {
+        //     "id": "AT-7",
+        //     "value": 3,
+        //     "extra": "Mittelberg, Jungholz und Rißtal ausgenommen"
+        // },
+        // {
+        //     "id": "AT-8",
+        //     "value": 3,
+        //     "extra": "Kleinwalsertal ausgenommen"
+        // },
     //     {
     //         "id": "AT-9",
     //         "value": 0
     //     }
-    ],
+    // ],
     // Bulgaria
     // "BG": [
     //     {
@@ -1909,7 +1909,7 @@ let countryData = {
         },
         {
             "id": "SM", // Actually SM
-            "value": 3
+            "value": 0
         },
         {
             "id": "MT", // Actually MT
@@ -1917,7 +1917,7 @@ let countryData = {
         },
         {
             "id": "FR-H", // Actually part of FR
-            "value": 3
+            "value": 0
         }
     ],
     // Lithuania
@@ -2018,40 +2018,40 @@ let countryData = {
     //     }
     // ],
     // Norway
-    "NO": [
-        {
-            "id": "NO-03",
-            "value": 0
-        },
-        {
-            "id": "NO-11",
-            "value": 0
-        },
-        {
-            "id": "NO-30",
-            "value": 0
-        },
-        {
-            "id": "NO-34",
-            "value": 0
-        },
-        {
-            "id": "NO-38",
-            "value": 0
-        },
-        {
-            "id": "NO-42",
-            "value": 0
-        },
-        {
-            "id": "NO-50",
-            "value": 0
-        },
-        {
-            "id": "NO-54",
-            "value": 0
-        }
-    ],
+    // "NO": [
+    //     {
+    //         "id": "NO-03",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "NO-11",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "NO-30",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "NO-34",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "NO-38",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "NO-42",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "NO-50",
+    //         "value": 0
+    //     },
+    //     {
+    //         "id": "NO-54",
+    //         "value": 0
+    //     }
+    // ],
     // Poland
     // "PL": [
     //     {
